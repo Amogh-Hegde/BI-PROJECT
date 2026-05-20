@@ -1,0 +1,19 @@
+{
+  "rows_after_preprocessing": 4504,
+  "random_forest_metrics": {
+    "accuracy": 0.9234,
+    "precision_weighted": 0.9175,
+    "recall_weighted": 0.9234,
+    "f1_weighted": 0.9187
+  },
+  "generated_outputs": [
+    "data/processed/accidents_cleaned.csv",
+    "outputs/figures/*.html",
+    "outputs/models/*.joblib",
+    "outputs/xai/*",
+    "report/project_report.md",
+    "ppt/presentation_content.md",
+    "report/viva_qa.md",
+    "notebooks/*.ipynb"
+  ]
+}

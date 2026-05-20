@@ -1,0 +1,902 @@
+state,city,hour_of_day,rush_hour,weekend,night_time,weather_conditions,weather_category,road_condition,road_type,vehicle_type,traffic_control_presence,junction_type,lighting_conditions,speed_limit_kmph,driver_age,driver_gender,driver_license_status,alcohol_involvement,number_of_vehicles_involved,number_of_casualties,visibility_km,visibility_risk,temperature_c,actual,predicted
+West Bengal,Howrah,7,1,0,0,Clear,Normal,Under Construction,Urban Arterial,Car,Uncontrolled,Roundabout,Street Lights,60,36.0,Male,Learner,No,2,1,6.96,Moderate,28.2,Minor,Minor
+Telangana,Hyderabad,13,0,0,0,Rain,Adverse,Dry,Highway,Truck,Uncontrolled,Non-Junction,Daylight,50,33.0,Male,Valid,No,2,2,6.07,Moderate,28.4,Minor,Minor
+Tamil Nadu,Chennai,17,1,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Signal Present,T-Junction,Daylight,40,32.0,Male,Invalid,No,3,1,6.7,Moderate,33.3,Minor,Minor
+Kerala,Kozhikode,13,0,0,0,Rain,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Roundabout,Roundabout,Poor Lighting,80,60.0,Male,Valid,No,2,1,6.81,Moderate,27.6,Minor,Minor
+Delhi,New Delhi,9,1,0,0,Heat,Normal,Dry,Highway,Auto-Rickshaw,Police Managed,Non-Junction,Daylight,100,28.0,Male,Valid,No,2,2,9.54,Low,34.9,Minor,Minor
+Tamil Nadu,Chennai,17,1,0,0,Clear,Normal,Dry,Highway,Truck,Uncontrolled,Non-Junction,Poor Lighting,40,32.0,Male,Valid,No,2,1,7.8,Moderate,24.4,Minor,Minor
+Rajasthan,Udaipur,12,0,0,0,Clear,Normal,Damaged,Residential,Car,Uncontrolled,Cross Junction,Daylight,30,28.0,Male,Valid,No,3,2,6.15,Moderate,37.2,Minor,Minor
+Tamil Nadu,Chennai,12,0,0,0,Rain,Adverse,Dry,Highway,Car,Signal Present,Non-Junction,No Lighting,100,30.0,Male,Learner,No,1,2,5.94,Moderate,32.2,Serious,Serious
+Uttar Pradesh,Lucknow,15,0,1,0,Rain,Adverse,Dry,Highway,Car,Stop Sign,Y-Junction,Daylight,80,18.0,Male,Valid,No,2,3,6.84,Moderate,26.7,Minor,Serious
+Maharashtra,Nagpur,10,0,1,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,Y-Junction,Daylight,60,26.0,Male,Expired,No,2,2,8.06,Low,29.8,Minor,Minor
+West Bengal,Durgapur,17,1,0,0,Fog,Adverse,Damaged,Rural Road,Truck,Signal Present,Roundabout,Daylight,30,32.0,Female,Invalid,No,3,1,4.03,High,30.7,Minor,Minor
+Telangana,Hyderabad,13,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Car,Uncontrolled,Roundabout,Street Lights,50,24.0,Male,Valid,No,2,2,2.86,High,20.8,Minor,Minor
+West Bengal,Kolkata,13,0,0,0,Rain,Adverse,Slippery,Rural Road,Car,Stop Sign,Roundabout,Street Lights,80,33.0,Male,Valid,No,2,2,3.44,High,23.4,Serious,Minor
+Maharashtra,Nagpur,21,0,0,1,Fog,Adverse,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,No Lighting,80,18.0,Male,Valid,No,3,1,1.3,Critical,22.4,Serious,Serious
+Uttar Pradesh,Varanasi,8,1,0,0,Clear,Normal,Damaged,Urban Arterial,Truck,Roundabout,Roundabout,Daylight,40,36.0,Male,Invalid,No,1,1,8.12,Low,30.2,Minor,Minor
+Delhi,Rohini,4,0,0,1,Clear,Normal,Dry,Urban Arterial,Bus,Roundabout,Cross Junction,Daylight,30,29.0,Male,Valid,No,1,1,7.24,Moderate,33.9,Minor,Minor
+Maharashtra,Mumbai,22,0,0,1,Clear,Normal,Damaged,Rural Road,Auto-Rickshaw,Uncontrolled,Non-Junction,Poor Lighting,40,25.0,Male,Valid,Yes,2,2,4.98,High,32.1,Minor,Minor
+Uttar Pradesh,Varanasi,6,0,1,0,Clear,Normal,Dry,Intersection,Truck,Signal Present,T-Junction,Street Lights,40,31.0,Male,Expired,No,2,2,8.37,Low,34.5,Minor,Minor
+Uttar Pradesh,Lucknow,15,0,1,0,Heat,Normal,Dry,Highway,Two-Wheeler,Roundabout,T-Junction,Street Lights,60,18.0,Male,Invalid,No,1,2,5.19,Moderate,31.3,Minor,Minor
+Maharashtra,Pune,13,0,1,0,Fog,Adverse,Wet,Intersection,Car,Uncontrolled,Non-Junction,Street Lights,60,35.0,Male,Valid,No,3,1,2.09,Critical,24.9,Minor,Minor
+Maharashtra,Mumbai,18,1,1,0,Cloudy,Normal,Dry,Rural Road,Car,Police Managed,Non-Junction,Daylight,30,38.0,Male,Valid,No,3,2,7.4,Moderate,19.0,Minor,Minor
+Gujarat,Ahmedabad,7,1,1,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,T-Junction,Poor Lighting,50,54.0,Male,Valid,No,2,1,4.09,High,20.4,Minor,Minor
+Tamil Nadu,Coimbatore,20,0,0,1,Rain,Adverse,Slippery,Highway,Auto-Rickshaw,Roundabout,Non-Junction,Street Lights,100,41.0,Male,Valid,No,2,3,8.78,Low,34.3,Serious,Serious
+West Bengal,Kolkata,10,0,0,0,Cloudy,Normal,Dry,Residential,Truck,Signal Present,Non-Junction,Daylight,50,27.0,Male,Valid,No,4,1,5.75,Moderate,30.9,Minor,Minor
+Karnataka,Hubballi,7,1,0,0,Fog,Adverse,Dry,Highway,Truck,Signal Present,Roundabout,Daylight,50,55.0,Male,Valid,Yes,1,2,1.93,Critical,23.7,Serious,Serious
+Rajasthan,Jodhpur,18,1,0,0,Clear,Normal,Damaged,Urban Arterial,Two-Wheeler,Roundabout,T-Junction,Poor Lighting,100,37.0,Male,Valid,No,1,1,5.98,Moderate,28.4,Minor,Minor
+Maharashtra,Mumbai,4,0,0,1,Cloudy,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Y-Junction,Street Lights,50,28.0,Male,Valid,No,2,2,7.63,Moderate,30.6,Minor,Minor
+Karnataka,Hubballi,0,0,1,1,Rain,Adverse,Damaged,Urban Arterial,Two-Wheeler,Uncontrolled,T-Junction,Daylight,40,18.0,Male,Valid,No,2,1,6.63,Moderate,23.2,Minor,Minor
+Kerala,Thiruvananthapuram,10,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,Street Lights,50,31.0,Female,Valid,Yes,3,1,10.2,Low,28.0,Minor,Minor
+Delhi,Dwarka,14,0,0,0,Fog,Adverse,Wet,Urban Arterial,Two-Wheeler,Stop Sign,Y-Junction,Street Lights,40,43.0,Female,Valid,No,2,1,0.6,Critical,24.4,Minor,Minor
+Tamil Nadu,Chennai,9,1,0,0,Heat,Normal,Under Construction,Residential,Bus,Stop Sign,Non-Junction,No Lighting,100,36.0,Male,Valid,No,2,2,3.65,High,24.9,Minor,Minor
+Telangana,Nizamabad,13,0,0,0,Rain,Adverse,Wet,Urban Arterial,Car,Roundabout,T-Junction,Daylight,50,41.0,Male,Valid,No,2,1,6.0,Moderate,36.6,Minor,Minor
+Uttar Pradesh,Lucknow,7,1,0,0,Clear,Normal,Dry,Rural Road,Truck,Uncontrolled,Non-Junction,Daylight,60,27.0,Female,Valid,No,2,2,6.26,Moderate,29.5,Minor,Minor
+Maharashtra,Nagpur,20,0,0,1,Clear,Normal,Under Construction,Urban Arterial,Truck,Uncontrolled,Y-Junction,Daylight,60,36.0,Male,Valid,No,1,2,5.74,Moderate,33.0,Minor,Minor
+Maharashtra,Nagpur,9,1,0,0,Clear,Normal,Under Construction,Highway,Truck,Roundabout,T-Junction,No Lighting,100,33.0,Male,Learner,No,2,2,6.52,Moderate,32.6,Serious,Serious
+Maharashtra,Nagpur,19,1,0,0,Fog,Adverse,Wet,Residential,Two-Wheeler,Roundabout,T-Junction,Daylight,60,36.0,Male,Valid,No,3,3,1.7,Critical,27.4,Minor,Minor
+Karnataka,Hubballi,23,0,0,1,Clear,Normal,Dry,Intersection,Two-Wheeler,Uncontrolled,Y-Junction,Street Lights,100,33.0,Male,Invalid,No,2,1,6.68,Moderate,32.9,Minor,Minor
+Delhi,Dwarka,15,0,0,0,Clear,Normal,Dry,Urban Arterial,Car,Police Managed,Y-Junction,Poor Lighting,50,35.0,Male,Valid,No,3,1,5.23,Moderate,28.9,Minor,Minor
+Rajasthan,Udaipur,6,0,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,60,25.0,Female,Valid,No,2,1,5.32,Moderate,38.0,Minor,Minor
+Tamil Nadu,Madurai,15,0,0,0,Cloudy,Normal,Wet,Highway,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,80,40.0,Male,Valid,No,1,2,5.97,Moderate,28.9,Serious,Serious
+Uttar Pradesh,Kanpur,6,0,0,0,Clear,Normal,Dry,Rural Road,Bus,Police Managed,Non-Junction,Street Lights,30,32.0,Male,Valid,No,4,1,6.505,Moderate,29.7,Minor,Minor
+Karnataka,Hubballi,15,0,1,0,Clear,Normal,Slippery,Intersection,Car,Signal Present,T-Junction,Street Lights,100,27.0,Male,Valid,No,2,1,4.07,High,23.2,Serious,Minor
+Kerala,Thiruvananthapuram,13,0,1,0,Cloudy,Normal,Wet,Urban Arterial,Truck,Roundabout,Non-Junction,Poor Lighting,60,34.0,Male,Valid,No,2,1,7.44,Moderate,24.1,Minor,Minor
+Uttar Pradesh,Kanpur,19,1,1,0,Clear,Normal,Wet,Rural Road,Car,Uncontrolled,Roundabout,Daylight,40,19.0,Male,Valid,No,2,2,5.64,Moderate,27.3,Minor,Minor
+Delhi,Rohini,17,1,1,0,Clear,Normal,Wet,Highway,Car,Uncontrolled,Non-Junction,No Lighting,30,26.0,Male,Valid,No,1,1,3.35,High,29.75,Serious,Minor
+Maharashtra,Mumbai,22,0,0,1,Cloudy,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,50,29.0,Male,Valid,No,2,1,3.95,High,27.3,Minor,Minor
+Uttar Pradesh,Varanasi,7,1,0,0,Clear,Normal,Dry,Residential,Two-Wheeler,Signal Present,T-Junction,Daylight,80,46.0,Male,Expired,No,3,1,3.72,High,31.5,Minor,Minor
+Rajasthan,Udaipur,23,0,1,1,Cloudy,Normal,Wet,Urban Arterial,Bus,Signal Present,T-Junction,Daylight,40,25.0,Male,Valid,No,2,1,9.7,Low,35.9,Minor,Minor
+Tamil Nadu,Chennai,8,1,0,0,Clear,Normal,Dry,Residential,Truck,Uncontrolled,Non-Junction,Poor Lighting,50,27.0,Female,Valid,No,2,2,7.44,Moderate,34.6,Minor,Minor
+West Bengal,Howrah,6,0,1,0,Heat,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Street Lights,50,30.0,Male,Valid,No,2,1,7.32,Moderate,29.9,Minor,Minor
+Rajasthan,Jaipur,15,0,1,0,Clear,Normal,Under Construction,Residential,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,80,41.0,Male,Valid,No,3,2,5.72,Moderate,27.4,Minor,Minor
+Tamil Nadu,Coimbatore,14,0,1,0,Heat,Normal,Dry,Urban Arterial,Truck,Stop Sign,T-Junction,Street Lights,50,48.0,Male,Invalid,No,4,1,6.72,Moderate,29.4,Minor,Minor
+Kerala,Kozhikode,19,1,0,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,Roundabout,Poor Lighting,50,47.0,Male,Valid,No,2,1,3.94,High,25.7,Minor,Minor
+Tamil Nadu,Coimbatore,18,1,0,0,Clear,Normal,Wet,Rural Road,Auto-Rickshaw,Signal Present,Roundabout,Street Lights,100,28.0,Male,Expired,No,2,1,7.59,Moderate,27.8,Minor,Minor
+Tamil Nadu,Chennai,18,1,0,0,Cloudy,Normal,Under Construction,Highway,Bus,Stop Sign,Non-Junction,Daylight,60,29.0,Male,Valid,Yes,3,2,8.61,Low,36.9,Minor,Minor
+Kerala,Kochi,10,0,0,0,Clear,Normal,Damaged,Residential,Bus,Signal Present,Non-Junction,No Lighting,30,30.0,Female,Valid,No,2,1,5.93,Moderate,26.5,Minor,Minor
+Tamil Nadu,Coimbatore,17,1,0,0,Storm,Adverse,Dry,Residential,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,100,27.0,Male,Valid,No,2,1,4.54,High,35.0,Minor,Minor
+Gujarat,Ahmedabad,16,0,0,0,Rain,Adverse,Wet,Residential,Two-Wheeler,Roundabout,Cross Junction,Daylight,50,28.0,Male,Valid,No,3,2,7.58,Moderate,32.5,Minor,Minor
+Rajasthan,Udaipur,17,1,0,0,Clear,Normal,Dry,Intersection,Car,Uncontrolled,Y-Junction,Street Lights,60,40.0,Male,Valid,No,1,1,5.61,Moderate,29.3,Minor,Minor
+Uttar Pradesh,Lucknow,14,0,0,0,Clear,Normal,Wet,Highway,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,60,32.0,Male,Valid,No,3,1,6.94,Moderate,32.9,Minor,Minor
+Tamil Nadu,Coimbatore,5,0,1,1,Heat,Normal,Wet,Intersection,Car,Uncontrolled,Cross Junction,Daylight,60,47.0,Male,Expired,No,2,1,2.57,High,29.1,Minor,Minor
+Uttar Pradesh,Varanasi,0,0,0,1,Clear,Normal,Under Construction,Urban Arterial,Car,Uncontrolled,Non-Junction,Daylight,60,32.0,Male,Valid,No,2,2,3.68,High,27.5,Minor,Minor
+Karnataka,Bengaluru,7,1,0,0,Rain,Adverse,Dry,Highway,Car,Signal Present,T-Junction,Street Lights,50,55.0,Male,Valid,No,2,1,6.6,Moderate,22.0,Minor,Minor
+Karnataka,Bengaluru,23,0,0,1,Cloudy,Normal,Damaged,Urban Arterial,Two-Wheeler,Signal Present,Roundabout,Daylight,40,24.0,Male,Valid,No,1,1,5.84,Moderate,30.3,Minor,Minor
+Tamil Nadu,Coimbatore,18,1,0,0,Storm,Adverse,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,40,23.0,Male,Valid,No,4,1,3.57,High,30.6,Minor,Minor
+Rajasthan,Jaipur,7,1,0,0,Clear,Normal,Wet,Highway,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,50,19.0,Male,Valid,No,3,1,8.06,Low,34.3,Minor,Minor
+Karnataka,Bengaluru,18,1,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,50,27.0,Male,Valid,No,2,1,5.98,Moderate,26.7,Minor,Minor
+West Bengal,Kolkata,18,1,0,0,Clear,Normal,Damaged,Urban Arterial,Car,Signal Present,Non-Junction,Street Lights,40,26.0,Male,Learner,No,2,1,10.28,Low,27.0,Minor,Minor
+Maharashtra,Mumbai,15,0,0,0,Clear,Normal,Wet,Intersection,Two-Wheeler,Signal Present,Non-Junction,Daylight,30,42.0,Male,Invalid,No,2,1,6.85,Moderate,26.2,Minor,Minor
+Maharashtra,Mumbai,20,0,0,1,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,T-Junction,Daylight,40,23.0,Male,Valid,No,3,1,8.71,Low,32.9,Minor,Minor
+Delhi,New Delhi,8,1,0,0,Cloudy,Normal,Dry,Rural Road,Car,Signal Present,T-Junction,No Lighting,60,43.0,Male,Valid,No,2,2,3.59,High,30.3,Minor,Minor
+Delhi,Rohini,7,1,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Police Managed,T-Junction,Street Lights,60,41.0,Male,Valid,No,3,1,10.51,Low,33.8,Minor,Minor
+Karnataka,Mysuru,9,1,0,0,Clear,Normal,Dry,Urban Arterial,Bus,Signal Present,Y-Junction,Daylight,100,33.0,Male,Valid,Yes,3,2,7.96,Moderate,27.3,Serious,Serious
+Gujarat,Vadodara,16,0,1,0,Cloudy,Normal,Slippery,Highway,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,50,37.0,Male,Invalid,No,2,1,3.77,High,34.0,Minor,Minor
+Maharashtra,Pune,16,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Car,Roundabout,Non-Junction,Street Lights,50,35.0,Male,Valid,No,3,2,6.21,Moderate,32.5,Minor,Minor
+Delhi,Dwarka,13,0,0,0,Clear,Normal,Wet,Residential,Two-Wheeler,Stop Sign,Roundabout,Daylight,50,23.0,Male,Valid,No,2,1,5.52,Moderate,30.9,Minor,Minor
+Gujarat,Ahmedabad,17,1,0,0,Clear,Normal,Dry,Urban Arterial,Car,Uncontrolled,T-Junction,Daylight,50,37.0,Male,Valid,No,2,3,7.23,Moderate,26.0,Minor,Minor
+Rajasthan,Jodhpur,15,0,0,0,Clear,Normal,Slippery,Urban Arterial,Bus,Police Managed,T-Junction,Street Lights,50,34.0,Male,Valid,No,2,2,5.91,Moderate,31.3,Minor,Minor
+Karnataka,Bengaluru,0,0,0,1,Fog,Adverse,Dry,Residential,Truck,Roundabout,Non-Junction,Daylight,40,25.0,Male,Valid,Yes,3,1,2.56,High,27.4,Minor,Minor
+Gujarat,Surat,20,0,0,1,Clear,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,60,37.0,Male,Valid,No,1,1,6.71,Moderate,23.5,Minor,Minor
+West Bengal,Howrah,7,1,1,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,33.0,Male,Learner,No,4,1,5.88,Moderate,26.9,Minor,Minor
+Kerala,Kozhikode,23,0,0,1,Heat,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Street Lights,40,25.0,Male,Valid,No,1,1,8.51,Low,25.4,Minor,Minor
+Maharashtra,Nagpur,11,0,1,0,Cloudy,Normal,Dry,Rural Road,Auto-Rickshaw,Stop Sign,Roundabout,Daylight,50,30.0,Male,Valid,No,3,1,12.0,Low,20.5,Minor,Minor
+Karnataka,Mysuru,7,1,1,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Roundabout,T-Junction,Daylight,30,36.0,Male,Valid,No,3,1,9.3,Low,23.0,Minor,Minor
+Telangana,Warangal,18,1,1,0,Clear,Normal,Under Construction,Urban Arterial,Two-Wheeler,Uncontrolled,T-Junction,Daylight,40,35.0,Male,Valid,No,3,1,4.72,High,16.9,Minor,Minor
+Tamil Nadu,Madurai,20,0,0,1,Clear,Normal,Wet,Highway,Truck,Signal Present,T-Junction,Street Lights,40,34.0,Female,Valid,No,2,1,6.73,Moderate,31.3,Minor,Minor
+Uttar Pradesh,Lucknow,6,0,0,0,Storm,Adverse,Dry,Highway,Truck,Signal Present,Y-Junction,Street Lights,50,18.0,Male,Valid,No,3,1,2.57,High,34.3,Minor,Minor
+Uttar Pradesh,Lucknow,15,0,1,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,T-Junction,Poor Lighting,80,18.0,Female,Valid,No,2,2,5.63,Moderate,24.5,Serious,Serious
+Karnataka,Bengaluru,9,1,0,0,Cloudy,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Roundabout,Daylight,80,35.0,Female,Expired,No,2,2,6.13,Moderate,26.5,Minor,Minor
+Maharashtra,Mumbai,16,0,1,0,Rain,Adverse,Damaged,Rural Road,Car,Signal Present,Non-Junction,No Lighting,50,52.0,Male,Valid,No,3,1,8.39,Low,28.1,Minor,Minor
+Delhi,New Delhi,22,0,0,1,Storm,Adverse,Dry,Urban Arterial,Car,Police Managed,T-Junction,Daylight,80,36.0,Male,Learner,No,2,2,4.32,High,29.9,Serious,Minor
+Maharashtra,Pune,11,0,0,0,Rain,Adverse,Dry,Intersection,Two-Wheeler,Uncontrolled,Y-Junction,Daylight,50,18.0,Male,Invalid,Yes,2,1,5.24,Moderate,27.8,Minor,Minor
+Maharashtra,Mumbai,6,0,1,0,Cloudy,Normal,Dry,Residential,Two-Wheeler,Roundabout,Non-Junction,Street Lights,40,38.0,Female,Valid,No,3,3,6.36,Moderate,30.5,Minor,Minor
+West Bengal,Howrah,7,1,0,0,Rain,Adverse,Damaged,Urban Arterial,Car,Stop Sign,T-Junction,Daylight,40,46.0,Male,Invalid,No,3,1,6.31,Moderate,18.9,Minor,Minor
+Uttar Pradesh,Kanpur,21,0,0,1,Rain,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Roundabout,Roundabout,Daylight,80,44.0,Male,Valid,No,2,2,4.86,High,34.2,Minor,Minor
+Telangana,Nizamabad,9,1,0,0,Clear,Normal,Dry,Urban Arterial,Bus,Signal Present,Cross Junction,Daylight,40,46.0,Male,Valid,No,2,1,10.32,Low,24.3,Minor,Minor
+Delhi,Dwarka,21,0,1,1,Cloudy,Normal,Under Construction,Intersection,Bus,Roundabout,Roundabout,Daylight,50,22.0,Male,Valid,No,2,1,6.09,Moderate,23.3,Minor,Minor
+Karnataka,Mysuru,10,0,0,0,Clear,Normal,Dry,Highway,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,80,40.0,Male,Valid,No,4,2,6.62,Moderate,21.9,Minor,Minor
+West Bengal,Durgapur,17,1,0,0,Clear,Normal,Dry,Rural Road,Auto-Rickshaw,Stop Sign,Cross Junction,Daylight,30,35.0,Male,Expired,No,1,1,8.36,Low,29.2,Minor,Minor
+Telangana,Warangal,10,0,0,0,Clear,Normal,Dry,Rural Road,Truck,Police Managed,Roundabout,Daylight,100,31.0,Male,Valid,No,4,1,10.3,Low,26.8,Minor,Minor
+West Bengal,Howrah,17,1,1,0,Fog,Adverse,Under Construction,Highway,Car,Signal Present,T-Junction,Daylight,100,28.0,Male,Valid,No,2,3,1.81,Critical,34.1,Serious,Serious
+Delhi,New Delhi,7,1,0,0,Clear,Normal,Dry,Rural Road,Car,Uncontrolled,Roundabout,No Lighting,60,26.0,Male,Valid,No,2,1,6.99,Moderate,29.9,Minor,Minor
+Karnataka,Bengaluru,14,0,0,0,Clear,Normal,Under Construction,Rural Road,Bus,Uncontrolled,Roundabout,Street Lights,50,22.0,Male,Valid,Yes,2,1,1.76,Critical,27.8,Minor,Minor
+Delhi,Dwarka,8,1,0,0,Rain,Adverse,Dry,Residential,Car,Uncontrolled,T-Junction,Street Lights,80,51.0,Male,Valid,No,2,2,7.74,Moderate,23.0,Minor,Minor
+Maharashtra,Nagpur,15,0,0,0,Cloudy,Normal,Dry,Intersection,Auto-Rickshaw,Stop Sign,Non-Junction,Daylight,30,40.0,Female,Valid,No,3,1,6.36,Moderate,19.6,Minor,Minor
+Karnataka,Mysuru,18,1,0,0,Rain,Adverse,Slippery,Rural Road,Auto-Rickshaw,Uncontrolled,T-Junction,Daylight,50,49.0,Male,Valid,No,2,2,3.34,High,27.6,Minor,Minor
+Uttar Pradesh,Kanpur,7,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Car,Uncontrolled,T-Junction,Street Lights,40,26.0,Male,Valid,No,4,1,3.26,High,29.3,Minor,Minor
+Gujarat,Ahmedabad,7,1,0,0,Clear,Normal,Dry,Highway,Auto-Rickshaw,Uncontrolled,Cross Junction,Street Lights,100,18.0,Male,Valid,Yes,2,3,6.33,Moderate,20.1,Serious,Serious
+Karnataka,Hubballi,1,0,0,1,Rain,Adverse,Dry,Residential,Two-Wheeler,Stop Sign,Non-Junction,Daylight,40,18.0,Male,Valid,No,1,2,5.56,Moderate,33.0,Minor,Minor
+Maharashtra,Pune,18,1,0,0,Clear,Normal,Dry,Intersection,Truck,Uncontrolled,Cross Junction,Daylight,50,39.0,Male,Valid,No,2,3,7.86,Moderate,27.2,Minor,Minor
+Rajasthan,Udaipur,15,0,0,0,Cloudy,Normal,Under Construction,Urban Arterial,Car,Roundabout,Cross Junction,Street Lights,30,44.0,Male,Valid,No,1,1,1.99,Critical,26.3,Minor,Minor
+Delhi,Rohini,22,0,0,1,Clear,Normal,Dry,Highway,Car,Uncontrolled,Non-Junction,Street Lights,50,18.0,Male,Valid,No,3,2,9.48,Low,33.6,Minor,Minor
+West Bengal,Howrah,4,0,0,1,Clear,Normal,Dry,Highway,Bus,Uncontrolled,Y-Junction,Poor Lighting,60,22.0,Male,Learner,No,2,3,5.42,Moderate,26.6,Minor,Minor
+Karnataka,Hubballi,16,0,0,0,Clear,Normal,Damaged,Intersection,Auto-Rickshaw,Uncontrolled,Non-Junction,Street Lights,100,28.0,Male,Invalid,No,4,2,7.42,Moderate,23.6,Minor,Minor
+Maharashtra,Mumbai,16,0,0,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,40,29.0,Male,Valid,No,2,1,3.46,High,21.6,Minor,Minor
+Karnataka,Mysuru,8,1,1,0,Storm,Adverse,Slippery,Residential,Car,Signal Present,Y-Junction,Street Lights,50,39.0,Male,Learner,No,3,1,3.04,High,24.4,Minor,Minor
+West Bengal,Durgapur,9,1,0,0,Rain,Adverse,Dry,Residential,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,100,26.0,Male,Expired,No,2,1,7.75,Moderate,33.9,Minor,Minor
+Delhi,Rohini,7,1,1,0,Heat,Normal,Dry,Residential,Truck,Signal Present,Non-Junction,Daylight,60,24.0,Male,Valid,Yes,1,1,10.37,Low,35.0,Minor,Minor
+Maharashtra,Mumbai,7,1,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Roundabout,Cross Junction,Street Lights,100,53.0,Male,Valid,No,1,1,3.63,High,27.9,Minor,Minor
+Rajasthan,Jaipur,16,0,0,0,Clear,Normal,Dry,Rural Road,Car,Signal Present,Non-Junction,Street Lights,80,44.0,Male,Valid,No,4,2,10.44,Low,40.7,Minor,Minor
+Maharashtra,Mumbai,13,0,0,0,Cloudy,Normal,Damaged,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,40,33.0,Male,Valid,No,2,1,7.01,Moderate,30.8,Minor,Minor
+Kerala,Kochi,2,0,0,1,Clear,Normal,Wet,Intersection,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,50,22.0,Female,Valid,No,2,1,2.79,High,25.6,Minor,Minor
+Delhi,Dwarka,9,1,1,0,Heat,Normal,Under Construction,Rural Road,Truck,Signal Present,Roundabout,Daylight,60,46.0,Male,Learner,No,2,1,6.09,Moderate,26.7,Minor,Minor
+Delhi,New Delhi,12,0,0,0,Cloudy,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,29.0,Male,Valid,Yes,1,2,7.18,Moderate,30.2,Minor,Minor
+Maharashtra,Nagpur,18,1,1,0,Clear,Normal,Dry,Urban Arterial,Bus,Roundabout,Roundabout,No Lighting,50,39.0,Male,Valid,No,3,1,6.41,Moderate,33.4,Minor,Minor
+Maharashtra,Mumbai,6,0,1,0,Rain,Adverse,Slippery,Intersection,Truck,Uncontrolled,T-Junction,Street Lights,30,40.0,Male,Valid,No,2,1,6.34,Moderate,27.2,Minor,Minor
+Uttar Pradesh,Lucknow,7,1,1,0,Cloudy,Normal,Dry,Rural Road,Truck,Uncontrolled,Non-Junction,Street Lights,30,18.0,Female,Valid,No,2,1,7.6,Moderate,31.6,Minor,Minor
+Tamil Nadu,Coimbatore,18,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,Poor Lighting,50,26.0,Male,Valid,Yes,1,3,9.49,Low,30.95,Serious,Serious
+Karnataka,Mysuru,1,0,1,1,Fog,Adverse,Dry,Intersection,Auto-Rickshaw,Stop Sign,T-Junction,Daylight,60,33.0,Male,Valid,No,3,1,3.46,High,28.9,Minor,Minor
+Gujarat,Vadodara,12,0,1,0,Clear,Normal,Under Construction,Residential,Bus,Stop Sign,Non-Junction,Street Lights,60,38.0,Male,Valid,No,2,2,5.25,Moderate,32.5,Minor,Minor
+Karnataka,Bengaluru,21,0,0,1,Cloudy,Normal,Dry,Urban Arterial,Car,Uncontrolled,Roundabout,Daylight,40,47.0,Male,Valid,No,2,1,6.47,Moderate,26.0,Minor,Minor
+Tamil Nadu,Chennai,18,1,0,0,Rain,Adverse,Dry,Residential,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,40,48.0,Male,Invalid,No,3,1,6.11,Moderate,31.9,Minor,Minor
+Maharashtra,Pune,12,0,1,0,Storm,Adverse,Dry,Rural Road,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,60,39.0,Female,Valid,No,2,2,2.19,Critical,21.9,Minor,Minor
+Telangana,Warangal,13,0,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Stop Sign,T-Junction,Street Lights,60,39.0,Male,Valid,No,1,3,7.46,Moderate,24.1,Minor,Minor
+Rajasthan,Jodhpur,16,0,0,0,Clear,Normal,Wet,Intersection,Car,Roundabout,Roundabout,Street Lights,30,33.0,Male,Valid,No,2,1,7.47,Moderate,26.1,Minor,Minor
+Tamil Nadu,Coimbatore,7,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Stop Sign,Non-Junction,Daylight,50,25.0,Male,Valid,No,3,1,5.37,Moderate,28.8,Minor,Minor
+Gujarat,Vadodara,5,0,1,1,Rain,Adverse,Under Construction,Intersection,Two-Wheeler,Uncontrolled,Roundabout,Daylight,40,26.0,Male,Valid,No,2,1,6.36,Moderate,24.1,Minor,Minor
+Tamil Nadu,Madurai,18,1,0,0,Heat,Normal,Dry,Intersection,Bus,Police Managed,Non-Junction,Daylight,80,55.0,Male,Valid,No,3,1,7.15,Moderate,26.6,Minor,Minor
+West Bengal,Kolkata,19,1,0,0,Cloudy,Normal,Wet,Residential,Truck,Uncontrolled,Roundabout,Daylight,50,32.0,Male,Valid,No,2,3,8.28,Low,32.2,Minor,Minor
+Kerala,Kochi,17,1,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Signal Present,Cross Junction,Daylight,100,42.0,Male,Valid,No,2,2,7.36,Moderate,21.8,Minor,Minor
+Kerala,Kozhikode,7,1,1,0,Clear,Normal,Damaged,Highway,Two-Wheeler,Police Managed,Cross Junction,Street Lights,50,21.0,Male,Valid,No,1,1,6.52,Moderate,35.3,Minor,Minor
+Delhi,New Delhi,7,1,0,0,Clear,Normal,Slippery,Residential,Car,Signal Present,Y-Junction,Daylight,80,23.0,Male,Valid,Yes,2,2,6.23,Moderate,35.3,Serious,Serious
+Karnataka,Hubballi,17,1,0,0,Fog,Adverse,Under Construction,Highway,Two-Wheeler,Uncontrolled,Roundabout,Daylight,50,40.0,Male,Valid,No,1,3,1.88,Critical,31.7,Serious,Serious
+Karnataka,Bengaluru,17,1,0,0,Clear,Normal,Dry,Highway,Truck,Signal Present,Cross Junction,Poor Lighting,100,44.0,Male,Valid,No,4,4,6.62,Moderate,28.5,Serious,Serious
+Tamil Nadu,Coimbatore,10,0,1,0,Clear,Normal,Damaged,Residential,Car,Signal Present,Non-Junction,No Lighting,50,48.0,Male,Valid,No,4,2,5.36,Moderate,35.4,Minor,Minor
+Tamil Nadu,Chennai,14,0,1,0,Clear,Normal,Dry,Highway,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,100,26.0,Male,Valid,Yes,1,2,5.89,Moderate,29.1,Serious,Serious
+Gujarat,Vadodara,5,0,1,1,Clear,Normal,Dry,Residential,Two-Wheeler,Stop Sign,Non-Junction,No Lighting,30,18.0,Female,Valid,No,3,1,5.04,Moderate,25.1,Minor,Minor
+Tamil Nadu,Madurai,10,0,0,0,Cloudy,Normal,Wet,Urban Arterial,Car,Uncontrolled,Cross Junction,Street Lights,50,49.0,Male,Expired,No,3,2,9.49,Low,33.3,Minor,Minor
+Telangana,Hyderabad,9,1,0,0,Cloudy,Normal,Wet,Intersection,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,40,29.0,Male,Valid,No,1,1,7.18,Moderate,31.8,Minor,Minor
+Telangana,Hyderabad,13,0,0,0,Heat,Normal,Dry,Urban Arterial,Bus,Uncontrolled,Roundabout,Daylight,50,26.0,Male,Learner,No,1,1,5.43,Moderate,26.3,Minor,Minor
+Uttar Pradesh,Lucknow,8,1,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Roundabout,Non-Junction,Street Lights,40,36.0,Male,Invalid,No,3,1,9.43,Low,20.7,Minor,Minor
+Delhi,New Delhi,8,1,1,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,80,29.0,Female,Valid,No,2,1,6.34,Moderate,26.1,Minor,Minor
+Gujarat,Surat,16,0,0,0,Clear,Normal,Dry,Intersection,Bus,Signal Present,Roundabout,Daylight,60,27.0,Male,Valid,No,2,2,3.39,High,20.2,Minor,Minor
+Karnataka,Bengaluru,14,0,1,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,80,44.0,Male,Valid,No,1,2,4.94,High,31.1,Minor,Minor
+Rajasthan,Jodhpur,18,1,1,0,Clear,Normal,Under Construction,Highway,Two-Wheeler,Roundabout,Non-Junction,Daylight,40,43.0,Male,Valid,No,3,2,6.26,Moderate,28.8,Minor,Minor
+Tamil Nadu,Chennai,22,0,0,1,Cloudy,Normal,Wet,Rural Road,Car,Roundabout,T-Junction,No Lighting,40,24.0,Female,Expired,No,3,1,6.22,Moderate,34.6,Minor,Minor
+Tamil Nadu,Coimbatore,20,0,0,1,Rain,Adverse,Wet,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,100,37.0,Male,Valid,No,1,1,5.08,Moderate,32.4,Minor,Minor
+Karnataka,Bengaluru,12,0,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Signal Present,Roundabout,Street Lights,30,45.0,Male,Valid,No,3,1,4.7,High,25.0,Minor,Minor
+Rajasthan,Jodhpur,16,0,0,0,Clear,Normal,Dry,Intersection,Car,Signal Present,Cross Junction,No Lighting,60,61.0,Male,Valid,No,2,2,7.54,Moderate,23.9,Minor,Minor
+Delhi,Dwarka,22,0,0,1,Heat,Normal,Dry,Rural Road,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,50,50.0,Male,Expired,No,2,1,5.74,Moderate,30.1,Minor,Minor
+Uttar Pradesh,Lucknow,19,1,1,0,Cloudy,Normal,Slippery,Intersection,Car,Stop Sign,Non-Junction,Street Lights,60,18.0,Male,Valid,No,1,2,4.5,High,18.7,Minor,Minor
+Karnataka,Hubballi,8,1,0,0,Clear,Normal,Damaged,Urban Arterial,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,80,21.0,Male,Invalid,No,2,1,6.12,Moderate,34.4,Minor,Minor
+West Bengal,Kolkata,19,1,0,0,Heat,Normal,Wet,Highway,Auto-Rickshaw,Signal Present,T-Junction,Daylight,50,36.0,Male,Learner,No,2,1,8.67,Low,29.9,Minor,Minor
+Rajasthan,Jaipur,1,0,0,1,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Stop Sign,Roundabout,Street Lights,40,44.0,Male,Expired,No,3,3,8.17,Low,27.1,Minor,Minor
+Gujarat,Vadodara,12,0,1,0,Clear,Normal,Dry,Highway,Bus,Uncontrolled,Non-Junction,Daylight,50,31.0,Male,Valid,No,3,3,5.23,Moderate,24.3,Minor,Minor
+Rajasthan,Udaipur,19,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Stop Sign,Non-Junction,Street Lights,60,34.0,Female,Valid,No,2,1,7.05,Moderate,29.4,Minor,Minor
+Uttar Pradesh,Varanasi,9,1,0,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Signal Present,Y-Junction,Street Lights,40,44.0,Male,Valid,Yes,2,1,5.84,Moderate,29.4,Minor,Minor
+Rajasthan,Jodhpur,18,1,0,0,Rain,Adverse,Wet,Urban Arterial,Auto-Rickshaw,Signal Present,T-Junction,Poor Lighting,100,20.0,Male,Valid,No,2,3,4.65,High,37.8,Serious,Serious
+West Bengal,Durgapur,5,0,0,1,Clear,Normal,Under Construction,Highway,Truck,Stop Sign,T-Junction,No Lighting,100,47.0,Female,Valid,No,3,2,6.18,Moderate,29.3,Serious,Serious
+Tamil Nadu,Chennai,21,0,0,1,Rain,Adverse,Slippery,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,40,35.0,Male,Valid,No,2,2,7.19,Moderate,31.8,Minor,Minor
+Delhi,New Delhi,10,0,0,0,Heat,Normal,Slippery,Intersection,Bus,Roundabout,Roundabout,Street Lights,50,38.0,Male,Valid,Yes,1,2,4.86,High,30.4,Minor,Minor
+Karnataka,Bengaluru,12,0,1,0,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,80,37.0,Male,Valid,No,3,3,5.88,Moderate,22.9,Serious,Serious
+Delhi,Dwarka,19,1,0,0,Clear,Normal,Dry,Residential,Truck,Signal Present,Non-Junction,Daylight,40,49.0,Male,Valid,Yes,2,1,8.99,Low,23.8,Minor,Minor
+Karnataka,Mysuru,18,1,0,0,Rain,Adverse,Dry,Intersection,Car,Stop Sign,Non-Junction,No Lighting,30,28.0,Female,Valid,No,1,2,6.56,Moderate,29.6,Minor,Minor
+Tamil Nadu,Madurai,6,0,0,0,Clear,Normal,Dry,Highway,Car,Uncontrolled,Non-Junction,Daylight,60,32.0,Male,Valid,No,3,1,4.52,High,32.4,Minor,Minor
+Telangana,Hyderabad,9,1,0,0,Fog,Adverse,Dry,Residential,Truck,Signal Present,Non-Junction,No Lighting,50,22.0,Male,Valid,No,3,1,2.26,Critical,27.7,Minor,Minor
+Maharashtra,Mumbai,18,1,1,0,Rain,Adverse,Wet,Rural Road,Two-Wheeler,Roundabout,Non-Junction,Daylight,40,44.0,Male,Valid,No,2,1,6.38,Moderate,32.7,Minor,Minor
+Maharashtra,Nagpur,3,0,1,1,Rain,Adverse,Dry,Urban Arterial,Car,Signal Present,Non-Junction,Daylight,30,28.0,Male,Valid,No,1,1,8.08,Low,36.2,Minor,Minor
+Kerala,Kochi,8,1,1,0,Cloudy,Normal,Wet,Residential,Car,Uncontrolled,Non-Junction,Street Lights,80,30.0,Male,Valid,Yes,2,1,8.85,Low,26.5,Minor,Minor
+Gujarat,Vadodara,10,0,0,0,Clear,Normal,Dry,Highway,Car,Signal Present,Non-Junction,Street Lights,80,45.0,Male,Valid,No,2,1,3.06,High,25.8,Minor,Minor
+Gujarat,Ahmedabad,9,1,1,0,Cloudy,Normal,Damaged,Urban Arterial,Bus,Signal Present,Roundabout,Daylight,50,64.0,Male,Valid,No,4,1,7.01,Moderate,24.4,Minor,Minor
+Delhi,Rohini,19,1,0,0,Clear,Normal,Under Construction,Highway,Two-Wheeler,Signal Present,Cross Junction,Street Lights,50,45.0,Male,Valid,No,1,1,6.46,Moderate,25.2,Minor,Minor
+Delhi,Rohini,16,0,0,0,Clear,Normal,Wet,Urban Arterial,Car,Signal Present,Non-Junction,Daylight,40,27.0,Male,Valid,No,2,1,6.15,Moderate,33.1,Minor,Minor
+Tamil Nadu,Madurai,15,0,0,0,Rain,Adverse,Dry,Highway,Bus,Police Managed,Cross Junction,Daylight,50,40.0,Male,Expired,No,2,1,4.95,High,19.8,Minor,Minor
+Karnataka,Hubballi,14,0,0,0,Heat,Normal,Damaged,Urban Arterial,Bus,Stop Sign,Cross Junction,Poor Lighting,60,38.0,Male,Valid,No,2,1,5.95,Moderate,24.1,Minor,Minor
+Maharashtra,Mumbai,18,1,1,0,Storm,Adverse,Dry,Highway,Two-Wheeler,Roundabout,Non-Junction,Street Lights,60,37.0,Male,Valid,No,2,2,4.27,High,27.4,Minor,Minor
+Maharashtra,Nagpur,12,0,0,0,Clear,Normal,Dry,Rural Road,Car,Roundabout,Non-Junction,Daylight,50,35.0,Male,Valid,No,2,2,6.49,Moderate,29.3,Minor,Minor
+Maharashtra,Nagpur,15,0,1,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Y-Junction,Street Lights,50,31.0,Male,Valid,No,2,1,7.63,Moderate,28.8,Minor,Minor
+Telangana,Nizamabad,18,1,1,0,Clear,Normal,Wet,Residential,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,60,34.0,Male,Invalid,No,4,1,4.09,High,19.6,Minor,Minor
+Gujarat,Surat,6,0,0,0,Fog,Adverse,Wet,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,30,27.0,Female,Valid,No,1,2,2.18,Critical,25.0,Serious,Serious
+Telangana,Warangal,6,0,0,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,60,34.0,Female,Valid,No,3,1,5.13,Moderate,31.5,Minor,Minor
+Tamil Nadu,Chennai,16,0,1,0,Cloudy,Normal,Damaged,Rural Road,Truck,Uncontrolled,Non-Junction,No Lighting,100,44.0,Male,Expired,No,2,1,7.3,Moderate,31.6,Serious,Minor
+West Bengal,Howrah,14,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Roundabout,T-Junction,No Lighting,40,43.0,Male,Valid,No,4,2,4.75,High,24.6,Minor,Minor
+Tamil Nadu,Madurai,15,0,0,0,Clear,Normal,Slippery,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Daylight,30,37.0,Male,Valid,Yes,2,2,6.59,Moderate,18.4,Minor,Minor
+Maharashtra,Nagpur,20,0,0,1,Clear,Normal,Under Construction,Residential,Two-Wheeler,Police Managed,Roundabout,Street Lights,60,35.0,Female,Valid,No,1,1,8.46,Low,27.2,Minor,Minor
+Tamil Nadu,Coimbatore,8,1,0,0,Rain,Adverse,Dry,Intersection,Bus,Uncontrolled,Non-Junction,Daylight,50,34.0,Male,Valid,Yes,2,2,2.95,High,30.7,Minor,Minor
+Karnataka,Bengaluru,18,1,0,0,Clear,Normal,Dry,Intersection,Truck,Roundabout,Non-Junction,No Lighting,40,23.0,Male,Invalid,Yes,3,2,4.73,High,19.7,Minor,Minor
+West Bengal,Kolkata,18,1,1,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,60,18.0,Male,Valid,No,3,2,5.77,Moderate,25.5,Minor,Minor
+Maharashtra,Mumbai,19,1,0,0,Storm,Adverse,Dry,Rural Road,Truck,Police Managed,T-Junction,Poor Lighting,50,48.0,Female,Valid,Yes,3,2,3.18,High,26.7,Serious,Minor
+Maharashtra,Nagpur,15,0,0,0,Clear,Normal,Dry,Intersection,Car,Roundabout,Cross Junction,Daylight,80,42.0,Male,Valid,No,4,1,6.69,Moderate,18.5,Minor,Minor
+Uttar Pradesh,Lucknow,11,0,1,0,Cloudy,Normal,Under Construction,Rural Road,Car,Signal Present,Roundabout,Daylight,60,48.0,Female,Valid,Yes,3,1,8.86,Low,32.1,Minor,Minor
+West Bengal,Howrah,21,0,1,1,Clear,Normal,Dry,Rural Road,Car,Police Managed,T-Junction,Daylight,80,29.0,Male,Valid,No,1,1,6.67,Moderate,29.7,Minor,Minor
+Delhi,New Delhi,14,0,0,0,Cloudy,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,30,37.0,Male,Valid,No,2,1,9.71,Low,22.2,Minor,Minor
+Karnataka,Bengaluru,13,0,0,0,Clear,Normal,Dry,Urban Arterial,Car,Signal Present,Roundabout,Daylight,30,26.0,Female,Valid,No,2,3,3.23,High,21.9,Minor,Minor
+Uttar Pradesh,Lucknow,19,1,0,0,Clear,Normal,Wet,Rural Road,Truck,Uncontrolled,Y-Junction,Street Lights,60,44.0,Male,Valid,No,3,2,9.32,Low,28.3,Minor,Minor
+Karnataka,Mysuru,12,0,0,0,Cloudy,Normal,Dry,Highway,Truck,Stop Sign,Roundabout,Daylight,100,32.0,Male,Learner,No,2,3,5.26,Moderate,29.9,Serious,Serious
+Gujarat,Surat,9,1,0,0,Clear,Normal,Slippery,Rural Road,Truck,Stop Sign,T-Junction,Daylight,30,27.0,Male,Valid,No,3,2,5.12,Moderate,22.3,Minor,Minor
+Uttar Pradesh,Varanasi,9,1,1,0,Rain,Adverse,Damaged,Urban Arterial,Bus,Stop Sign,Non-Junction,Daylight,60,28.0,Male,Valid,No,3,2,8.5,Low,29.9,Minor,Minor
+Karnataka,Hubballi,7,1,1,0,Fog,Adverse,Dry,Urban Arterial,Car,Signal Present,T-Junction,No Lighting,30,42.0,Female,Valid,Yes,2,4,0.72,Critical,14.8,Serious,Serious
+Rajasthan,Udaipur,13,0,0,0,Clear,Normal,Dry,Urban Arterial,Car,Roundabout,T-Junction,Daylight,30,21.0,Male,Valid,Yes,2,1,8.73,Low,30.9,Minor,Minor
+Gujarat,Surat,19,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Roundabout,Daylight,80,56.0,Male,Valid,No,2,2,3.53,High,37.6,Minor,Serious
+Telangana,Warangal,21,0,1,1,Cloudy,Normal,Dry,Highway,Two-Wheeler,Signal Present,Cross Junction,Daylight,100,31.0,Male,Valid,No,2,4,3.31,High,25.3,Serious,Serious
+Uttar Pradesh,Varanasi,4,0,0,1,Fog,Adverse,Dry,Residential,Two-Wheeler,Signal Present,T-Junction,Street Lights,50,33.0,Female,Valid,No,2,2,2.54,High,26.5,Minor,Minor
+Telangana,Warangal,8,1,0,0,Rain,Adverse,Dry,Rural Road,Truck,Uncontrolled,Roundabout,Street Lights,40,48.0,Male,Invalid,No,3,1,11.27,Low,27.6,Minor,Minor
+West Bengal,Howrah,9,1,0,0,Fog,Adverse,Under Construction,Rural Road,Car,Signal Present,Cross Junction,Street Lights,80,43.0,Female,Valid,No,2,1,1.92,Critical,28.7,Serious,Serious
+Maharashtra,Nagpur,9,1,0,0,Clear,Normal,Wet,Residential,Auto-Rickshaw,Signal Present,Roundabout,Street Lights,100,51.0,Male,Expired,No,2,1,12.0,Low,21.3,Minor,Minor
+Delhi,New Delhi,5,0,1,1,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,Roundabout,Street Lights,60,35.0,Male,Valid,No,1,1,4.95,High,30.2,Minor,Minor
+Telangana,Warangal,14,0,0,0,Clear,Normal,Wet,Residential,Car,Uncontrolled,Roundabout,No Lighting,60,27.0,Male,Expired,No,2,1,8.08,Low,34.0,Minor,Minor
+Rajasthan,Jodhpur,2,0,0,1,Clear,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,T-Junction,Poor Lighting,100,22.0,Male,Valid,No,1,1,8.21,Low,31.3,Minor,Minor
+Delhi,Rohini,17,1,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Cross Junction,Street Lights,50,56.0,Male,Valid,No,3,2,7.66,Moderate,26.0,Minor,Minor
+Telangana,Hyderabad,5,0,0,1,Clear,Normal,Dry,Residential,Truck,Stop Sign,Y-Junction,Poor Lighting,40,60.0,Male,Valid,No,2,2,7.16,Moderate,24.5,Minor,Minor
+Karnataka,Bengaluru,17,1,0,0,Rain,Adverse,Dry,Rural Road,Car,Uncontrolled,Cross Junction,Daylight,30,26.0,Male,Valid,No,1,2,6.43,Moderate,18.3,Minor,Minor
+Gujarat,Surat,23,0,0,1,Rain,Adverse,Dry,Highway,Two-Wheeler,Stop Sign,T-Junction,Daylight,30,45.0,Male,Valid,No,2,1,5.95,Moderate,30.3,Minor,Minor
+Kerala,Thiruvananthapuram,18,1,0,0,Fog,Adverse,Under Construction,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,Daylight,50,33.0,Male,Valid,No,3,2,2.68,High,28.6,Minor,Minor
+Maharashtra,Nagpur,20,0,0,1,Clear,Normal,Dry,Highway,Car,Stop Sign,Cross Junction,Poor Lighting,50,38.0,Male,Valid,No,4,3,8.41,Low,24.9,Minor,Minor
+Tamil Nadu,Coimbatore,14,0,0,0,Heat,Normal,Damaged,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Poor Lighting,50,48.0,Male,Valid,No,3,1,4.58,High,24.4,Minor,Minor
+Tamil Nadu,Chennai,12,0,1,0,Storm,Adverse,Wet,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,50,29.0,Male,Invalid,No,2,1,4.25,High,40.9,Minor,Minor
+Kerala,Kozhikode,16,0,0,0,Clear,Normal,Under Construction,Intersection,Car,Stop Sign,T-Junction,Daylight,60,28.0,Male,Learner,Yes,2,1,6.68,Moderate,30.1,Minor,Minor
+Kerala,Kozhikode,3,0,1,1,Clear,Normal,Damaged,Urban Arterial,Car,Uncontrolled,T-Junction,No Lighting,80,48.0,Male,Valid,No,2,1,4.36,High,26.4,Serious,Minor
+Gujarat,Ahmedabad,18,1,1,0,Cloudy,Normal,Under Construction,Intersection,Car,Signal Present,Cross Junction,Street Lights,100,23.0,Male,Valid,No,2,1,6.4399999999999995,Moderate,25.2,Minor,Minor
+Telangana,Nizamabad,8,1,0,0,Heat,Normal,Dry,Urban Arterial,Car,Stop Sign,T-Junction,Daylight,50,51.0,Female,Valid,No,3,2,0.73,Critical,32.9,Minor,Minor
+West Bengal,Kolkata,5,0,0,1,Rain,Adverse,Slippery,Rural Road,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,50,43.0,Male,Valid,No,2,1,3.81,High,23.5,Minor,Minor
+Telangana,Hyderabad,16,0,0,0,Heat,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,T-Junction,Street Lights,40,49.0,Male,Invalid,No,2,3,7.82,Moderate,34.5,Minor,Minor
+Telangana,Hyderabad,19,1,0,0,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,Roundabout,Daylight,40,57.0,Male,Learner,Yes,2,2,7.71,Moderate,24.2,Minor,Minor
+Rajasthan,Jodhpur,19,1,1,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Street Lights,50,24.0,Male,Valid,No,2,1,8.14,Low,36.6,Minor,Minor
+Maharashtra,Nagpur,20,0,0,1,Cloudy,Normal,Dry,Highway,Bus,Police Managed,Cross Junction,Street Lights,40,23.0,Female,Valid,No,2,2,7.0,Moderate,20.6,Minor,Minor
+Karnataka,Mysuru,18,1,0,0,Clear,Normal,Wet,Urban Arterial,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,80,48.0,Male,Valid,No,2,1,6.95,Moderate,30.6,Serious,Minor
+Telangana,Hyderabad,9,1,0,0,Fog,Adverse,Wet,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,60,41.0,Male,Valid,No,2,2,0.68,Critical,27.7,Minor,Minor
+Uttar Pradesh,Lucknow,20,0,1,1,Heat,Normal,Dry,Highway,Bus,Uncontrolled,T-Junction,Poor Lighting,80,34.0,Male,Valid,No,2,1,9.95,Low,27.2,Serious,Minor
+Maharashtra,Pune,15,0,1,0,Clear,Normal,Damaged,Urban Arterial,Truck,Police Managed,Non-Junction,Daylight,40,36.0,Male,Valid,No,2,2,2.83,High,27.2,Minor,Minor
+Kerala,Thiruvananthapuram,20,0,0,1,Heat,Normal,Slippery,Rural Road,Auto-Rickshaw,Signal Present,Cross Junction,No Lighting,40,45.0,Male,Valid,No,1,2,10.28,Low,27.2,Minor,Minor
+Gujarat,Ahmedabad,12,0,0,0,Cloudy,Normal,Wet,Highway,Truck,Stop Sign,Cross Junction,Daylight,40,54.0,Male,Valid,No,3,1,6.3,Moderate,37.5,Minor,Minor
+Delhi,Rohini,16,0,1,0,Clear,Normal,Slippery,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,50,27.0,Female,Valid,No,2,1,6.76,Moderate,20.0,Minor,Minor
+Kerala,Thiruvananthapuram,3,0,1,1,Clear,Normal,Wet,Intersection,Two-Wheeler,Roundabout,Non-Junction,Poor Lighting,50,33.0,Male,Valid,No,1,3,6.7,Moderate,27.4,Minor,Minor
+Gujarat,Ahmedabad,14,0,0,0,Storm,Adverse,Wet,Residential,Truck,Police Managed,Non-Junction,Daylight,50,27.0,Female,Invalid,No,3,1,1.86,Critical,27.7,Minor,Minor
+Delhi,Rohini,1,0,1,1,Heat,Normal,Dry,Urban Arterial,Car,Signal Present,Non-Junction,Daylight,50,34.0,Male,Valid,No,2,2,7.36,Moderate,32.1,Minor,Minor
+Rajasthan,Jodhpur,8,1,0,0,Clear,Normal,Dry,Highway,Car,Uncontrolled,Roundabout,Daylight,60,46.0,Female,Invalid,No,2,2,6.43,Moderate,37.5,Minor,Minor
+Uttar Pradesh,Lucknow,19,1,0,0,Clear,Normal,Wet,Residential,Car,Signal Present,Non-Junction,Daylight,50,39.0,Male,Expired,No,1,3,7.75,Moderate,38.9,Minor,Minor
+Uttar Pradesh,Lucknow,17,1,0,0,Cloudy,Normal,Wet,Urban Arterial,Bus,Roundabout,Non-Junction,Daylight,80,40.0,Female,Valid,No,2,3,8.53,Low,34.5,Serious,Minor
+Gujarat,Ahmedabad,10,0,0,0,Fog,Adverse,Dry,Rural Road,Car,Roundabout,Non-Junction,Daylight,100,43.0,Male,Valid,No,1,3,3.43,High,22.5,Minor,Serious
+Karnataka,Hubballi,9,1,0,0,Clear,Normal,Wet,Intersection,Two-Wheeler,Stop Sign,T-Junction,No Lighting,50,31.0,Male,Valid,No,2,2,6.03,Moderate,20.3,Minor,Minor
+Karnataka,Bengaluru,9,1,1,0,Heat,Normal,Damaged,Urban Arterial,Auto-Rickshaw,Stop Sign,Non-Junction,Daylight,50,58.0,Male,Valid,Yes,4,1,7.1,Moderate,20.0,Minor,Minor
+Maharashtra,Pune,8,1,0,0,Clear,Normal,Damaged,Residential,Car,Police Managed,T-Junction,Daylight,50,36.0,Male,Valid,No,2,1,6.6,Moderate,25.3,Minor,Minor
+Maharashtra,Pune,9,1,1,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,100,40.0,Male,Valid,No,2,3,6.52,Moderate,27.2,Minor,Serious
+Uttar Pradesh,Lucknow,5,0,1,1,Rain,Adverse,Wet,Highway,Two-Wheeler,Signal Present,Roundabout,Daylight,50,20.0,Male,Valid,Yes,2,1,6.23,Moderate,42.7,Minor,Minor
+Rajasthan,Jaipur,22,0,0,1,Rain,Adverse,Wet,Urban Arterial,Two-Wheeler,Signal Present,T-Junction,Daylight,30,37.0,Male,Valid,No,2,1,6.96,Moderate,36.3,Minor,Minor
+Tamil Nadu,Madurai,19,1,1,0,Cloudy,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,100,37.0,Male,Valid,No,2,1,7.36,Moderate,35.4,Minor,Minor
+Maharashtra,Nagpur,9,1,1,0,Clear,Normal,Dry,Residential,Car,Roundabout,Non-Junction,Street Lights,100,22.0,Male,Valid,Yes,3,1,10.69,Low,43.0,Minor,Minor
+Rajasthan,Udaipur,6,0,1,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,Daylight,40,30.0,Female,Valid,No,2,1,8.37,Low,12.7,Minor,Minor
+Gujarat,Vadodara,18,1,0,0,Clear,Normal,Dry,Urban Arterial,Car,Stop Sign,Y-Junction,Daylight,60,25.0,Male,Valid,No,2,2,7.82,Moderate,19.1,Minor,Minor
+Rajasthan,Jaipur,14,0,0,0,Rain,Adverse,Dry,Residential,Two-Wheeler,Signal Present,Roundabout,Daylight,50,36.0,Male,Invalid,No,4,2,7.82,Moderate,37.7,Minor,Minor
+Delhi,Dwarka,17,1,1,0,Clear,Normal,Wet,Urban Arterial,Car,Uncontrolled,Non-Junction,Poor Lighting,50,30.0,Female,Valid,Yes,2,1,7.34,Moderate,34.4,Minor,Minor
+Maharashtra,Mumbai,15,0,0,0,Clear,Normal,Slippery,Urban Arterial,Car,Uncontrolled,Roundabout,Street Lights,60,23.0,Male,Learner,No,3,1,4.99,High,26.1,Minor,Minor
+West Bengal,Durgapur,13,0,0,0,Rain,Adverse,Dry,Rural Road,Truck,Roundabout,Cross Junction,Street Lights,50,31.0,Male,Valid,No,2,2,8.15,Low,33.3,Minor,Minor
+Telangana,Hyderabad,10,0,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,80,39.0,Male,Invalid,No,3,1,8.18,Low,22.9,Minor,Minor
+West Bengal,Durgapur,14,0,1,0,Clear,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,30,36.0,Male,Learner,No,2,1,7.9,Moderate,28.2,Minor,Minor
+Rajasthan,Udaipur,12,0,0,0,Heat,Normal,Dry,Highway,Car,Signal Present,Non-Junction,Daylight,40,54.0,Male,Learner,No,3,3,6.19,Moderate,29.6,Minor,Minor
+Uttar Pradesh,Lucknow,7,1,0,0,Clear,Normal,Wet,Urban Arterial,Car,Police Managed,Non-Junction,Daylight,80,28.0,Female,Valid,No,2,1,3.85,High,32.6,Minor,Minor
+West Bengal,Durgapur,9,1,0,0,Fog,Adverse,Dry,Highway,Two-Wheeler,Police Managed,Non-Junction,Daylight,40,39.0,Male,Valid,No,2,1,2.91,High,24.7,Minor,Minor
+Delhi,Rohini,12,0,0,0,Clear,Normal,Under Construction,Urban Arterial,Car,Signal Present,Cross Junction,Poor Lighting,80,40.0,Male,Valid,No,2,3,2.02,Critical,28.6,Serious,Serious
+Tamil Nadu,Chennai,20,0,0,1,Clear,Normal,Dry,Urban Arterial,Car,Uncontrolled,Non-Junction,Street Lights,80,39.0,Male,Valid,No,2,1,6.59,Moderate,30.95,Minor,Minor
+Delhi,Dwarka,16,0,0,0,Rain,Adverse,Wet,Intersection,Truck,Roundabout,Non-Junction,No Lighting,30,34.0,Male,Valid,No,2,2,7.27,Moderate,35.2,Minor,Minor
+Telangana,Nizamabad,5,0,0,1,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Cross Junction,Poor Lighting,60,39.0,Female,Valid,No,1,2,5.56,Moderate,32.4,Minor,Minor
+Karnataka,Hubballi,8,1,0,0,Rain,Adverse,Wet,Intersection,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,60,29.0,Male,Valid,No,3,1,5.49,Moderate,27.6,Minor,Minor
+Telangana,Warangal,11,0,1,0,Clear,Normal,Wet,Highway,Truck,Police Managed,Non-Junction,Poor Lighting,30,40.0,Male,Valid,No,2,2,7.95,Moderate,34.6,Serious,Minor
+West Bengal,Kolkata,23,0,0,1,Heat,Normal,Damaged,Residential,Two-Wheeler,Roundabout,Non-Junction,Daylight,50,35.0,Male,Expired,No,2,1,3.14,High,27.8,Minor,Minor
+Gujarat,Vadodara,19,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,T-Junction,Street Lights,40,18.0,Male,Valid,No,2,3,5.79,Moderate,23.8,Minor,Minor
+Maharashtra,Mumbai,17,1,1,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,30,37.0,Male,Valid,No,2,2,5.22,Moderate,19.8,Minor,Minor
+West Bengal,Howrah,9,1,0,0,Rain,Adverse,Damaged,Urban Arterial,Car,Stop Sign,Roundabout,Daylight,40,29.0,Male,Valid,No,2,2,5.26,Moderate,30.7,Minor,Minor
+West Bengal,Howrah,7,1,0,0,Rain,Adverse,Dry,Residential,Car,Roundabout,Non-Junction,Daylight,50,33.0,Female,Valid,No,3,1,8.25,Low,26.8,Minor,Minor
+Telangana,Hyderabad,12,0,0,0,Heat,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Cross Junction,Daylight,50,24.0,Male,Valid,Yes,3,1,7.16,Moderate,23.5,Minor,Minor
+Kerala,Kozhikode,15,0,0,0,Clear,Normal,Wet,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,60,57.0,Male,Valid,No,3,1,5.37,Moderate,30.6,Minor,Minor
+Uttar Pradesh,Lucknow,16,0,1,0,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Signal Present,T-Junction,Poor Lighting,40,41.0,Male,Valid,No,3,1,6.16,Moderate,21.6,Minor,Minor
+Telangana,Hyderabad,15,0,0,0,Rain,Adverse,Wet,Residential,Car,Uncontrolled,Cross Junction,Street Lights,50,20.0,Male,Valid,No,2,1,12.0,Low,29.3,Minor,Minor
+Maharashtra,Pune,15,0,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Cross Junction,Daylight,50,40.0,Male,Valid,No,1,2,7.23,Moderate,30.8,Minor,Minor
+Tamil Nadu,Chennai,19,1,0,0,Fog,Adverse,Under Construction,Highway,Two-Wheeler,Uncontrolled,T-Junction,Daylight,80,21.0,Male,Valid,No,3,1,2.83,High,34.8,Serious,Serious
+Rajasthan,Jaipur,11,0,1,0,Cloudy,Normal,Dry,Highway,Bus,Roundabout,Y-Junction,Daylight,60,53.0,Male,Valid,No,1,1,4.07,High,30.7,Minor,Minor
+Maharashtra,Mumbai,16,0,1,0,Clear,Normal,Damaged,Highway,Bus,Signal Present,T-Junction,Daylight,80,50.0,Male,Valid,No,2,3,11.7,Low,30.2,Minor,Serious
+Karnataka,Mysuru,18,1,1,0,Rain,Adverse,Dry,Residential,Car,Roundabout,T-Junction,Daylight,50,38.0,Male,Valid,No,2,1,5.54,Moderate,24.4,Minor,Minor
+Karnataka,Bengaluru,7,1,0,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Roundabout,Roundabout,Street Lights,40,38.0,Male,Expired,No,4,1,9.35,Low,21.5,Minor,Minor
+Rajasthan,Udaipur,18,1,0,0,Storm,Adverse,Dry,Urban Arterial,Car,Roundabout,Roundabout,Street Lights,40,33.0,Female,Learner,No,2,2,3.97,High,28.1,Minor,Minor
+Karnataka,Mysuru,19,1,0,0,Clear,Normal,Under Construction,Urban Arterial,Two-Wheeler,Signal Present,Roundabout,Street Lights,40,24.0,Male,Valid,No,2,1,8.19,Low,25.9,Minor,Minor
+Telangana,Nizamabad,9,1,1,0,Clear,Normal,Damaged,Urban Arterial,Two-Wheeler,Roundabout,Non-Junction,Poor Lighting,60,51.0,Male,Valid,No,2,1,7.97,Moderate,28.2,Minor,Minor
+Telangana,Warangal,7,1,1,0,Rain,Adverse,Damaged,Highway,Two-Wheeler,Roundabout,Non-Junction,Daylight,50,36.0,Male,Expired,No,2,2,10.64,Low,27.5,Minor,Minor
+Telangana,Nizamabad,14,0,0,0,Rain,Adverse,Dry,Highway,Auto-Rickshaw,Stop Sign,T-Junction,Daylight,40,32.0,Female,Valid,No,2,1,9.07,Low,34.2,Minor,Minor
+Tamil Nadu,Coimbatore,7,1,0,0,Heat,Normal,Dry,Intersection,Truck,Roundabout,Non-Junction,Poor Lighting,50,31.0,Female,Valid,No,2,2,6.359999999999999,Moderate,34.9,Minor,Minor
+Uttar Pradesh,Kanpur,17,1,0,0,Rain,Adverse,Dry,Rural Road,Two-Wheeler,Signal Present,T-Junction,Daylight,60,21.0,Male,Valid,No,2,3,6.86,Moderate,32.7,Minor,Minor
+Maharashtra,Pune,10,0,1,0,Cloudy,Normal,Damaged,Highway,Bus,Signal Present,Cross Junction,Street Lights,50,35.0,Male,Valid,No,2,3,8.82,Low,24.3,Minor,Minor
+Gujarat,Surat,21,0,0,1,Clear,Normal,Dry,Urban Arterial,Bus,Uncontrolled,Roundabout,Street Lights,30,41.0,Male,Valid,No,1,1,9.35,Low,24.1,Minor,Minor
+Gujarat,Surat,8,1,0,0,Clear,Normal,Under Construction,Highway,Car,Uncontrolled,Cross Junction,Daylight,100,32.0,Male,Valid,No,4,2,8.85,Low,30.4,Serious,Serious
+Kerala,Kozhikode,22,0,1,1,Clear,Normal,Under Construction,Rural Road,Auto-Rickshaw,Police Managed,Roundabout,Street Lights,60,35.0,Male,Valid,No,2,2,8.21,Low,22.2,Minor,Minor
+Maharashtra,Pune,16,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,No Lighting,40,48.0,Male,Valid,No,3,3,6.85,Moderate,28.1,Minor,Minor
+Uttar Pradesh,Lucknow,12,0,0,0,Fog,Adverse,Slippery,Intersection,Two-Wheeler,Uncontrolled,T-Junction,Street Lights,100,49.0,Male,Valid,No,1,2,1.65,Critical,27.0,Serious,Serious
+Kerala,Thiruvananthapuram,17,1,0,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,T-Junction,Daylight,60,34.0,Male,Valid,No,3,2,6.32,Moderate,27.1,Minor,Minor
+West Bengal,Durgapur,19,1,0,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,Cross Junction,Poor Lighting,60,29.0,Male,Valid,No,2,1,6.94,Moderate,29.35,Minor,Minor
+Uttar Pradesh,Lucknow,10,0,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,40,28.0,Male,Valid,No,1,2,8.18,Low,28.8,Minor,Minor
+Karnataka,Hubballi,22,0,0,1,Rain,Adverse,Dry,Residential,Two-Wheeler,Roundabout,Y-Junction,Daylight,80,56.0,Male,Valid,No,3,1,6.95,Moderate,23.0,Minor,Minor
+Karnataka,Hubballi,16,0,0,0,Heat,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,T-Junction,Street Lights,60,28.0,Female,Valid,No,3,1,6.27,Moderate,21.9,Minor,Minor
+Uttar Pradesh,Lucknow,8,1,0,0,Clear,Normal,Dry,Intersection,Car,Stop Sign,Cross Junction,Street Lights,30,36.0,Male,Learner,No,3,2,9.44,Low,25.9,Minor,Minor
+Uttar Pradesh,Kanpur,6,0,0,0,Clear,Normal,Wet,Residential,Bus,Police Managed,Non-Junction,Daylight,40,39.0,Male,Valid,No,2,1,5.61,Moderate,25.9,Minor,Minor
+Uttar Pradesh,Varanasi,15,0,0,0,Clear,Normal,Damaged,Highway,Auto-Rickshaw,Roundabout,Non-Junction,Daylight,40,28.0,Male,Valid,No,2,2,8.33,Low,27.5,Minor,Minor
+Maharashtra,Pune,11,0,0,0,Clear,Normal,Dry,Residential,Truck,Roundabout,Non-Junction,Street Lights,30,30.0,Male,Valid,No,4,1,7.53,Moderate,25.1,Minor,Minor
+West Bengal,Kolkata,12,0,0,0,Rain,Adverse,Wet,Intersection,Car,Signal Present,Non-Junction,No Lighting,30,34.0,Female,Valid,No,2,1,7.41,Moderate,38.6,Minor,Minor
+Delhi,Rohini,9,1,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Stop Sign,Cross Junction,Street Lights,40,38.0,Male,Valid,No,3,1,5.38,Moderate,36.6,Minor,Minor
+Tamil Nadu,Madurai,20,0,1,1,Cloudy,Normal,Dry,Rural Road,Truck,Roundabout,T-Junction,Daylight,60,47.0,Male,Valid,No,2,2,5.77,Moderate,29.9,Minor,Minor
+Gujarat,Ahmedabad,8,1,0,0,Rain,Adverse,Slippery,Highway,Two-Wheeler,Roundabout,Non-Junction,Street Lights,40,22.0,Male,Valid,No,3,1,7.73,Moderate,30.9,Minor,Minor
+Delhi,Dwarka,21,0,1,1,Clear,Normal,Wet,Rural Road,Two-Wheeler,Signal Present,Non-Junction,Street Lights,80,29.0,Male,Valid,No,2,1,7.86,Moderate,29.75,Minor,Minor
+Delhi,New Delhi,17,1,0,0,Cloudy,Normal,Slippery,Urban Arterial,Auto-Rickshaw,Police Managed,Non-Junction,Street Lights,40,25.0,Male,Valid,No,4,1,8.36,Low,28.7,Minor,Minor
+Maharashtra,Mumbai,16,0,1,0,Clear,Normal,Dry,Highway,Car,Stop Sign,Non-Junction,Daylight,40,34.0,Male,Valid,No,2,1,2.52,High,31.6,Minor,Minor
+Karnataka,Hubballi,16,0,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,80,24.0,Male,Valid,No,1,1,8.81,Low,24.2,Minor,Minor
+Karnataka,Bengaluru,18,1,0,0,Rain,Adverse,Under Construction,Urban Arterial,Truck,Roundabout,Roundabout,Street Lights,50,39.0,Male,Valid,No,2,1,4.96,High,26.4,Minor,Minor
+Uttar Pradesh,Varanasi,16,0,1,0,Clear,Normal,Wet,Intersection,Truck,Uncontrolled,Non-Junction,Street Lights,50,32.0,Male,Valid,Yes,2,1,6.02,Moderate,31.2,Minor,Minor
+Karnataka,Bengaluru,4,0,0,1,Fog,Adverse,Damaged,Urban Arterial,Bus,Stop Sign,Non-Junction,No Lighting,60,32.0,Male,Learner,No,2,2,1.61,Critical,22.0,Minor,Serious
+Uttar Pradesh,Lucknow,11,0,0,0,Fog,Adverse,Dry,Rural Road,Auto-Rickshaw,Uncontrolled,Cross Junction,Street Lights,50,19.0,Male,Valid,No,2,2,2.38,Critical,34.0,Minor,Minor
+Maharashtra,Pune,19,1,0,0,Fog,Adverse,Dry,Residential,Bus,Signal Present,Non-Junction,No Lighting,60,53.0,Male,Valid,No,2,1,1.73,Critical,29.8,Minor,Minor
+Telangana,Nizamabad,17,1,1,0,Clear,Normal,Dry,Intersection,Truck,Signal Present,T-Junction,Street Lights,30,31.0,Male,Valid,No,1,1,5.23,Moderate,29.9,Minor,Minor
+Delhi,Rohini,13,0,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Stop Sign,Non-Junction,Poor Lighting,50,46.0,Female,Valid,No,2,1,9.01,Low,28.2,Minor,Minor
+Kerala,Kochi,18,1,1,0,Cloudy,Normal,Wet,Urban Arterial,Two-Wheeler,Roundabout,Roundabout,No Lighting,60,34.0,Female,Valid,No,2,2,8.89,Low,25.6,Minor,Minor
+Maharashtra,Nagpur,4,0,0,1,Clear,Normal,Dry,Residential,Car,Signal Present,Roundabout,Poor Lighting,50,28.0,Male,Valid,No,2,1,4.97,High,23.6,Minor,Minor
+Delhi,New Delhi,22,0,1,1,Heat,Normal,Dry,Intersection,Truck,Police Managed,Non-Junction,Daylight,80,26.0,Male,Valid,No,2,1,6.12,Moderate,26.5,Minor,Minor
+Maharashtra,Nagpur,18,1,1,0,Rain,Adverse,Dry,Rural Road,Truck,Uncontrolled,Non-Junction,Daylight,80,44.0,Male,Valid,No,2,2,7.08,Moderate,27.8,Minor,Minor
+Kerala,Kochi,5,0,0,1,Clear,Normal,Wet,Urban Arterial,Bus,Uncontrolled,Non-Junction,Daylight,50,33.0,Male,Valid,No,2,1,6.0,Moderate,21.6,Minor,Minor
+Tamil Nadu,Coimbatore,18,1,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,No Lighting,80,32.0,Male,Valid,No,3,2,8.06,Low,21.8,Minor,Minor
+Tamil Nadu,Madurai,17,1,1,0,Clear,Normal,Dry,Urban Arterial,Truck,Signal Present,Roundabout,Street Lights,50,51.0,Male,Valid,No,2,1,6.59,Moderate,18.2,Minor,Minor
+Karnataka,Hubballi,17,1,0,0,Clear,Normal,Under Construction,Highway,Truck,Police Managed,Non-Junction,Daylight,100,24.0,Male,Valid,No,2,2,1.85,Critical,19.0,Serious,Serious
+Kerala,Kochi,21,0,0,1,Cloudy,Normal,Wet,Highway,Two-Wheeler,Stop Sign,Non-Junction,Daylight,40,34.0,Male,Valid,No,2,1,5.43,Moderate,29.6,Minor,Minor
+West Bengal,Howrah,7,1,0,0,Fog,Adverse,Wet,Residential,Truck,Roundabout,Non-Junction,Daylight,40,18.0,Male,Learner,No,3,1,2.87,High,31.4,Minor,Minor
+West Bengal,Kolkata,10,0,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,T-Junction,Street Lights,50,44.0,Male,Valid,No,2,1,6.53,Moderate,21.1,Minor,Minor
+Rajasthan,Udaipur,22,0,1,1,Cloudy,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Street Lights,50,33.0,Male,Valid,No,2,3,2.37,Critical,26.7,Minor,Minor
+Tamil Nadu,Chennai,10,0,0,0,Cloudy,Normal,Wet,Highway,Two-Wheeler,Stop Sign,Non-Junction,Daylight,50,34.0,Male,Valid,No,2,1,6.64,Moderate,34.7,Minor,Minor
+Delhi,Dwarka,15,0,0,0,Fog,Adverse,Dry,Residential,Truck,Uncontrolled,Non-Junction,No Lighting,30,34.0,Male,Valid,Yes,2,3,1.99,Critical,22.0,Serious,Serious
+Maharashtra,Pune,9,1,0,0,Clear,Normal,Wet,Highway,Car,Police Managed,Cross Junction,Daylight,100,21.0,Male,Valid,No,2,2,4.72,High,27.9,Serious,Serious
+Telangana,Hyderabad,2,0,1,1,Fog,Adverse,Dry,Urban Arterial,Bus,Uncontrolled,Y-Junction,No Lighting,30,31.0,Male,Valid,No,2,2,0.69,Critical,28.0,Serious,Minor
+Maharashtra,Mumbai,14,0,0,0,Cloudy,Normal,Wet,Residential,Auto-Rickshaw,Signal Present,T-Junction,Daylight,40,43.0,Male,Valid,No,2,1,6.49,Moderate,36.0,Minor,Minor
+West Bengal,Durgapur,19,1,0,0,Rain,Adverse,Wet,Highway,Auto-Rickshaw,Uncontrolled,Roundabout,Daylight,40,32.0,Male,Valid,No,1,2,9.49,Low,36.9,Minor,Minor
+Delhi,New Delhi,7,1,0,0,Clear,Normal,Dry,Residential,Auto-Rickshaw,Signal Present,Non-Junction,Poor Lighting,30,33.0,Male,Valid,No,2,2,8.33,Low,37.1,Minor,Minor
+Telangana,Nizamabad,16,0,0,0,Rain,Adverse,Dry,Rural Road,Truck,Signal Present,Cross Junction,Daylight,60,45.0,Male,Valid,No,2,2,6.12,Moderate,25.2,Minor,Minor
+Uttar Pradesh,Lucknow,17,1,1,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,T-Junction,Poor Lighting,60,49.0,Male,Valid,No,2,2,9.88,Low,27.9,Minor,Minor
+West Bengal,Kolkata,10,0,1,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Signal Present,Cross Junction,Daylight,30,24.0,Male,Valid,No,3,1,6.859999999999999,Moderate,29.35,Minor,Minor
+Karnataka,Bengaluru,8,1,0,0,Storm,Adverse,Wet,Residential,Two-Wheeler,Roundabout,T-Junction,Poor Lighting,40,29.0,Male,Learner,No,2,2,3.04,High,31.7,Serious,Minor
+Delhi,New Delhi,13,0,0,0,Clear,Normal,Under Construction,Intersection,Auto-Rickshaw,Signal Present,Roundabout,No Lighting,50,34.0,Male,Invalid,No,2,1,8.22,Low,30.1,Minor,Minor
+Tamil Nadu,Chennai,18,1,0,0,Rain,Adverse,Damaged,Residential,Truck,Signal Present,Roundabout,Street Lights,100,28.0,Male,Expired,No,3,3,7.39,Moderate,33.4,Minor,Serious
+Tamil Nadu,Chennai,7,1,0,0,Clear,Normal,Dry,Rural Road,Truck,Uncontrolled,T-Junction,No Lighting,50,25.0,Male,Valid,Yes,2,2,6.31,Moderate,41.2,Minor,Minor
+Delhi,Dwarka,15,0,1,0,Clear,Normal,Wet,Residential,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,37.0,Male,Invalid,No,3,2,3.4,High,23.6,Minor,Minor
+Gujarat,Ahmedabad,14,0,0,0,Cloudy,Normal,Wet,Highway,Two-Wheeler,Uncontrolled,T-Junction,Street Lights,60,43.0,Male,Valid,No,2,3,2.62,High,28.6,Serious,Minor
+Rajasthan,Jodhpur,6,0,0,0,Heat,Normal,Damaged,Residential,Car,Roundabout,Roundabout,Daylight,50,37.0,Male,Valid,No,3,1,7.57,Moderate,37.1,Minor,Minor
+Rajasthan,Udaipur,17,1,1,0,Storm,Adverse,Damaged,Urban Arterial,Car,Uncontrolled,Non-Junction,Street Lights,50,30.0,Male,Valid,Yes,4,1,3.97,High,33.6,Minor,Minor
+Telangana,Hyderabad,8,1,1,0,Rain,Adverse,Dry,Residential,Car,Uncontrolled,Non-Junction,Daylight,50,34.0,Female,Learner,No,3,1,6.96,Moderate,32.0,Minor,Minor
+Gujarat,Vadodara,20,0,1,1,Clear,Normal,Wet,Residential,Truck,Signal Present,Non-Junction,Daylight,80,49.0,Male,Valid,No,2,2,5.66,Moderate,26.2,Serious,Minor
+Rajasthan,Udaipur,6,0,0,0,Fog,Adverse,Dry,Urban Arterial,Car,Uncontrolled,Non-Junction,Street Lights,80,39.0,Male,Valid,No,4,3,1.55,Critical,29.7,Serious,Serious
+Karnataka,Hubballi,7,1,1,0,Heat,Normal,Dry,Intersection,Truck,Signal Present,Cross Junction,Daylight,60,29.0,Male,Invalid,No,2,1,7.1,Moderate,27.7,Minor,Minor
+Karnataka,Mysuru,12,0,1,0,Rain,Adverse,Wet,Highway,Truck,Signal Present,Non-Junction,Daylight,30,18.0,Male,Learner,Yes,3,2,7.07,Moderate,20.2,Minor,Minor
+Delhi,Rohini,7,1,0,0,Cloudy,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,T-Junction,Street Lights,50,28.0,Male,Learner,Yes,2,1,6.55,Moderate,27.7,Minor,Minor
+Delhi,Dwarka,17,1,0,0,Rain,Adverse,Dry,Residential,Car,Uncontrolled,T-Junction,Poor Lighting,80,22.0,Male,Valid,No,2,3,6.43,Moderate,28.1,Serious,Serious
+Maharashtra,Pune,6,0,0,0,Rain,Adverse,Under Construction,Intersection,Car,Roundabout,Y-Junction,Poor Lighting,60,35.0,Male,Valid,No,3,1,8.39,Low,30.7,Minor,Minor
+Karnataka,Hubballi,7,1,0,0,Rain,Adverse,Dry,Residential,Bus,Signal Present,Non-Junction,Poor Lighting,60,59.0,Female,Invalid,Yes,3,2,6.63,Moderate,25.3,Minor,Minor
+Telangana,Hyderabad,18,1,0,0,Rain,Adverse,Dry,Residential,Car,Police Managed,Y-Junction,Street Lights,80,21.0,Male,Valid,No,2,2,5.27,Moderate,26.1,Minor,Minor
+Delhi,Dwarka,8,1,1,0,Clear,Normal,Damaged,Intersection,Two-Wheeler,Signal Present,Roundabout,No Lighting,40,34.0,Male,Valid,No,2,1,2.23,Critical,28.7,Minor,Minor
+Telangana,Hyderabad,9,1,1,0,Storm,Adverse,Damaged,Residential,Car,Roundabout,Non-Junction,Poor Lighting,60,58.0,Male,Valid,No,2,2,4.3,High,29.7,Minor,Minor
+Maharashtra,Pune,8,1,0,0,Heat,Normal,Dry,Residential,Bus,Roundabout,Non-Junction,Daylight,50,42.0,Male,Valid,No,3,2,8.68,Low,33.1,Minor,Minor
+Telangana,Hyderabad,20,0,0,1,Clear,Normal,Slippery,Rural Road,Car,Stop Sign,Non-Junction,Daylight,50,44.0,Male,Valid,No,2,2,3.32,High,22.7,Minor,Minor
+Maharashtra,Mumbai,6,0,0,0,Clear,Normal,Wet,Urban Arterial,Auto-Rickshaw,Signal Present,Cross Junction,Daylight,80,18.0,Male,Invalid,No,2,2,7.33,Moderate,31.7,Minor,Minor
+Telangana,Nizamabad,12,0,0,0,Fog,Adverse,Under Construction,Highway,Car,Signal Present,Y-Junction,Poor Lighting,60,37.0,Male,Valid,No,3,1,2.62,High,29.7,Serious,Minor
+Rajasthan,Jaipur,8,1,0,0,Rain,Adverse,Dry,Rural Road,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,80,24.0,Male,Learner,No,2,1,5.17,Moderate,21.5,Minor,Minor
+Rajasthan,Udaipur,13,0,0,0,Storm,Adverse,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,40,46.0,Male,Valid,Yes,2,1,3.76,High,34.7,Minor,Minor
+Delhi,New Delhi,16,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,80,47.0,Male,Learner,No,3,2,9.26,Low,23.7,Serious,Serious
+Maharashtra,Pune,19,1,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,60,48.0,Male,Valid,No,2,1,5.48,Moderate,37.1,Minor,Minor
+Maharashtra,Nagpur,14,0,0,0,Cloudy,Normal,Wet,Intersection,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,60,35.0,Male,Valid,No,3,2,8.46,Low,26.0,Minor,Minor
+Uttar Pradesh,Lucknow,14,0,0,0,Rain,Adverse,Under Construction,Intersection,Auto-Rickshaw,Roundabout,T-Junction,Daylight,80,31.0,Female,Expired,No,2,1,10.05,Low,27.4,Minor,Minor
+Delhi,Dwarka,16,0,1,0,Rain,Adverse,Wet,Highway,Car,Uncontrolled,T-Junction,Poor Lighting,40,25.0,Male,Valid,No,2,3,7.3,Moderate,26.8,Serious,Minor
+West Bengal,Howrah,10,0,1,0,Fog,Adverse,Wet,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,60,33.0,Male,Valid,No,4,3,1.67,Critical,32.1,Minor,Serious
+Delhi,New Delhi,18,1,1,0,Clear,Normal,Dry,Residential,Two-Wheeler,Roundabout,Non-Junction,Street Lights,50,40.0,Male,Valid,No,2,2,7.07,Moderate,29.75,Minor,Minor
+Maharashtra,Mumbai,20,0,0,1,Clear,Normal,Dry,Rural Road,Two-Wheeler,Stop Sign,Non-Junction,Daylight,60,34.0,Male,Valid,Yes,1,1,9.03,Low,34.4,Minor,Minor
+Tamil Nadu,Madurai,8,1,0,0,Storm,Adverse,Dry,Residential,Auto-Rickshaw,Signal Present,Cross Junction,Street Lights,80,26.0,Male,Valid,No,1,2,2.57,High,31.9,Serious,Serious
+Rajasthan,Jodhpur,15,0,0,0,Clear,Normal,Wet,Residential,Two-Wheeler,Signal Present,T-Junction,No Lighting,50,21.0,Male,Valid,No,1,1,3.4,High,34.8,Minor,Minor
+Maharashtra,Nagpur,9,1,0,0,Clear,Normal,Damaged,Intersection,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,80,34.0,Male,Valid,No,3,3,6.71,Moderate,35.9,Minor,Serious
+Telangana,Hyderabad,9,1,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Signal Present,T-Junction,Street Lights,30,37.0,Male,Valid,No,2,1,9.86,Low,22.1,Minor,Minor
+Gujarat,Surat,7,1,0,0,Rain,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,Non-Junction,No Lighting,60,18.0,Male,Learner,No,2,2,7.29,Moderate,26.9,Minor,Minor
+Tamil Nadu,Chennai,7,1,0,0,Cloudy,Normal,Wet,Urban Arterial,Car,Uncontrolled,Cross Junction,Street Lights,100,30.0,Male,Valid,No,2,2,8.65,Low,32.6,Minor,Minor
+West Bengal,Howrah,8,1,1,0,Rain,Adverse,Damaged,Highway,Auto-Rickshaw,Stop Sign,Roundabout,Daylight,40,25.0,Male,Valid,No,3,1,8.25,Low,37.7,Minor,Minor
+Rajasthan,Jodhpur,22,0,0,1,Clear,Normal,Dry,Highway,Truck,Uncontrolled,Non-Junction,Daylight,80,25.0,Male,Valid,No,2,2,5.42,Moderate,32.1,Serious,Serious
+Karnataka,Mysuru,20,0,0,1,Clear,Normal,Slippery,Residential,Truck,Signal Present,Non-Junction,Daylight,40,38.0,Male,Valid,Yes,3,1,5.85,Moderate,15.8,Minor,Minor
+Uttar Pradesh,Kanpur,18,1,1,0,Clear,Normal,Dry,Residential,Truck,Signal Present,T-Junction,Daylight,50,49.0,Male,Valid,No,2,1,6.31,Moderate,29.6,Minor,Minor
+West Bengal,Howrah,5,0,1,1,Heat,Normal,Dry,Urban Arterial,Car,Signal Present,Cross Junction,No Lighting,40,18.0,Female,Valid,No,3,2,3.98,High,20.0,Minor,Minor
+West Bengal,Howrah,8,1,0,0,Rain,Adverse,Damaged,Intersection,Two-Wheeler,Stop Sign,T-Junction,Street Lights,30,31.0,Female,Expired,No,2,1,7.97,Moderate,23.6,Minor,Minor
+Rajasthan,Udaipur,15,0,1,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,31.0,Male,Valid,No,2,1,5.28,Moderate,25.5,Minor,Minor
+West Bengal,Durgapur,16,0,0,0,Clear,Normal,Dry,Rural Road,Car,Roundabout,Roundabout,Street Lights,60,27.0,Male,Valid,No,3,1,6.71,Moderate,27.9,Minor,Minor
+West Bengal,Kolkata,9,1,1,0,Clear,Normal,Dry,Rural Road,Auto-Rickshaw,Stop Sign,Y-Junction,Daylight,80,36.0,Male,Invalid,No,1,1,3.92,High,25.6,Minor,Minor
+Karnataka,Mysuru,5,0,0,1,Cloudy,Normal,Wet,Highway,Car,Roundabout,T-Junction,Daylight,60,48.0,Male,Expired,No,1,1,8.44,Low,27.8,Minor,Minor
+Karnataka,Hubballi,15,0,0,0,Fog,Adverse,Wet,Urban Arterial,Car,Signal Present,Y-Junction,Daylight,30,55.0,Male,Valid,Yes,1,2,2.08,Critical,29.4,Minor,Serious
+Tamil Nadu,Coimbatore,7,1,0,0,Heat,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,50,18.0,Male,Valid,No,1,1,3.83,High,30.7,Minor,Minor
+Telangana,Hyderabad,15,0,1,0,Clear,Normal,Damaged,Highway,Bus,Uncontrolled,T-Junction,Street Lights,80,18.0,Male,Valid,No,3,2,7.27,Moderate,27.7,Serious,Serious
+Kerala,Kozhikode,18,1,0,0,Heat,Normal,Dry,Urban Arterial,Truck,Signal Present,Roundabout,Daylight,60,44.0,Male,Learner,No,3,2,7.17,Moderate,28.3,Minor,Minor
+Uttar Pradesh,Lucknow,5,0,1,1,Fog,Adverse,Wet,Intersection,Truck,Signal Present,Non-Junction,Daylight,50,28.0,Male,Valid,No,2,2,1.26,Critical,19.8,Minor,Minor
+Telangana,Warangal,17,1,0,0,Rain,Adverse,Dry,Urban Arterial,Car,Roundabout,Y-Junction,Daylight,50,27.0,Male,Valid,No,2,1,5.36,Moderate,26.1,Minor,Minor
+Gujarat,Vadodara,11,0,1,0,Storm,Adverse,Dry,Rural Road,Car,Roundabout,Cross Junction,Daylight,80,28.0,Male,Valid,No,2,2,2.85,High,29.0,Serious,Serious
+Uttar Pradesh,Varanasi,20,0,0,1,Clear,Normal,Damaged,Urban Arterial,Car,Signal Present,Cross Junction,No Lighting,40,18.0,Male,Expired,No,1,1,6.47,Moderate,27.2,Minor,Minor
+Kerala,Thiruvananthapuram,13,0,0,0,Clear,Normal,Slippery,Urban Arterial,Two-Wheeler,Police Managed,Roundabout,Daylight,60,34.0,Male,Valid,No,4,1,6.21,Moderate,24.5,Minor,Minor
+Karnataka,Bengaluru,15,0,0,0,Clear,Normal,Dry,Urban Arterial,Bus,Signal Present,T-Junction,Street Lights,100,30.0,Male,Expired,No,4,2,6.62,Moderate,26.0,Minor,Minor
+Uttar Pradesh,Kanpur,15,0,0,0,Rain,Adverse,Wet,Intersection,Bus,Police Managed,T-Junction,No Lighting,50,18.0,Male,Learner,No,3,1,4.87,High,29.3,Serious,Minor
+Tamil Nadu,Coimbatore,13,0,0,0,Rain,Adverse,Dry,Highway,Truck,Police Managed,Cross Junction,Daylight,60,34.0,Male,Valid,No,1,2,6.28,Moderate,28.3,Minor,Minor
+Kerala,Kozhikode,16,0,1,0,Heat,Normal,Dry,Intersection,Bus,Uncontrolled,T-Junction,Street Lights,50,44.0,Male,Valid,No,2,1,7.42,Moderate,32.4,Minor,Minor
+Maharashtra,Nagpur,20,0,1,1,Fog,Adverse,Wet,Residential,Truck,Roundabout,T-Junction,No Lighting,30,25.0,Male,Valid,No,2,3,1.45,Critical,26.2,Minor,Minor
+Uttar Pradesh,Lucknow,11,0,1,0,Clear,Normal,Dry,Intersection,Truck,Uncontrolled,T-Junction,Daylight,40,22.0,Male,Valid,No,1,1,6.74,Moderate,30.6,Minor,Minor
+Tamil Nadu,Madurai,7,1,1,0,Heat,Normal,Dry,Intersection,Car,Roundabout,Roundabout,Daylight,40,18.0,Male,Valid,No,1,1,7.94,Moderate,23.3,Minor,Minor
+Tamil Nadu,Coimbatore,5,0,0,1,Cloudy,Normal,Under Construction,Intersection,Car,Uncontrolled,Roundabout,Daylight,50,38.0,Male,Valid,No,3,2,6.25,Moderate,25.6,Minor,Minor
+Tamil Nadu,Coimbatore,20,0,0,1,Heat,Normal,Dry,Urban Arterial,Two-Wheeler,Stop Sign,Non-Junction,Daylight,80,33.0,Male,Valid,No,2,1,4.12,High,32.3,Minor,Minor
+Maharashtra,Nagpur,18,1,0,0,Clear,Normal,Wet,Highway,Bus,Signal Present,Non-Junction,Daylight,40,44.0,Female,Expired,No,1,2,8.08,Low,27.2,Minor,Minor
+Delhi,Rohini,8,1,0,0,Clear,Normal,Wet,Urban Arterial,Auto-Rickshaw,Signal Present,T-Junction,Daylight,30,21.0,Male,Valid,No,2,1,5.96,Moderate,31.0,Minor,Minor
+Tamil Nadu,Chennai,7,1,1,0,Clear,Normal,Dry,Residential,Auto-Rickshaw,Police Managed,Non-Junction,Poor Lighting,50,18.0,Male,Learner,No,2,1,8.38,Low,32.7,Minor,Minor
+Karnataka,Hubballi,23,0,0,1,Rain,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,Cross Junction,Poor Lighting,50,25.0,Female,Valid,No,2,2,7.65,Moderate,27.1,Minor,Minor
+Gujarat,Surat,16,0,1,0,Rain,Adverse,Damaged,Urban Arterial,Truck,Uncontrolled,Non-Junction,Daylight,30,34.0,Male,Valid,No,2,1,6.87,Moderate,18.8,Minor,Minor
+Tamil Nadu,Chennai,18,1,1,0,Rain,Adverse,Dry,Highway,Car,Signal Present,Non-Junction,Poor Lighting,80,48.0,Female,Valid,No,3,1,5.19,Moderate,27.8,Minor,Minor
+Uttar Pradesh,Lucknow,12,0,1,0,Clear,Normal,Wet,Urban Arterial,Car,Roundabout,Cross Junction,Street Lights,50,38.0,Male,Valid,No,3,1,5.38,Moderate,20.3,Minor,Minor
+Tamil Nadu,Madurai,21,0,0,1,Storm,Adverse,Damaged,Urban Arterial,Two-Wheeler,Roundabout,Roundabout,Daylight,50,48.0,Male,Valid,No,1,2,3.96,High,28.1,Minor,Minor
+Rajasthan,Udaipur,16,0,0,0,Cloudy,Normal,Dry,Intersection,Car,Roundabout,Non-Junction,Street Lights,50,42.0,Male,Valid,No,2,2,4.21,High,41.2,Minor,Minor
+Delhi,New Delhi,18,1,0,0,Storm,Adverse,Dry,Highway,Bus,Signal Present,T-Junction,Street Lights,40,39.0,Male,Valid,No,3,1,2.46,Critical,25.3,Minor,Minor
+Uttar Pradesh,Lucknow,21,0,0,1,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,Street Lights,50,32.0,Male,Valid,No,2,1,6.5,Moderate,36.6,Minor,Minor
+Uttar Pradesh,Kanpur,20,0,0,1,Clear,Normal,Damaged,Urban Arterial,Two-Wheeler,Roundabout,T-Junction,Poor Lighting,60,30.0,Male,Valid,Yes,2,2,9.11,Low,31.0,Serious,Minor
+Karnataka,Mysuru,14,0,0,0,Cloudy,Normal,Wet,Residential,Bus,Roundabout,Non-Junction,Daylight,80,28.0,Female,Valid,No,2,2,6.6,Moderate,24.5,Minor,Minor
+Maharashtra,Mumbai,2,0,0,1,Clear,Normal,Dry,Rural Road,Truck,Uncontrolled,Cross Junction,Street Lights,60,26.0,Male,Valid,No,2,3,9.95,Low,29.1,Minor,Minor
+Karnataka,Mysuru,7,1,0,0,Clear,Normal,Wet,Urban Arterial,Bus,Roundabout,Roundabout,Street Lights,30,37.0,Male,Valid,No,2,1,6.88,Moderate,33.3,Minor,Minor
+Karnataka,Bengaluru,13,0,0,0,Clear,Normal,Wet,Rural Road,Two-Wheeler,Uncontrolled,T-Junction,Daylight,60,26.0,Male,Expired,No,3,1,5.84,Moderate,23.3,Minor,Minor
+Uttar Pradesh,Kanpur,16,0,0,0,Cloudy,Normal,Dry,Intersection,Car,Uncontrolled,Cross Junction,Daylight,60,25.0,Male,Valid,No,1,1,8.83,Low,12.2,Minor,Minor
+Maharashtra,Nagpur,16,0,1,0,Heat,Normal,Damaged,Highway,Car,Uncontrolled,T-Junction,Street Lights,50,31.0,Male,Learner,Yes,3,2,3.19,High,28.5,Minor,Minor
+Uttar Pradesh,Varanasi,16,0,0,0,Cloudy,Normal,Dry,Highway,Car,Police Managed,Roundabout,Poor Lighting,50,34.0,Male,Valid,No,3,1,8.13,Low,26.5,Minor,Minor
+Maharashtra,Pune,10,0,0,0,Storm,Adverse,Dry,Rural Road,Auto-Rickshaw,Stop Sign,Roundabout,Daylight,30,21.0,Male,Valid,No,2,2,4.12,High,37.8,Minor,Minor
+Tamil Nadu,Madurai,7,1,0,0,Clear,Normal,Wet,Rural Road,Car,Uncontrolled,Roundabout,Street Lights,60,45.0,Male,Valid,No,4,2,6.59,Moderate,32.8,Minor,Minor
+Karnataka,Mysuru,0,0,0,1,Rain,Adverse,Dry,Highway,Two-Wheeler,Stop Sign,Roundabout,No Lighting,40,42.0,Male,Valid,No,3,2,8.49,Low,23.2,Minor,Minor
+West Bengal,Durgapur,13,0,1,0,Clear,Normal,Dry,Urban Arterial,Car,Stop Sign,T-Junction,Daylight,50,26.0,Female,Valid,No,4,2,3.58,High,30.6,Minor,Minor
+Kerala,Kochi,6,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,Cross Junction,Daylight,50,34.0,Male,Valid,No,3,1,10.68,Low,21.7,Minor,Minor
+Delhi,Rohini,5,0,0,1,Cloudy,Normal,Dry,Highway,Two-Wheeler,Signal Present,Cross Junction,Daylight,100,45.0,Male,Invalid,Yes,1,1,6.98,Moderate,27.5,Serious,Minor
+Karnataka,Bengaluru,19,1,0,0,Rain,Adverse,Dry,Intersection,Truck,Signal Present,Roundabout,Daylight,30,41.0,Male,Valid,No,1,1,4.93,High,26.8,Minor,Minor
+Maharashtra,Pune,12,0,1,0,Fog,Adverse,Dry,Intersection,Two-Wheeler,Roundabout,Y-Junction,Street Lights,100,23.0,Male,Valid,Yes,3,2,1.32,Critical,27.4,Serious,Serious
+Gujarat,Ahmedabad,15,0,1,0,Rain,Adverse,Wet,Urban Arterial,Auto-Rickshaw,Signal Present,Cross Junction,Daylight,50,43.0,Male,Invalid,Yes,1,1,4.2,High,28.2,Minor,Minor
+Karnataka,Mysuru,11,0,1,0,Cloudy,Normal,Under Construction,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,40,33.5,Male,Valid,No,2,1,3.02,High,28.0,Minor,Minor
+Kerala,Kochi,7,1,0,0,Clear,Normal,Damaged,Highway,Truck,Roundabout,Non-Junction,Street Lights,50,31.0,Male,Valid,No,3,1,8.91,Low,28.6,Minor,Minor
+West Bengal,Howrah,18,1,0,0,Cloudy,Normal,Dry,Highway,Car,Police Managed,Non-Junction,Poor Lighting,100,18.0,Male,Valid,No,1,2,7.28,Moderate,26.3,Serious,Serious
+Uttar Pradesh,Varanasi,9,1,0,0,Rain,Adverse,Wet,Highway,Two-Wheeler,Stop Sign,Cross Junction,Poor Lighting,50,23.0,Male,Valid,Yes,2,4,10.04,Low,21.6,Serious,Serious
+Rajasthan,Jodhpur,17,1,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Stop Sign,Non-Junction,No Lighting,100,45.0,Male,Expired,No,3,2,8.83,Low,27.7,Minor,Serious
+Kerala,Kochi,18,1,1,0,Heat,Normal,Dry,Highway,Auto-Rickshaw,Stop Sign,Non-Junction,Street Lights,50,39.0,Male,Valid,No,2,3,1.09,Critical,25.2,Minor,Minor
+Maharashtra,Nagpur,7,1,1,0,Storm,Adverse,Under Construction,Highway,Two-Wheeler,Signal Present,Non-Junction,No Lighting,40,33.0,Male,Valid,No,2,2,3.12,High,29.2,Minor,Minor
+Rajasthan,Udaipur,6,0,0,0,Clear,Normal,Under Construction,Residential,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,50,19.0,Male,Valid,No,2,1,9.37,Low,28.4,Minor,Minor
+Tamil Nadu,Madurai,8,1,0,0,Cloudy,Normal,Under Construction,Highway,Car,Stop Sign,Cross Junction,No Lighting,60,29.0,Male,Valid,No,2,2,6.715,Moderate,35.3,Minor,Minor
+Delhi,Rohini,18,1,0,0,Rain,Adverse,Dry,Intersection,Car,Uncontrolled,Non-Junction,Street Lights,60,18.0,Male,Valid,Yes,1,2,6.33,Moderate,28.4,Minor,Minor
+Gujarat,Vadodara,17,1,1,0,Rain,Adverse,Damaged,Urban Arterial,Truck,Roundabout,T-Junction,Poor Lighting,40,38.0,Male,Learner,No,2,1,2.14,Critical,27.6,Minor,Minor
+Tamil Nadu,Madurai,14,0,0,0,Fog,Adverse,Dry,Urban Arterial,Car,Stop Sign,Roundabout,No Lighting,60,47.0,Male,Valid,No,2,1,2.03,Critical,29.6,Minor,Minor
+Rajasthan,Jaipur,16,0,0,0,Rain,Adverse,Wet,Intersection,Two-Wheeler,Signal Present,T-Junction,Daylight,80,32.0,Male,Expired,No,2,1,7.62,Moderate,28.4,Minor,Minor
+Maharashtra,Mumbai,21,0,0,1,Fog,Adverse,Dry,Rural Road,Bus,Uncontrolled,Non-Junction,Poor Lighting,50,36.0,Male,Valid,Yes,1,2,1.63,Critical,27.6,Serious,Serious
+West Bengal,Kolkata,1,0,1,1,Clear,Normal,Dry,Intersection,Two-Wheeler,Roundabout,Cross Junction,Poor Lighting,50,42.0,Male,Learner,No,3,3,3.21,High,33.7,Minor,Minor
+Kerala,Thiruvananthapuram,12,0,0,0,Cloudy,Normal,Under Construction,Urban Arterial,Auto-Rickshaw,Signal Present,Roundabout,Poor Lighting,40,38.0,Male,Valid,Yes,1,1,6.53,Moderate,26.4,Minor,Minor
+Gujarat,Vadodara,11,0,0,0,Rain,Adverse,Dry,Residential,Truck,Uncontrolled,T-Junction,Poor Lighting,50,18.0,Male,Valid,No,3,1,5.45,Moderate,36.0,Minor,Minor
+Karnataka,Hubballi,8,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,Street Lights,80,39.0,Male,Valid,Yes,3,2,8.11,Low,26.7,Serious,Serious
+Maharashtra,Mumbai,9,1,0,0,Cloudy,Normal,Damaged,Intersection,Auto-Rickshaw,Stop Sign,Non-Junction,Daylight,50,28.0,Male,Learner,No,2,2,5.23,Moderate,27.8,Minor,Minor
+Uttar Pradesh,Lucknow,18,1,1,0,Clear,Normal,Dry,Residential,Car,Signal Present,Non-Junction,Daylight,80,39.0,Male,Valid,No,2,1,7.77,Moderate,27.4,Minor,Minor
+Tamil Nadu,Coimbatore,17,1,1,0,Clear,Normal,Damaged,Rural Road,Two-Wheeler,Roundabout,Non-Junction,Street Lights,100,23.0,Male,Valid,No,2,1,1.76,Critical,23.7,Serious,Minor
+West Bengal,Durgapur,12,0,0,0,Clear,Normal,Under Construction,Urban Arterial,Two-Wheeler,Stop Sign,T-Junction,No Lighting,60,38.0,Male,Valid,No,2,1,6.859999999999999,Moderate,28.1,Minor,Minor
+Maharashtra,Mumbai,8,1,0,0,Rain,Adverse,Dry,Residential,Car,Uncontrolled,Roundabout,Daylight,30,24.0,Male,Learner,No,2,1,4.95,High,33.9,Minor,Minor
+Tamil Nadu,Madurai,14,0,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Uncontrolled,Roundabout,No Lighting,30,18.0,Male,Valid,No,2,3,6.73,Moderate,37.2,Serious,Serious
+Karnataka,Mysuru,17,1,0,0,Clear,Normal,Under Construction,Urban Arterial,Car,Stop Sign,Non-Junction,Daylight,30,36.0,Male,Valid,No,3,1,5.44,Moderate,16.8,Minor,Minor
+West Bengal,Kolkata,21,0,0,1,Rain,Adverse,Damaged,Highway,Car,Roundabout,Non-Junction,No Lighting,80,30.0,Male,Valid,No,3,4,6.31,Moderate,26.3,Serious,Serious
+Uttar Pradesh,Varanasi,17,1,1,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Roundabout,Poor Lighting,50,31.0,Male,Valid,No,3,2,5.61,Moderate,27.6,Minor,Minor
+Telangana,Nizamabad,8,1,0,0,Heat,Normal,Damaged,Highway,Car,Uncontrolled,Cross Junction,Daylight,40,31.0,Male,Valid,No,2,1,3.39,High,26.7,Minor,Minor
+Kerala,Kochi,1,0,1,1,Rain,Adverse,Under Construction,Intersection,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,40,43.0,Male,Valid,Yes,1,1,6.25,Moderate,34.6,Minor,Minor
+Uttar Pradesh,Kanpur,15,0,1,0,Cloudy,Normal,Wet,Highway,Auto-Rickshaw,Stop Sign,Non-Junction,Daylight,40,26.0,Male,Valid,No,2,1,5.56,Moderate,25.6,Minor,Minor
+Delhi,Dwarka,16,0,0,0,Clear,Normal,Dry,Intersection,Car,Stop Sign,Cross Junction,Street Lights,30,36.0,Male,Valid,No,3,1,2.31,Critical,24.3,Minor,Minor
+Delhi,New Delhi,17,1,0,0,Rain,Adverse,Dry,Urban Arterial,Car,Signal Present,Cross Junction,No Lighting,60,54.0,Male,Valid,No,2,3,4.8,High,33.5,Minor,Minor
+Gujarat,Surat,7,1,0,0,Clear,Normal,Wet,Residential,Car,Signal Present,Non-Junction,No Lighting,50,35.0,Male,Valid,No,1,2,4.62,High,32.8,Minor,Minor
+Delhi,New Delhi,16,0,1,0,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Roundabout,Roundabout,Daylight,50,50.0,Male,Valid,No,2,2,7.28,Moderate,20.9,Minor,Minor
+Kerala,Thiruvananthapuram,6,0,0,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,Y-Junction,Daylight,60,37.0,Female,Learner,Yes,3,1,4.8,High,29.2,Minor,Minor
+Telangana,Nizamabad,7,1,0,0,Clear,Normal,Dry,Intersection,Car,Signal Present,Non-Junction,Poor Lighting,30,26.0,Male,Valid,No,2,1,5.54,Moderate,26.4,Minor,Minor
+Tamil Nadu,Madurai,16,0,0,0,Rain,Adverse,Wet,Rural Road,Car,Signal Present,T-Junction,Street Lights,40,22.0,Male,Expired,No,4,1,8.98,Low,27.9,Minor,Minor
+Maharashtra,Mumbai,18,1,1,0,Fog,Adverse,Wet,Residential,Auto-Rickshaw,Signal Present,Cross Junction,Street Lights,60,18.0,Male,Invalid,No,2,1,1.42,Critical,35.8,Minor,Minor
+Tamil Nadu,Madurai,9,1,0,0,Rain,Adverse,Damaged,Intersection,Two-Wheeler,Uncontrolled,T-Junction,No Lighting,50,25.0,Male,Valid,No,3,1,6.86,Moderate,27.5,Minor,Minor
+Maharashtra,Pune,16,0,0,0,Fog,Adverse,Wet,Residential,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,50,37.0,Male,Expired,No,1,3,2.65,High,31.3,Serious,Minor
+Uttar Pradesh,Kanpur,8,1,0,0,Clear,Normal,Wet,Intersection,Auto-Rickshaw,Signal Present,Roundabout,Poor Lighting,100,28.0,Male,Invalid,No,4,1,5.2,Moderate,25.4,Minor,Minor
+Tamil Nadu,Chennai,18,1,1,0,Clear,Normal,Dry,Rural Road,Car,Signal Present,Roundabout,Daylight,80,37.0,Male,Valid,No,4,1,2.59,High,36.0,Minor,Minor
+Rajasthan,Jodhpur,19,1,1,0,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Daylight,80,23.0,Male,Valid,No,2,1,3.82,High,38.3,Minor,Minor
+Tamil Nadu,Madurai,21,0,0,1,Heat,Normal,Dry,Rural Road,Bus,Stop Sign,T-Junction,Street Lights,60,52.0,Male,Valid,No,4,1,8.21,Low,22.6,Minor,Minor
+Rajasthan,Jaipur,14,0,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Signal Present,Roundabout,Daylight,40,18.0,Male,Learner,No,1,1,5.1,Moderate,39.1,Minor,Minor
+Delhi,New Delhi,14,0,1,0,Clear,Normal,Dry,Residential,Two-Wheeler,Stop Sign,Non-Junction,Daylight,50,18.0,Male,Valid,No,1,1,8.98,Low,33.7,Minor,Minor
+Telangana,Hyderabad,17,1,0,0,Clear,Normal,Wet,Urban Arterial,Truck,Stop Sign,Non-Junction,Daylight,60,21.0,Male,Valid,Yes,2,2,10.53,Low,33.6,Minor,Minor
+Tamil Nadu,Chennai,5,0,0,1,Cloudy,Normal,Dry,Intersection,Truck,Stop Sign,Non-Junction,Poor Lighting,60,26.0,Male,Valid,No,3,1,7.97,Moderate,20.7,Minor,Minor
+West Bengal,Kolkata,9,1,0,0,Clear,Normal,Dry,Highway,Truck,Signal Present,Non-Junction,Daylight,30,63.0,Male,Valid,No,1,1,5.06,Moderate,21.9,Minor,Minor
+Delhi,Dwarka,18,1,0,0,Rain,Adverse,Dry,Residential,Auto-Rickshaw,Signal Present,Cross Junction,Daylight,60,51.0,Male,Valid,No,2,1,2.33,Critical,29.1,Minor,Minor
+Telangana,Hyderabad,22,0,1,1,Cloudy,Normal,Damaged,Urban Arterial,Two-Wheeler,Signal Present,Roundabout,Daylight,60,37.0,Male,Invalid,No,2,1,5.42,Moderate,29.7,Minor,Minor
+Karnataka,Bengaluru,16,0,0,0,Clear,Normal,Dry,Residential,Car,Roundabout,T-Junction,Poor Lighting,60,28.0,Male,Valid,No,2,1,10.75,Low,29.9,Minor,Minor
+Rajasthan,Jaipur,11,0,0,0,Clear,Normal,Wet,Residential,Car,Uncontrolled,Roundabout,No Lighting,80,44.0,Female,Valid,No,2,4,6.68,Moderate,35.9,Serious,Serious
+Uttar Pradesh,Varanasi,2,0,1,1,Cloudy,Normal,Slippery,Residential,Truck,Uncontrolled,Non-Junction,Daylight,80,43.0,Male,Valid,No,2,1,10.6,Low,34.3,Serious,Minor
+Karnataka,Bengaluru,18,1,0,0,Cloudy,Normal,Wet,Intersection,Bus,Uncontrolled,Non-Junction,Daylight,60,35.0,Female,Learner,No,2,1,4.37,High,16.4,Minor,Minor
+Telangana,Nizamabad,20,0,0,1,Clear,Normal,Wet,Highway,Two-Wheeler,Signal Present,Non-Junction,No Lighting,60,18.0,Male,Valid,No,2,1,5.95,Moderate,31.3,Minor,Minor
+Maharashtra,Pune,19,1,1,0,Rain,Adverse,Under Construction,Intersection,Truck,Uncontrolled,T-Junction,Poor Lighting,60,27.0,Male,Expired,No,3,2,8.43,Low,36.1,Minor,Minor
+Karnataka,Hubballi,19,1,0,0,Storm,Adverse,Wet,Urban Arterial,Car,Signal Present,Cross Junction,Daylight,40,32.0,Female,Valid,Yes,2,2,4.84,High,22.2,Minor,Minor
+Karnataka,Mysuru,9,1,0,0,Rain,Adverse,Damaged,Urban Arterial,Truck,Roundabout,T-Junction,Poor Lighting,80,32.0,Male,Expired,Yes,1,3,5.36,Moderate,22.8,Serious,Serious
+Telangana,Hyderabad,11,0,0,0,Storm,Adverse,Dry,Intersection,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,60,59.0,Female,Valid,No,1,2,3.22,High,20.5,Minor,Minor
+Delhi,Dwarka,13,0,0,0,Storm,Adverse,Damaged,Highway,Two-Wheeler,Signal Present,Roundabout,Poor Lighting,100,36.0,Male,Valid,No,2,2,4.62,High,30.4,Serious,Serious
+Kerala,Kozhikode,16,0,1,0,Storm,Adverse,Wet,Residential,Car,Uncontrolled,Non-Junction,Street Lights,50,38.0,Female,Valid,No,3,1,4.39,High,28.65,Minor,Minor
+Tamil Nadu,Coimbatore,7,1,0,0,Rain,Adverse,Wet,Intersection,Two-Wheeler,Uncontrolled,Roundabout,Daylight,50,27.0,Male,Valid,Yes,2,2,5.14,Moderate,28.3,Minor,Minor
+Delhi,Dwarka,12,0,0,0,Fog,Adverse,Under Construction,Highway,Car,Police Managed,Cross Junction,Daylight,80,43.0,Male,Valid,No,2,1,3.06,High,29.65,Serious,Serious
+Karnataka,Hubballi,13,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,No Lighting,50,40.0,Male,Valid,No,4,1,10.39,Low,33.1,Minor,Minor
+Karnataka,Bengaluru,10,0,0,0,Clear,Normal,Wet,Rural Road,Two-Wheeler,Signal Present,Cross Junction,Daylight,80,29.0,Male,Valid,No,4,1,8.8,Low,32.6,Minor,Minor
+Maharashtra,Pune,13,0,0,0,Rain,Adverse,Wet,Highway,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,50,21.0,Male,Valid,Yes,1,1,11.87,Low,17.9,Minor,Minor
+Uttar Pradesh,Lucknow,14,0,0,0,Rain,Adverse,Dry,Intersection,Two-Wheeler,Signal Present,T-Junction,No Lighting,50,44.0,Male,Invalid,No,3,1,11.89,Low,26.95,Minor,Minor
+Karnataka,Mysuru,21,0,1,1,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,50,43.0,Male,Valid,Yes,2,1,10.08,Low,27.8,Minor,Minor
+West Bengal,Howrah,16,0,0,0,Rain,Adverse,Wet,Intersection,Two-Wheeler,Signal Present,Roundabout,Daylight,50,31.0,Male,Valid,No,3,1,6.12,Moderate,25.4,Minor,Minor
+Maharashtra,Pune,18,1,0,0,Storm,Adverse,Wet,Highway,Car,Stop Sign,Roundabout,Daylight,40,32.0,Male,Valid,Yes,3,2,3.93,High,19.4,Serious,Serious
+West Bengal,Howrah,7,1,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,T-Junction,Street Lights,40,36.0,Male,Valid,No,1,1,12.0,Low,35.5,Minor,Minor
+Rajasthan,Jodhpur,4,0,0,1,Rain,Adverse,Under Construction,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,Daylight,80,37.0,Male,Expired,No,4,1,3.85,High,30.4,Serious,Minor
+Maharashtra,Mumbai,15,0,0,0,Cloudy,Normal,Wet,Intersection,Car,Signal Present,T-Junction,Poor Lighting,60,49.0,Male,Valid,Yes,3,4,3.11,High,35.4,Serious,Serious
+Karnataka,Hubballi,8,1,1,0,Clear,Normal,Dry,Residential,Car,Uncontrolled,Non-Junction,Daylight,50,25.0,Male,Invalid,No,2,1,6.62,Moderate,30.7,Minor,Minor
+Rajasthan,Jaipur,7,1,1,0,Clear,Normal,Wet,Urban Arterial,Truck,Uncontrolled,Roundabout,Daylight,80,28.0,Male,Valid,No,2,1,12.0,Low,34.7,Minor,Minor
+Maharashtra,Nagpur,7,1,1,0,Clear,Normal,Dry,Intersection,Car,Uncontrolled,Roundabout,Poor Lighting,60,30.0,Male,Learner,No,1,1,4.63,High,27.0,Minor,Minor
+Maharashtra,Pune,6,0,1,0,Cloudy,Normal,Slippery,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,60,30.0,Female,Learner,No,2,3,7.55,Moderate,28.9,Minor,Minor
+Telangana,Warangal,17,1,1,0,Rain,Adverse,Damaged,Rural Road,Car,Roundabout,Roundabout,Daylight,40,29.0,Male,Expired,No,1,1,4.35,High,16.2,Minor,Minor
+Karnataka,Mysuru,17,1,0,0,Clear,Normal,Under Construction,Urban Arterial,Car,Uncontrolled,Non-Junction,Daylight,40,26.0,Male,Valid,Yes,1,1,5.81,Moderate,26.5,Minor,Minor
+Gujarat,Surat,12,0,0,0,Clear,Normal,Wet,Residential,Two-Wheeler,Signal Present,Non-Junction,Daylight,30,37.0,Female,Valid,No,2,1,6.59,Moderate,21.9,Minor,Minor
+Gujarat,Surat,16,0,0,0,Clear,Normal,Damaged,Intersection,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,80,33.0,Male,Expired,No,1,1,8.32,Low,33.6,Minor,Minor
+Tamil Nadu,Madurai,19,1,1,0,Clear,Normal,Dry,Urban Arterial,Bus,Roundabout,Non-Junction,Daylight,50,29.0,Male,Valid,No,2,1,7.36,Moderate,33.9,Minor,Minor
+Tamil Nadu,Coimbatore,23,0,0,1,Clear,Normal,Dry,Urban Arterial,Truck,Uncontrolled,T-Junction,Daylight,50,41.0,Male,Valid,No,3,1,8.59,Low,18.5,Minor,Minor
+Rajasthan,Udaipur,21,0,0,1,Heat,Normal,Wet,Highway,Car,Signal Present,Non-Junction,Daylight,40,21.0,Male,Valid,No,2,2,6.17,Moderate,37.9,Minor,Minor
+Karnataka,Hubballi,13,0,1,0,Fog,Adverse,Under Construction,Rural Road,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,50,43.0,Male,Valid,No,3,2,1.09,Critical,28.9,Minor,Minor
+Rajasthan,Jaipur,15,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Bus,Uncontrolled,T-Junction,Street Lights,60,21.0,Male,Valid,No,2,1,5.29,Moderate,33.6,Minor,Minor
+Tamil Nadu,Madurai,22,0,0,1,Fog,Adverse,Dry,Intersection,Two-Wheeler,Signal Present,Roundabout,Street Lights,60,55.0,Male,Valid,No,2,1,2.0,Critical,30.0,Minor,Minor
+Maharashtra,Mumbai,23,0,0,1,Fog,Adverse,Wet,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,No Lighting,40,31.0,Male,Valid,No,2,1,1.52,Critical,19.9,Serious,Minor
+Delhi,Rohini,8,1,1,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Stop Sign,Cross Junction,Daylight,50,36.0,Female,Learner,No,2,3,6.61,Moderate,30.0,Minor,Minor
+Maharashtra,Nagpur,10,0,1,0,Clear,Normal,Wet,Residential,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,30,34.0,Male,Valid,No,2,1,9.97,Low,27.7,Minor,Minor
+Maharashtra,Mumbai,8,1,0,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,25.0,Male,Valid,No,1,1,7.27,Moderate,17.3,Minor,Minor
+Telangana,Warangal,19,1,0,0,Clear,Normal,Slippery,Rural Road,Car,Signal Present,Cross Junction,Daylight,80,50.0,Male,Valid,No,1,2,3.6,High,27.1,Minor,Minor
+Maharashtra,Mumbai,11,0,0,0,Heat,Normal,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,50,44.0,Male,Learner,No,2,1,7.79,Moderate,30.3,Minor,Minor
+Telangana,Nizamabad,8,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,Daylight,30,33.0,Male,Valid,No,2,2,10.3,Low,34.9,Minor,Minor
+Rajasthan,Jodhpur,11,0,1,0,Storm,Adverse,Wet,Rural Road,Two-Wheeler,Signal Present,Cross Junction,Poor Lighting,30,38.0,Male,Valid,Yes,2,2,4.44,High,32.0,Serious,Serious
+Delhi,Dwarka,14,0,1,0,Rain,Adverse,Under Construction,Intersection,Two-Wheeler,Roundabout,Non-Junction,Daylight,50,55.0,Male,Valid,Yes,1,2,5.49,Moderate,32.3,Minor,Minor
+Karnataka,Bengaluru,19,1,0,0,Clear,Normal,Under Construction,Urban Arterial,Car,Uncontrolled,Non-Junction,Daylight,80,31.0,Male,Valid,No,2,2,6.29,Moderate,26.1,Minor,Minor
+Rajasthan,Jaipur,18,1,0,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Stop Sign,Y-Junction,Poor Lighting,100,33.0,Male,Valid,No,2,1,5.24,Moderate,30.2,Serious,Minor
+Telangana,Warangal,8,1,1,0,Clear,Normal,Damaged,Residential,Auto-Rickshaw,Police Managed,Y-Junction,Daylight,40,26.0,Male,Invalid,No,2,2,7.51,Moderate,26.2,Minor,Minor
+Maharashtra,Nagpur,7,1,0,0,Cloudy,Normal,Dry,Intersection,Bus,Signal Present,T-Junction,Daylight,80,44.0,Male,Valid,No,2,1,4.34,High,22.5,Minor,Minor
+Delhi,New Delhi,12,0,0,0,Clear,Normal,Slippery,Urban Arterial,Car,Stop Sign,Non-Junction,Daylight,50,43.0,Male,Learner,No,3,1,6.61,Moderate,29.2,Minor,Minor
+Maharashtra,Nagpur,9,1,0,0,Clear,Normal,Dry,Residential,Auto-Rickshaw,Signal Present,Non-Junction,Street Lights,80,36.0,Male,Valid,No,2,2,8.63,Low,27.1,Minor,Minor
+Maharashtra,Mumbai,9,1,0,0,Rain,Adverse,Wet,Highway,Car,Stop Sign,Non-Junction,Poor Lighting,80,44.0,Male,Valid,No,1,2,4.53,High,19.7,Serious,Serious
+Gujarat,Ahmedabad,18,1,1,0,Storm,Adverse,Wet,Highway,Car,Signal Present,Non-Junction,Daylight,60,53.0,Male,Valid,No,2,2,4.12,High,26.4,Minor,Minor
+Uttar Pradesh,Kanpur,19,1,0,0,Clear,Normal,Dry,Residential,Auto-Rickshaw,Roundabout,Non-Junction,Street Lights,80,32.0,Male,Valid,No,4,2,5.21,Moderate,27.2,Minor,Minor
+Tamil Nadu,Coimbatore,14,0,0,0,Clear,Normal,Wet,Residential,Two-Wheeler,Signal Present,Non-Junction,Street Lights,50,36.0,Male,Invalid,No,2,1,1.93,Critical,21.2,Minor,Minor
+Gujarat,Vadodara,21,0,0,1,Clear,Normal,Dry,Rural Road,Car,Signal Present,Non-Junction,No Lighting,40,50.0,Male,Valid,No,3,1,6.56,Moderate,33.8,Minor,Minor
+Karnataka,Bengaluru,5,0,0,1,Cloudy,Normal,Dry,Rural Road,Car,Signal Present,Roundabout,Daylight,80,25.0,Male,Valid,No,1,2,7.39,Moderate,32.8,Minor,Minor
+Gujarat,Surat,7,1,0,0,Clear,Normal,Under Construction,Intersection,Two-Wheeler,Signal Present,Cross Junction,Street Lights,50,51.0,Male,Valid,No,2,3,7.33,Moderate,29.6,Minor,Minor
+Karnataka,Mysuru,15,0,0,0,Clear,Normal,Dry,Rural Road,Auto-Rickshaw,Police Managed,Non-Junction,Daylight,80,24.0,Male,Valid,No,2,3,3.07,High,22.0,Minor,Minor
+Maharashtra,Mumbai,17,1,0,0,Clear,Normal,Wet,Intersection,Car,Roundabout,Roundabout,No Lighting,60,23.0,Male,Valid,No,3,1,8.22,Low,28.2,Minor,Minor
+Maharashtra,Mumbai,17,1,0,0,Rain,Adverse,Dry,Residential,Car,Roundabout,T-Junction,Daylight,60,42.0,Male,Learner,No,2,1,4.78,High,25.8,Minor,Minor
+Karnataka,Bengaluru,13,0,1,0,Heat,Normal,Slippery,Intersection,Bus,Roundabout,T-Junction,Poor Lighting,50,34.0,Male,Valid,Yes,2,2,5.1,Moderate,29.5,Serious,Minor
+Uttar Pradesh,Kanpur,3,0,1,1,Clear,Normal,Dry,Highway,Truck,Roundabout,Non-Junction,Daylight,40,44.0,Male,Valid,Yes,3,2,6.76,Moderate,26.8,Minor,Minor
+Tamil Nadu,Chennai,15,0,0,0,Rain,Adverse,Slippery,Highway,Car,Uncontrolled,T-Junction,Daylight,80,44.0,Male,Valid,No,3,3,2.45,Critical,22.9,Serious,Serious
+Uttar Pradesh,Varanasi,9,1,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Signal Present,Non-Junction,Daylight,80,21.0,Male,Valid,No,1,2,3.77,High,21.2,Minor,Minor
+West Bengal,Howrah,12,0,0,0,Rain,Adverse,Dry,Rural Road,Truck,Police Managed,Y-Junction,Daylight,30,32.0,Male,Valid,No,2,1,7.83,Moderate,27.0,Minor,Minor
+Rajasthan,Jodhpur,6,0,0,0,Rain,Adverse,Dry,Urban Arterial,Car,Stop Sign,T-Junction,Street Lights,40,25.0,Male,Valid,No,2,1,5.22,Moderate,31.75,Minor,Minor
+West Bengal,Durgapur,16,0,0,0,Fog,Adverse,Damaged,Highway,Two-Wheeler,Signal Present,T-Junction,Daylight,40,18.0,Male,Valid,Yes,2,4,1.65,Critical,23.8,Serious,Serious
+Uttar Pradesh,Varanasi,9,1,0,0,Rain,Adverse,Damaged,Intersection,Bus,Roundabout,Roundabout,No Lighting,50,37.0,Male,Invalid,No,3,1,6.05,Moderate,28.3,Minor,Minor
+Delhi,New Delhi,8,1,0,0,Clear,Normal,Dry,Urban Arterial,Truck,Uncontrolled,Non-Junction,No Lighting,50,39.0,Male,Valid,Yes,1,2,9.49,Low,28.4,Minor,Minor
+Uttar Pradesh,Varanasi,8,1,1,0,Clear,Normal,Wet,Highway,Bus,Stop Sign,Non-Junction,Daylight,30,37.0,Male,Expired,No,1,1,5.62,Moderate,28.6,Minor,Minor
+Rajasthan,Jodhpur,20,0,0,1,Fog,Adverse,Under Construction,Residential,Two-Wheeler,Signal Present,T-Junction,Daylight,50,23.0,Female,Expired,No,1,1,3.8,High,30.1,Minor,Minor
+Maharashtra,Pune,15,0,0,0,Rain,Adverse,Wet,Urban Arterial,Car,Police Managed,Cross Junction,Daylight,40,18.0,Male,Valid,No,4,1,6.34,Moderate,29.8,Minor,Minor
+Delhi,Dwarka,12,0,0,0,Rain,Adverse,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,Roundabout,Poor Lighting,40,18.0,Male,Valid,No,3,2,9.19,Low,30.7,Minor,Minor
+Tamil Nadu,Chennai,18,1,0,0,Clear,Normal,Dry,Urban Arterial,Car,Stop Sign,Roundabout,Daylight,50,60.0,Male,Valid,Yes,4,2,4.71,High,33.3,Minor,Minor
+Delhi,Dwarka,20,0,0,1,Clear,Normal,Under Construction,Intersection,Two-Wheeler,Signal Present,Roundabout,Daylight,60,25.0,Male,Valid,No,2,3,6.605,Moderate,33.5,Minor,Minor
+Kerala,Kozhikode,9,1,0,0,Clear,Normal,Damaged,Highway,Car,Roundabout,Non-Junction,Daylight,40,63.0,Male,Valid,No,3,1,5.07,Moderate,27.3,Minor,Minor
+West Bengal,Kolkata,17,1,0,0,Clear,Normal,Under Construction,Residential,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,35.0,Male,Valid,No,2,2,11.07,Low,31.5,Minor,Minor
+Rajasthan,Udaipur,17,1,0,0,Clear,Normal,Under Construction,Highway,Two-Wheeler,Signal Present,Non-Junction,Street Lights,60,24.0,Male,Valid,Yes,1,1,1.18,Critical,29.8,Serious,Minor
+Tamil Nadu,Madurai,11,0,0,0,Cloudy,Normal,Under Construction,Intersection,Bus,Signal Present,Non-Junction,Poor Lighting,40,47.0,Male,Invalid,No,2,1,7.24,Moderate,30.5,Minor,Minor
+Tamil Nadu,Coimbatore,16,0,1,0,Fog,Adverse,Dry,Intersection,Car,Police Managed,Cross Junction,Daylight,40,36.0,Male,Valid,No,1,3,2.43,Critical,22.3,Minor,Minor
+Uttar Pradesh,Kanpur,18,1,0,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Roundabout,Roundabout,Street Lights,80,38.0,Male,Learner,No,2,1,7.86,Moderate,25.9,Minor,Serious
+Kerala,Kozhikode,19,1,0,0,Cloudy,Normal,Damaged,Highway,Truck,Uncontrolled,T-Junction,No Lighting,40,28.0,Male,Valid,No,1,1,6.61,Moderate,30.0,Minor,Minor
+Uttar Pradesh,Lucknow,5,0,0,1,Clear,Normal,Wet,Intersection,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,60,18.0,Male,Invalid,No,2,1,6.505,Moderate,30.3,Minor,Minor
+Karnataka,Hubballi,9,1,0,0,Clear,Normal,Dry,Urban Arterial,Car,Roundabout,T-Junction,Daylight,50,30.0,Male,Valid,No,3,2,8.87,Low,12.3,Minor,Minor
+Kerala,Kochi,13,0,0,0,Fog,Adverse,Dry,Highway,Auto-Rickshaw,Roundabout,Y-Junction,No Lighting,30,39.0,Male,Valid,No,3,2,1.94,Critical,29.35,Serious,Serious
+Kerala,Kozhikode,22,0,0,1,Clear,Normal,Wet,Highway,Car,Uncontrolled,Cross Junction,Daylight,80,19.0,Male,Valid,No,1,3,11.69,Low,28.6,Serious,Serious
+Tamil Nadu,Chennai,12,0,0,0,Clear,Normal,Dry,Residential,Two-Wheeler,Signal Present,Non-Junction,Street Lights,30,48.0,Male,Valid,Yes,2,1,8.35,Low,18.6,Minor,Minor
+Uttar Pradesh,Lucknow,17,1,1,0,Rain,Adverse,Wet,Residential,Auto-Rickshaw,Uncontrolled,Non-Junction,Daylight,60,34.0,Male,Valid,No,3,1,0.76,Critical,24.9,Minor,Minor
+Maharashtra,Mumbai,5,0,1,1,Rain,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,50,42.0,Male,Valid,No,1,1,4.63,High,33.0,Minor,Minor
+Delhi,Rohini,21,0,1,1,Cloudy,Normal,Wet,Urban Arterial,Two-Wheeler,Signal Present,T-Junction,No Lighting,60,50.0,Male,Valid,No,2,1,6.86,Moderate,23.8,Minor,Minor
+Delhi,Dwarka,9,1,0,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,40,28.0,Male,Valid,No,3,2,5.54,Moderate,22.5,Minor,Minor
+Karnataka,Mysuru,12,0,1,0,Cloudy,Normal,Dry,Highway,Truck,Roundabout,Non-Junction,Daylight,60,35.0,Male,Valid,No,3,1,4.19,High,24.5,Minor,Minor
+Gujarat,Surat,19,1,1,0,Fog,Adverse,Damaged,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,50,38.0,Male,Valid,No,2,1,1.54,Critical,25.8,Minor,Minor
+Kerala,Thiruvananthapuram,16,0,1,0,Clear,Normal,Damaged,Intersection,Two-Wheeler,Roundabout,Y-Junction,Daylight,50,44.0,Male,Valid,No,3,1,3.62,High,28.0,Minor,Minor
+Tamil Nadu,Chennai,4,0,0,1,Storm,Adverse,Slippery,Residential,Two-Wheeler,Uncontrolled,T-Junction,Daylight,60,36.0,Male,Valid,No,2,1,2.99,High,30.9,Minor,Minor
+Gujarat,Vadodara,3,0,0,1,Clear,Normal,Dry,Residential,Bus,Signal Present,Non-Junction,Poor Lighting,80,45.0,Male,Learner,Yes,3,3,4.88,High,33.1,Serious,Serious
+Gujarat,Surat,11,0,0,0,Fog,Adverse,Under Construction,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,60,31.0,Female,Valid,No,2,1,2.04,Critical,27.8,Minor,Minor
+Delhi,New Delhi,14,0,0,0,Heat,Normal,Dry,Highway,Car,Signal Present,Non-Junction,No Lighting,50,59.0,Male,Valid,No,2,2,6.23,Moderate,35.1,Minor,Minor
+Uttar Pradesh,Kanpur,19,1,0,0,Fog,Adverse,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,32.0,Male,Expired,No,2,1,0.86,Critical,26.8,Minor,Minor
+Delhi,Rohini,7,1,0,0,Rain,Adverse,Dry,Highway,Car,Signal Present,Non-Junction,No Lighting,60,40.0,Male,Valid,No,3,2,6.55,Moderate,33.7,Minor,Minor
+West Bengal,Kolkata,19,1,0,0,Rain,Adverse,Dry,Intersection,Two-Wheeler,Police Managed,T-Junction,Daylight,30,50.0,Male,Valid,No,3,1,9.32,Low,35.7,Minor,Minor
+Maharashtra,Mumbai,9,1,0,0,Clear,Normal,Damaged,Urban Arterial,Truck,Uncontrolled,Cross Junction,Daylight,50,43.0,Male,Valid,No,1,3,7.65,Moderate,21.6,Minor,Minor
+Gujarat,Surat,12,0,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Street Lights,80,18.0,Male,Valid,No,1,3,8.4,Low,27.7,Minor,Minor
+Uttar Pradesh,Lucknow,6,0,1,0,Clear,Normal,Wet,Intersection,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,50,38.0,Male,Valid,No,3,2,10.23,Low,22.9,Minor,Minor
+Karnataka,Mysuru,13,0,0,0,Rain,Adverse,Dry,Highway,Car,Uncontrolled,Roundabout,Daylight,80,47.0,Male,Valid,No,1,2,6.73,Moderate,19.9,Minor,Serious
+West Bengal,Durgapur,7,1,0,0,Fog,Adverse,Damaged,Rural Road,Truck,Uncontrolled,Non-Junction,No Lighting,60,39.0,Male,Learner,No,1,1,0.89,Critical,25.9,Minor,Minor
+Kerala,Thiruvananthapuram,21,0,0,1,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,50,51.0,Male,Valid,No,2,2,5.57,Moderate,26.6,Minor,Minor
+West Bengal,Kolkata,18,1,1,0,Clear,Normal,Dry,Residential,Truck,Uncontrolled,Y-Junction,Poor Lighting,40,53.0,Male,Valid,No,2,3,6.859999999999999,Moderate,22.7,Minor,Minor
+West Bengal,Kolkata,8,1,0,0,Heat,Normal,Dry,Highway,Truck,Uncontrolled,T-Junction,Street Lights,30,24.0,Male,Valid,No,2,1,6.88,Moderate,35.4,Minor,Minor
+Tamil Nadu,Chennai,7,1,0,0,Clear,Normal,Wet,Residential,Truck,Uncontrolled,Roundabout,Daylight,50,25.0,Male,Valid,No,3,1,7.25,Moderate,32.9,Minor,Minor
+Gujarat,Vadodara,7,1,1,0,Fog,Adverse,Damaged,Rural Road,Two-Wheeler,Stop Sign,Non-Junction,Daylight,40,41.0,Male,Valid,No,2,1,2.43,Critical,25.5,Minor,Minor
+Telangana,Warangal,13,0,0,0,Rain,Adverse,Slippery,Residential,Two-Wheeler,Stop Sign,Non-Junction,Daylight,40,40.0,Male,Expired,Yes,3,1,7.29,Moderate,27.4,Minor,Minor
+Rajasthan,Udaipur,13,0,0,0,Cloudy,Normal,Wet,Urban Arterial,Car,Police Managed,T-Junction,Street Lights,50,37.0,Female,Valid,No,2,2,7.17,Moderate,28.3,Minor,Minor
+Gujarat,Ahmedabad,16,0,0,0,Clear,Normal,Wet,Urban Arterial,Truck,Signal Present,Non-Junction,Daylight,60,45.0,Male,Valid,No,2,1,10.5,Low,30.7,Minor,Minor
+Karnataka,Hubballi,8,1,1,0,Clear,Normal,Under Construction,Highway,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,50,51.0,Male,Valid,No,3,1,7.16,Moderate,28.7,Minor,Minor
+Karnataka,Mysuru,2,0,0,1,Cloudy,Normal,Dry,Rural Road,Two-Wheeler,Uncontrolled,T-Junction,Daylight,40,26.0,Female,Valid,No,1,1,4.64,High,32.1,Minor,Minor
+Maharashtra,Mumbai,18,1,0,0,Fog,Adverse,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,Daylight,40,43.0,Male,Valid,No,2,1,3.03,High,27.9,Minor,Minor
+Kerala,Kozhikode,17,1,0,0,Fog,Adverse,Wet,Urban Arterial,Car,Signal Present,Y-Junction,Poor Lighting,80,18.0,Male,Valid,No,3,2,1.69,Critical,32.3,Serious,Serious
+Maharashtra,Pune,13,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Car,Stop Sign,Non-Junction,No Lighting,60,18.0,Male,Valid,No,2,3,3.71,High,22.4,Minor,Minor
+Maharashtra,Pune,9,1,0,0,Rain,Adverse,Wet,Highway,Auto-Rickshaw,Uncontrolled,T-Junction,Street Lights,60,35.0,Female,Valid,No,3,1,9.26,Low,30.1,Minor,Minor
+Tamil Nadu,Chennai,5,0,0,1,Storm,Adverse,Dry,Intersection,Two-Wheeler,Stop Sign,T-Junction,No Lighting,50,46.0,Male,Valid,Yes,2,2,2.54,High,34.6,Serious,Minor
+Delhi,Dwarka,10,0,0,0,Rain,Adverse,Dry,Highway,Car,Signal Present,Cross Junction,Daylight,50,61.0,Male,Valid,No,3,1,6.74,Moderate,26.8,Minor,Minor
+Maharashtra,Nagpur,10,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,T-Junction,Daylight,30,20.0,Male,Expired,No,1,1,8.52,Low,24.5,Minor,Minor
+Telangana,Nizamabad,13,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,40,22.0,Male,Invalid,No,2,1,5.92,Moderate,27.7,Minor,Minor
+Rajasthan,Udaipur,15,0,0,0,Rain,Adverse,Dry,Highway,Auto-Rickshaw,Roundabout,Cross Junction,No Lighting,60,18.0,Male,Expired,No,1,1,5.83,Moderate,33.9,Minor,Minor
+West Bengal,Howrah,17,1,0,0,Rain,Adverse,Dry,Residential,Auto-Rickshaw,Stop Sign,T-Junction,Street Lights,40,32.5,Male,Valid,No,3,1,6.65,Moderate,29.0,Minor,Minor
+Tamil Nadu,Coimbatore,8,1,0,0,Clear,Normal,Dry,Intersection,Car,Stop Sign,Cross Junction,Poor Lighting,30,38.0,Male,Valid,Yes,1,1,8.08,Low,29.3,Minor,Minor
+Rajasthan,Udaipur,17,1,0,0,Clear,Normal,Dry,Residential,Two-Wheeler,Signal Present,Cross Junction,Daylight,40,27.0,Female,Valid,No,2,1,8.46,Low,26.4,Minor,Minor
+Gujarat,Ahmedabad,19,1,0,0,Clear,Normal,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,50,38.0,Male,Valid,No,1,1,6.34,Moderate,30.6,Minor,Minor
+Gujarat,Surat,18,1,0,0,Cloudy,Normal,Under Construction,Intersection,Two-Wheeler,Roundabout,Non-Junction,Daylight,60,28.0,Male,Valid,No,1,2,11.8,Low,31.0,Minor,Minor
+Rajasthan,Jaipur,18,1,0,0,Cloudy,Normal,Dry,Highway,Auto-Rickshaw,Police Managed,T-Junction,Daylight,60,19.0,Male,Valid,Yes,1,1,2.6,High,29.3,Serious,Minor
+Karnataka,Hubballi,19,1,0,0,Fog,Adverse,Dry,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,Poor Lighting,50,18.0,Male,Valid,No,4,2,1.87,Critical,20.2,Minor,Minor
+Kerala,Thiruvananthapuram,3,0,0,1,Clear,Normal,Dry,Intersection,Auto-Rickshaw,Signal Present,Cross Junction,Poor Lighting,30,34.0,Male,Valid,No,2,2,4.99,High,30.7,Minor,Minor
+Rajasthan,Jodhpur,16,0,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,20.0,Male,Valid,No,2,2,6.43,Moderate,27.5,Minor,Minor
+Gujarat,Ahmedabad,6,0,0,0,Clear,Normal,Damaged,Rural Road,Two-Wheeler,Police Managed,Y-Junction,Daylight,80,42.0,Male,Valid,No,4,1,8.9,Low,23.3,Minor,Minor
+Maharashtra,Mumbai,8,1,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Police Managed,Roundabout,Street Lights,40,22.0,Male,Valid,No,2,3,7.91,Moderate,27.1,Minor,Minor
+Gujarat,Vadodara,0,0,0,1,Heat,Normal,Dry,Intersection,Two-Wheeler,Roundabout,Roundabout,Street Lights,30,44.0,Male,Valid,No,2,1,5.18,Moderate,26.7,Minor,Minor
+Rajasthan,Udaipur,22,0,0,1,Heat,Normal,Dry,Highway,Car,Signal Present,Cross Junction,Daylight,40,49.0,Male,Valid,No,2,2,8.18,Low,27.1,Minor,Minor
+Tamil Nadu,Chennai,20,0,0,1,Cloudy,Normal,Dry,Rural Road,Car,Signal Present,Roundabout,Daylight,50,31.0,Male,Valid,No,2,2,2.29,Critical,23.6,Minor,Minor
+Kerala,Kozhikode,18,1,0,0,Fog,Adverse,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,No Lighting,30,37.0,Male,Valid,No,2,1,2.2,Critical,36.2,Serious,Minor
+Gujarat,Ahmedabad,14,0,0,0,Fog,Adverse,Wet,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,50,18.0,Male,Valid,No,3,3,2.24,Critical,17.8,Minor,Minor
+Uttar Pradesh,Kanpur,0,0,0,1,Storm,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,Cross Junction,Street Lights,40,37.0,Male,Valid,No,4,2,3.64,High,29.7,Minor,Minor
+Uttar Pradesh,Kanpur,13,0,0,0,Clear,Normal,Under Construction,Urban Arterial,Car,Uncontrolled,T-Junction,Poor Lighting,100,32.0,Male,Valid,No,1,3,6.53,Moderate,32.3,Serious,Serious
+Uttar Pradesh,Varanasi,19,1,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,80,31.0,Male,Valid,No,2,1,4.88,High,28.0,Minor,Minor
+Delhi,Dwarka,10,0,0,0,Clear,Normal,Dry,Highway,Bus,Roundabout,Non-Junction,Daylight,40,50.0,Male,Valid,No,2,1,9.14,Low,23.4,Minor,Minor
+Karnataka,Bengaluru,16,0,0,0,Rain,Adverse,Under Construction,Urban Arterial,Bus,Signal Present,Non-Junction,No Lighting,50,31.0,Male,Valid,Yes,2,1,6.25,Moderate,32.4,Minor,Minor
+Gujarat,Surat,7,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Truck,Signal Present,Y-Junction,Poor Lighting,100,20.0,Male,Valid,No,3,1,3.16,High,20.4,Minor,Serious
+Uttar Pradesh,Varanasi,8,1,0,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,50,44.0,Male,Valid,No,2,3,6.51,Moderate,23.0,Minor,Minor
+Maharashtra,Mumbai,14,0,0,0,Fog,Adverse,Dry,Residential,Bus,Signal Present,Cross Junction,Daylight,50,29.0,Male,Valid,No,1,2,0.81,Critical,30.7,Serious,Minor
+Karnataka,Hubballi,18,1,0,0,Clear,Normal,Wet,Rural Road,Auto-Rickshaw,Roundabout,Roundabout,Daylight,60,55.0,Male,Valid,No,2,1,4.29,High,31.8,Minor,Minor
+Maharashtra,Mumbai,19,1,1,0,Heat,Normal,Dry,Intersection,Car,Roundabout,Cross Junction,Street Lights,50,43.0,Male,Valid,No,2,1,3.81,High,24.9,Minor,Minor
+Gujarat,Vadodara,22,0,0,1,Rain,Adverse,Slippery,Residential,Two-Wheeler,Police Managed,Non-Junction,Street Lights,60,44.0,Male,Learner,No,3,2,7.31,Moderate,28.5,Minor,Minor
+Gujarat,Vadodara,8,1,1,0,Clear,Normal,Damaged,Urban Arterial,Auto-Rickshaw,Uncontrolled,Y-Junction,Street Lights,30,60.0,Male,Valid,Yes,2,2,10.55,Low,21.7,Minor,Minor
+West Bengal,Howrah,18,1,0,0,Rain,Adverse,Dry,Highway,Car,Signal Present,T-Junction,No Lighting,30,37.0,Male,Valid,No,2,3,4.91,High,26.1,Serious,Minor
+Delhi,Dwarka,19,1,0,0,Cloudy,Normal,Under Construction,Intersection,Two-Wheeler,Roundabout,T-Junction,Daylight,80,50.0,Male,Learner,No,3,2,6.21,Moderate,31.6,Minor,Minor
+Maharashtra,Nagpur,17,1,1,0,Cloudy,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,60,39.0,Male,Learner,No,2,3,8.28,Low,28.2,Minor,Minor
+Karnataka,Mysuru,14,0,0,0,Clear,Normal,Dry,Intersection,Bus,Signal Present,Y-Junction,Poor Lighting,60,35.0,Male,Valid,No,2,3,6.62,Moderate,21.8,Minor,Minor
+Rajasthan,Udaipur,21,0,1,1,Clear,Normal,Dry,Urban Arterial,Truck,Uncontrolled,Cross Junction,Poor Lighting,40,37.0,Male,Valid,No,1,2,7.8,Moderate,31.55,Minor,Minor
+West Bengal,Kolkata,7,1,0,0,Clear,Normal,Dry,Urban Arterial,Car,Signal Present,Roundabout,Street Lights,40,35.0,Male,Valid,No,1,2,3.35,High,29.4,Minor,Minor
+Maharashtra,Nagpur,10,0,1,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,Cross Junction,Poor Lighting,80,19.0,Male,Valid,No,4,1,6.85,Moderate,31.0,Serious,Serious
+Telangana,Hyderabad,8,1,1,0,Rain,Adverse,Dry,Intersection,Truck,Uncontrolled,Non-Junction,Street Lights,80,28.0,Male,Valid,No,3,1,9.78,Low,28.4,Minor,Minor
+Delhi,Rohini,18,1,0,0,Fog,Adverse,Damaged,Highway,Two-Wheeler,Signal Present,Non-Junction,Street Lights,100,18.0,Female,Expired,No,2,3,2.96,High,29.0,Serious,Serious
+Tamil Nadu,Coimbatore,6,0,0,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,80,47.0,Male,Invalid,No,2,1,8.41,Low,27.5,Minor,Minor
+West Bengal,Kolkata,17,1,1,0,Rain,Adverse,Dry,Intersection,Bus,Stop Sign,Y-Junction,Daylight,30,18.0,Male,Valid,No,2,2,4.56,High,28.5,Minor,Minor
+Gujarat,Ahmedabad,15,0,0,0,Clear,Normal,Dry,Intersection,Car,Signal Present,Roundabout,Poor Lighting,40,31.0,Female,Invalid,No,1,1,4.5,High,35.8,Minor,Minor
+Telangana,Nizamabad,14,0,1,0,Fog,Adverse,Dry,Rural Road,Two-Wheeler,Roundabout,Roundabout,Daylight,60,29.0,Female,Expired,No,2,2,2.03,Critical,32.2,Minor,Minor
+Karnataka,Mysuru,4,0,1,1,Clear,Normal,Dry,Intersection,Auto-Rickshaw,Uncontrolled,Cross Junction,No Lighting,80,40.0,Male,Learner,No,2,1,5.43,Moderate,24.2,Serious,Minor
+Rajasthan,Jodhpur,15,0,0,0,Clear,Normal,Dry,Highway,Car,Uncontrolled,Non-Junction,Daylight,50,51.0,Male,Valid,No,2,2,6.48,Moderate,38.3,Minor,Minor
+Gujarat,Ahmedabad,9,1,0,0,Rain,Adverse,Dry,Highway,Bus,Signal Present,Non-Junction,Poor Lighting,50,48.0,Male,Valid,No,3,1,6.84,Moderate,37.3,Minor,Minor
+Tamil Nadu,Madurai,8,1,1,0,Clear,Normal,Dry,Urban Arterial,Car,Stop Sign,Non-Junction,Street Lights,50,36.0,Male,Learner,No,1,1,4.65,High,29.2,Minor,Minor
+West Bengal,Kolkata,4,0,0,1,Cloudy,Normal,Dry,Highway,Car,Uncontrolled,Cross Junction,Poor Lighting,50,22.0,Male,Valid,No,1,1,9.55,Low,25.7,Minor,Minor
+Maharashtra,Mumbai,14,0,0,0,Clear,Normal,Wet,Urban Arterial,Bus,Stop Sign,Non-Junction,Poor Lighting,30,55.0,Male,Valid,No,3,1,6.85,Moderate,26.1,Minor,Minor
+Tamil Nadu,Chennai,10,0,1,0,Clear,Normal,Wet,Highway,Truck,Uncontrolled,Non-Junction,Daylight,30,18.0,Male,Learner,No,2,1,5.99,Moderate,24.4,Minor,Minor
+Kerala,Kochi,14,0,1,0,Heat,Normal,Dry,Highway,Bus,Police Managed,Y-Junction,No Lighting,60,52.0,Male,Learner,No,1,1,7.359999999999999,Moderate,27.4,Minor,Minor
+Karnataka,Bengaluru,16,0,1,0,Clear,Normal,Wet,Rural Road,Car,Roundabout,Non-Junction,Daylight,30,53.0,Male,Valid,No,1,1,6.76,Moderate,24.8,Minor,Minor
+Telangana,Warangal,15,0,0,0,Clear,Normal,Dry,Highway,Bus,Signal Present,Roundabout,Daylight,40,42.0,Male,Valid,No,1,3,6.45,Moderate,23.4,Minor,Minor
+Tamil Nadu,Chennai,20,0,0,1,Heat,Normal,Dry,Urban Arterial,Car,Signal Present,T-Junction,Daylight,60,39.0,Female,Valid,No,3,1,3.21,High,30.8,Minor,Minor
+Maharashtra,Pune,5,0,0,1,Rain,Adverse,Dry,Rural Road,Two-Wheeler,Signal Present,Roundabout,Street Lights,80,38.0,Male,Valid,No,2,1,6.4,Moderate,22.9,Minor,Minor
+Uttar Pradesh,Lucknow,13,0,1,0,Storm,Adverse,Under Construction,Intersection,Car,Roundabout,T-Junction,Daylight,40,18.0,Female,Valid,No,2,2,3.21,High,28.5,Minor,Minor
+Maharashtra,Pune,17,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Roundabout,Daylight,30,49.0,Male,Valid,No,2,2,3.62,High,28.3,Minor,Minor
+Tamil Nadu,Chennai,18,1,1,0,Fog,Adverse,Dry,Residential,Bus,Signal Present,Y-Junction,No Lighting,60,60.0,Male,Valid,Yes,2,2,2.86,High,29.7,Serious,Minor
+Maharashtra,Mumbai,21,0,1,1,Storm,Adverse,Dry,Highway,Auto-Rickshaw,Roundabout,Cross Junction,No Lighting,100,27.0,Male,Learner,No,3,2,4.84,High,23.7,Serious,Serious
+Delhi,Dwarka,8,1,0,0,Storm,Adverse,Dry,Highway,Car,Police Managed,T-Junction,Daylight,60,28.0,Male,Valid,No,2,1,2.77,High,24.9,Serious,Minor
+Uttar Pradesh,Varanasi,19,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,40,31.0,Male,Valid,No,3,1,8.14,Low,34.6,Minor,Minor
+Karnataka,Mysuru,16,0,0,0,Heat,Normal,Dry,Highway,Two-Wheeler,Police Managed,Non-Junction,Daylight,60,46.0,Male,Valid,No,2,2,7.55,Moderate,23.8,Minor,Minor
+Tamil Nadu,Madurai,19,1,0,0,Cloudy,Normal,Damaged,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,30,43.0,Female,Valid,No,3,2,7.95,Moderate,26.0,Minor,Minor
+Maharashtra,Nagpur,8,1,0,0,Cloudy,Normal,Damaged,Rural Road,Two-Wheeler,Stop Sign,Non-Junction,Daylight,40,31.0,Male,Valid,Yes,2,1,8.77,Low,20.6,Minor,Minor
+Kerala,Thiruvananthapuram,18,1,1,0,Fog,Adverse,Wet,Intersection,Car,Uncontrolled,Roundabout,Daylight,100,44.0,Male,Valid,Yes,2,4,2.26,Critical,25.6,Serious,Serious
+Kerala,Thiruvananthapuram,4,0,0,1,Heat,Normal,Under Construction,Intersection,Auto-Rickshaw,Signal Present,Non-Junction,Poor Lighting,60,31.0,Male,Valid,No,3,2,4.93,High,26.5,Minor,Minor
+Karnataka,Bengaluru,21,0,0,1,Cloudy,Normal,Damaged,Residential,Car,Signal Present,Non-Junction,Poor Lighting,30,27.0,Male,Expired,Yes,2,1,5.12,Moderate,30.0,Minor,Minor
+Maharashtra,Pune,10,0,1,0,Heat,Normal,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,40,27.0,Male,Valid,No,2,1,7.73,Moderate,21.0,Minor,Minor
+Gujarat,Ahmedabad,9,1,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Uncontrolled,Y-Junction,Street Lights,60,34.5,Male,Valid,Yes,3,2,3.31,High,33.3,Minor,Serious
+Gujarat,Surat,18,1,1,0,Rain,Adverse,Dry,Intersection,Bus,Uncontrolled,T-Junction,Daylight,60,36.0,Male,Valid,No,2,1,10.84,Low,33.6,Minor,Minor
+Kerala,Kozhikode,21,0,0,1,Storm,Adverse,Dry,Urban Arterial,Two-Wheeler,Signal Present,Y-Junction,Street Lights,80,34.0,Female,Valid,No,2,1,3.0,High,30.1,Minor,Minor
+Maharashtra,Nagpur,14,0,0,0,Rain,Adverse,Wet,Residential,Two-Wheeler,Roundabout,Non-Junction,Street Lights,40,25.0,Female,Valid,Yes,2,1,4.92,High,26.6,Minor,Minor
+West Bengal,Howrah,16,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Y-Junction,Poor Lighting,40,28.0,Male,Valid,No,2,1,1.81,Critical,30.0,Minor,Minor
+Delhi,Dwarka,9,1,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Police Managed,T-Junction,Daylight,60,39.0,Female,Valid,No,3,2,8.45,Low,34.4,Minor,Minor
+Gujarat,Surat,9,1,0,0,Storm,Adverse,Dry,Rural Road,Two-Wheeler,Roundabout,T-Junction,Daylight,60,38.0,Female,Valid,No,3,1,3.05,High,23.8,Minor,Minor
+Delhi,Rohini,11,0,0,0,Clear,Normal,Damaged,Rural Road,Truck,Stop Sign,T-Junction,Street Lights,60,49.0,Male,Valid,No,2,1,6.33,Moderate,29.9,Minor,Minor
+Telangana,Hyderabad,9,1,1,0,Clear,Normal,Dry,Urban Arterial,Truck,Signal Present,Cross Junction,Street Lights,60,43.0,Male,Learner,Yes,1,3,4.09,High,32.9,Minor,Minor
+Telangana,Hyderabad,16,0,0,0,Storm,Adverse,Dry,Highway,Car,Signal Present,Cross Junction,Daylight,30,41.0,Male,Valid,No,4,2,1.46,Critical,27.6,Minor,Serious
+Karnataka,Bengaluru,11,0,1,0,Rain,Adverse,Wet,Rural Road,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,100,22.0,Male,Expired,No,4,2,12.0,Low,26.6,Minor,Minor
+Tamil Nadu,Chennai,7,1,0,0,Cloudy,Normal,Dry,Residential,Car,Signal Present,Roundabout,Daylight,40,45.0,Male,Valid,No,3,3,7.88,Moderate,27.1,Minor,Minor
+Karnataka,Mysuru,14,0,0,0,Clear,Normal,Wet,Urban Arterial,Auto-Rickshaw,Uncontrolled,Roundabout,Street Lights,50,27.0,Male,Valid,No,1,3,7.63,Moderate,18.5,Minor,Minor
+Rajasthan,Jodhpur,13,0,0,0,Fog,Adverse,Dry,Rural Road,Two-Wheeler,Stop Sign,Cross Junction,Daylight,50,18.0,Male,Valid,No,4,2,1.16,Critical,32.3,Serious,Minor
+Maharashtra,Mumbai,16,0,0,0,Clear,Normal,Damaged,Intersection,Auto-Rickshaw,Roundabout,Non-Junction,No Lighting,40,29.0,Male,Valid,No,2,2,7.58,Moderate,18.1,Minor,Minor
+Delhi,New Delhi,5,0,0,1,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,30,58.0,Male,Valid,No,2,2,3.6,High,28.6,Minor,Minor
+Karnataka,Bengaluru,15,0,0,0,Clear,Normal,Dry,Intersection,Car,Roundabout,Non-Junction,Daylight,50,35.0,Male,Expired,No,2,1,6.53,Moderate,27.6,Minor,Minor
+Gujarat,Ahmedabad,21,0,0,1,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,Y-Junction,Poor Lighting,40,44.0,Male,Valid,Yes,3,1,8.28,Low,31.8,Minor,Minor
+Gujarat,Vadodara,1,0,0,1,Rain,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Stop Sign,Non-Junction,Daylight,30,46.0,Female,Expired,No,1,3,8.18,Low,18.6,Minor,Minor
+Karnataka,Hubballi,23,0,1,1,Clear,Normal,Dry,Highway,Two-Wheeler,Roundabout,T-Junction,Street Lights,40,35.0,Male,Valid,No,2,2,7.91,Moderate,39.6,Minor,Minor
+West Bengal,Durgapur,7,1,0,0,Rain,Adverse,Dry,Intersection,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,50,32.0,Male,Valid,No,3,1,6.65,Moderate,35.2,Minor,Minor
+Karnataka,Bengaluru,17,1,0,0,Fog,Adverse,Dry,Rural Road,Car,Uncontrolled,Cross Junction,Poor Lighting,30,25.0,Male,Valid,No,2,1,2.16,Critical,24.0,Minor,Minor
+Uttar Pradesh,Kanpur,15,0,0,0,Clear,Normal,Wet,Rural Road,Bus,Police Managed,T-Junction,Daylight,40,32.0,Male,Invalid,Yes,3,2,6.23,Moderate,22.7,Minor,Minor
+Delhi,Rohini,18,1,0,0,Fog,Adverse,Dry,Residential,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,43.0,Male,Valid,No,4,1,0.57,Critical,31.5,Minor,Minor
+Tamil Nadu,Coimbatore,7,1,0,0,Clear,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Y-Junction,Daylight,60,39.0,Male,Invalid,No,2,1,5.54,Moderate,19.2,Minor,Minor
+Tamil Nadu,Chennai,12,0,1,0,Rain,Adverse,Damaged,Intersection,Two-Wheeler,Roundabout,T-Junction,Daylight,60,40.0,Male,Expired,No,2,1,4.2,High,25.0,Minor,Minor
+West Bengal,Howrah,6,0,0,0,Fog,Adverse,Wet,Rural Road,Two-Wheeler,Signal Present,Cross Junction,Poor Lighting,40,19.0,Male,Valid,No,3,1,1.48,Critical,32.4,Minor,Minor
+Maharashtra,Mumbai,8,1,0,0,Clear,Normal,Under Construction,Intersection,Two-Wheeler,Signal Present,T-Junction,Daylight,80,51.0,Male,Valid,No,1,2,7.27,Moderate,28.2,Minor,Minor
+Karnataka,Hubballi,16,0,1,0,Clear,Normal,Dry,Residential,Truck,Uncontrolled,Non-Junction,Poor Lighting,50,29.0,Male,Valid,No,2,2,6.62,Moderate,35.2,Minor,Minor
+Rajasthan,Udaipur,7,1,0,0,Rain,Adverse,Under Construction,Rural Road,Two-Wheeler,Signal Present,T-Junction,Daylight,30,29.0,Male,Valid,No,3,2,8.84,Low,35.2,Minor,Minor
+Karnataka,Mysuru,7,1,0,0,Clear,Normal,Dry,Intersection,Car,Uncontrolled,Cross Junction,Daylight,80,30.0,Male,Valid,No,2,1,5.16,Moderate,22.2,Minor,Minor
+Uttar Pradesh,Kanpur,3,0,0,1,Rain,Adverse,Dry,Residential,Auto-Rickshaw,Uncontrolled,Non-Junction,No Lighting,30,33.0,Male,Valid,No,4,3,5.42,Moderate,20.3,Minor,Minor
+West Bengal,Durgapur,6,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,T-Junction,Daylight,60,41.0,Male,Valid,No,3,3,6.28,Moderate,32.1,Minor,Minor
+Rajasthan,Udaipur,20,0,0,1,Cloudy,Normal,Dry,Residential,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,30.0,Male,Learner,Yes,4,2,6.17,Moderate,29.9,Minor,Minor
+Tamil Nadu,Madurai,7,1,0,0,Cloudy,Normal,Wet,Intersection,Auto-Rickshaw,Police Managed,Non-Junction,Street Lights,50,18.0,Male,Valid,No,2,2,7.18,Moderate,30.4,Minor,Minor
+Tamil Nadu,Coimbatore,7,1,0,0,Fog,Adverse,Under Construction,Residential,Auto-Rickshaw,Signal Present,Roundabout,Daylight,50,31.0,Male,Valid,No,2,1,3.0,High,30.2,Minor,Minor
+Gujarat,Vadodara,19,1,0,0,Clear,Normal,Damaged,Rural Road,Car,Signal Present,Non-Junction,Daylight,40,50.0,Male,Valid,No,2,1,5.45,Moderate,28.9,Minor,Minor
+Gujarat,Ahmedabad,17,1,1,0,Clear,Normal,Under Construction,Residential,Two-Wheeler,Stop Sign,Non-Junction,Daylight,50,43.0,Male,Valid,No,3,2,11.06,Low,30.9,Minor,Minor
+Tamil Nadu,Madurai,9,1,0,0,Fog,Adverse,Dry,Urban Arterial,Truck,Uncontrolled,Non-Junction,Street Lights,50,23.0,Male,Valid,No,1,1,1.74,Critical,40.3,Minor,Minor
+Delhi,Rohini,7,1,1,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,T-Junction,No Lighting,40,36.0,Male,Valid,No,2,1,8.67,Low,21.3,Serious,Minor
+West Bengal,Durgapur,16,0,0,0,Cloudy,Normal,Slippery,Residential,Two-Wheeler,Uncontrolled,T-Junction,Poor Lighting,60,41.0,Male,Valid,No,1,3,2.57,High,36.1,Minor,Minor
+Maharashtra,Mumbai,9,1,0,0,Heat,Normal,Dry,Residential,Two-Wheeler,Police Managed,Y-Junction,No Lighting,50,48.0,Male,Learner,No,1,2,8.64,Low,26.8,Minor,Minor
+Kerala,Kochi,18,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Stop Sign,Cross Junction,Street Lights,30,36.0,Male,Valid,No,2,1,11.97,Low,22.5,Serious,Minor
+Tamil Nadu,Chennai,12,0,0,0,Clear,Normal,Slippery,Urban Arterial,Car,Signal Present,Non-Junction,Daylight,40,50.0,Male,Valid,Yes,1,2,2.83,High,33.6,Minor,Minor
+Karnataka,Hubballi,19,1,0,0,Storm,Adverse,Under Construction,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,40,32.0,Male,Valid,No,2,1,3.05,High,27.5,Minor,Minor
+Rajasthan,Jaipur,18,1,0,0,Clear,Normal,Dry,Intersection,Car,Signal Present,Non-Junction,Daylight,30,40.0,Male,Valid,Yes,1,1,5.22,Moderate,36.1,Minor,Minor
+Gujarat,Surat,16,0,0,0,Cloudy,Normal,Dry,Intersection,Car,Uncontrolled,T-Junction,Street Lights,40,42.0,Male,Valid,No,4,2,5.68,Moderate,25.3,Minor,Minor
+Karnataka,Bengaluru,17,1,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,No Lighting,80,51.0,Male,Expired,Yes,2,3,8.68,Low,26.6,Minor,Serious
+Delhi,New Delhi,5,0,0,1,Rain,Adverse,Damaged,Residential,Auto-Rickshaw,Signal Present,T-Junction,Street Lights,60,31.0,Male,Valid,No,2,2,4.61,High,17.8,Minor,Minor
+Gujarat,Ahmedabad,18,1,0,0,Clear,Normal,Damaged,Highway,Truck,Stop Sign,Roundabout,No Lighting,40,38.0,Male,Learner,No,2,3,7.04,Moderate,24.2,Serious,Minor
+Karnataka,Bengaluru,19,1,0,0,Clear,Normal,Wet,Urban Arterial,Car,Signal Present,Non-Junction,Daylight,40,31.0,Female,Invalid,No,3,1,3.04,High,21.1,Minor,Minor
+Maharashtra,Mumbai,8,1,0,0,Storm,Adverse,Dry,Urban Arterial,Car,Signal Present,T-Junction,Daylight,100,38.0,Male,Valid,No,2,1,2.93,High,24.3,Serious,Minor
+Tamil Nadu,Madurai,3,0,0,1,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Police Managed,Y-Junction,Poor Lighting,30,18.0,Male,Invalid,No,2,1,5.04,Moderate,25.7,Minor,Minor
+Maharashtra,Nagpur,11,0,1,0,Storm,Adverse,Damaged,Rural Road,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,60,39.0,Male,Valid,No,2,1,2.98,High,28.7,Minor,Minor
+Tamil Nadu,Madurai,15,0,0,0,Clear,Normal,Dry,Residential,Truck,Uncontrolled,Cross Junction,Street Lights,60,23.0,Male,Valid,No,2,1,7.7,Moderate,30.9,Minor,Minor
+Kerala,Kozhikode,8,1,1,0,Storm,Adverse,Slippery,Highway,Two-Wheeler,Signal Present,Non-Junction,Street Lights,60,27.0,Male,Valid,No,1,1,3.01,High,33.1,Minor,Minor
+Rajasthan,Jodhpur,8,1,1,0,Clear,Normal,Dry,Urban Arterial,Car,Signal Present,Y-Junction,Street Lights,60,37.0,Male,Valid,No,4,1,8.9,Low,29.9,Minor,Minor
+Tamil Nadu,Coimbatore,16,0,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,Street Lights,30,22.0,Male,Valid,Yes,2,1,6.69,Moderate,28.9,Minor,Minor
+Karnataka,Mysuru,17,1,0,0,Cloudy,Normal,Dry,Intersection,Truck,Uncontrolled,Cross Junction,Daylight,40,30.0,Female,Valid,No,4,1,7.18,Moderate,26.3,Minor,Minor
+Rajasthan,Jaipur,22,0,0,1,Clear,Normal,Wet,Rural Road,Two-Wheeler,Signal Present,Non-Junction,Daylight,50,26.0,Male,Valid,No,2,1,5.92,Moderate,31.5,Minor,Minor
+West Bengal,Howrah,20,0,0,1,Cloudy,Normal,Dry,Highway,Two-Wheeler,Stop Sign,T-Junction,Daylight,40,18.0,Male,Valid,Yes,2,3,5.64,Moderate,29.25,Minor,Minor
+Maharashtra,Pune,14,0,1,0,Cloudy,Normal,Damaged,Intersection,Bus,Uncontrolled,Non-Junction,Street Lights,30,28.0,Male,Valid,Yes,2,2,3.92,High,21.0,Minor,Minor
+Delhi,Dwarka,16,0,1,0,Clear,Normal,Dry,Residential,Auto-Rickshaw,Signal Present,Cross Junction,Poor Lighting,30,51.0,Male,Valid,No,3,2,6.61,Moderate,35.8,Minor,Minor
+Tamil Nadu,Chennai,8,1,0,0,Clear,Normal,Dry,Rural Road,Truck,Signal Present,Non-Junction,Daylight,40,32.0,Male,Learner,No,3,2,8.9,Low,31.7,Minor,Minor
+Telangana,Hyderabad,16,0,0,0,Storm,Adverse,Dry,Urban Arterial,Two-Wheeler,Roundabout,Non-Junction,Daylight,80,23.0,Female,Valid,No,2,1,1.02,Critical,27.3,Serious,Minor
+Gujarat,Ahmedabad,18,1,1,0,Cloudy,Normal,Slippery,Intersection,Bus,Stop Sign,T-Junction,Street Lights,60,27.0,Male,Valid,No,2,3,6.58,Moderate,28.9,Minor,Minor
+Maharashtra,Mumbai,15,0,1,0,Clear,Normal,Wet,Rural Road,Auto-Rickshaw,Police Managed,Roundabout,No Lighting,50,32.0,Male,Valid,No,2,2,9.41,Low,23.2,Minor,Minor
+Kerala,Thiruvananthapuram,11,0,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Roundabout,T-Junction,Daylight,30,33.0,Male,Valid,No,2,1,4.94,High,32.3,Minor,Minor
+West Bengal,Durgapur,12,0,0,0,Cloudy,Normal,Dry,Intersection,Car,Signal Present,Y-Junction,Street Lights,40,24.0,Male,Learner,No,1,2,4.11,High,28.7,Minor,Minor
+Kerala,Thiruvananthapuram,11,0,1,0,Clear,Normal,Under Construction,Urban Arterial,Auto-Rickshaw,Police Managed,Cross Junction,Daylight,60,38.0,Male,Valid,No,1,2,3.11,High,27.4,Minor,Minor
+West Bengal,Durgapur,9,1,1,0,Clear,Normal,Dry,Rural Road,Auto-Rickshaw,Uncontrolled,Non-Junction,Street Lights,60,40.0,Male,Valid,No,2,3,3.6,High,26.2,Minor,Minor
+Rajasthan,Jodhpur,4,0,1,1,Cloudy,Normal,Wet,Intersection,Two-Wheeler,Uncontrolled,Roundabout,Daylight,40,38.0,Male,Expired,No,3,1,9.88,Low,34.9,Minor,Minor
+Gujarat,Vadodara,17,1,1,0,Clear,Normal,Dry,Residential,Two-Wheeler,Uncontrolled,Cross Junction,Street Lights,80,43.0,Male,Valid,No,1,1,9.03,Low,19.9,Minor,Minor
+West Bengal,Howrah,17,1,0,0,Clear,Normal,Damaged,Residential,Car,Police Managed,Y-Junction,Daylight,60,37.0,Male,Valid,No,2,2,6.53,Moderate,32.5,Minor,Minor
+Rajasthan,Udaipur,9,1,0,0,Storm,Adverse,Wet,Highway,Car,Signal Present,Non-Junction,Daylight,80,31.0,Male,Valid,No,2,2,2.67,High,43.0,Serious,Serious
+Tamil Nadu,Madurai,15,0,1,0,Rain,Adverse,Dry,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,33.0,Male,Valid,No,3,1,6.39,Moderate,32.2,Minor,Minor
+Karnataka,Bengaluru,8,1,0,0,Heat,Normal,Dry,Highway,Two-Wheeler,Stop Sign,Roundabout,Daylight,30,33.0,Female,Valid,No,2,2,4.17,High,18.5,Minor,Minor
+Telangana,Warangal,4,0,0,1,Cloudy,Normal,Dry,Highway,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,50,56.0,Male,Valid,No,3,2,8.55,Low,26.3,Minor,Minor
+Gujarat,Surat,3,0,0,1,Cloudy,Normal,Wet,Residential,Car,Uncontrolled,Non-Junction,Street Lights,50,28.0,Male,Valid,No,2,3,7.94,Moderate,32.6,Minor,Minor
+Kerala,Kozhikode,19,1,0,0,Rain,Adverse,Damaged,Highway,Two-Wheeler,Roundabout,T-Junction,Daylight,30,40.0,Female,Valid,No,3,2,8.47,Low,30.0,Minor,Minor
+Rajasthan,Udaipur,19,1,0,0,Clear,Normal,Under Construction,Urban Arterial,Two-Wheeler,Roundabout,Y-Junction,Daylight,30,39.0,Male,Expired,Yes,2,1,4.12,High,31.55,Minor,Minor
+Tamil Nadu,Chennai,8,1,1,0,Clear,Normal,Dry,Rural Road,Car,Uncontrolled,Non-Junction,Daylight,60,40.0,Male,Valid,No,2,1,8.04,Low,30.9,Minor,Minor
+Delhi,Dwarka,12,0,0,0,Rain,Adverse,Damaged,Urban Arterial,Car,Roundabout,Roundabout,Daylight,40,18.0,Male,Valid,No,1,1,7.14,Moderate,28.4,Minor,Minor
+West Bengal,Howrah,9,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Truck,Uncontrolled,T-Junction,Street Lights,60,21.0,Male,Valid,No,2,2,9.57,Low,33.4,Minor,Minor
+Tamil Nadu,Chennai,9,1,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Signal Present,Y-Junction,No Lighting,40,24.0,Male,Valid,No,3,2,4.69,High,22.9,Minor,Minor
+West Bengal,Durgapur,9,1,1,0,Cloudy,Normal,Under Construction,Residential,Two-Wheeler,Signal Present,Non-Junction,Daylight,60,28.0,Male,Learner,No,1,3,3.41,High,35.0,Minor,Minor
+Karnataka,Mysuru,19,1,0,0,Clear,Normal,Wet,Rural Road,Car,Signal Present,Non-Junction,Daylight,50,49.0,Male,Valid,No,2,1,6.29,Moderate,20.6,Minor,Minor
+Rajasthan,Udaipur,17,1,0,0,Fog,Adverse,Wet,Residential,Truck,Stop Sign,T-Junction,Daylight,50,26.0,Male,Valid,No,3,1,2.45,Critical,27.8,Minor,Minor
+Karnataka,Hubballi,8,1,0,0,Clear,Normal,Under Construction,Intersection,Truck,Roundabout,Non-Junction,Daylight,80,33.0,Male,Valid,No,2,1,1.9,Critical,32.7,Minor,Minor
+Delhi,Dwarka,8,1,1,0,Rain,Adverse,Wet,Intersection,Truck,Roundabout,T-Junction,Daylight,60,57.0,Male,Valid,No,3,1,6.4,Moderate,26.7,Minor,Minor
+Gujarat,Surat,18,1,0,0,Clear,Normal,Dry,Residential,Auto-Rickshaw,Police Managed,Non-Junction,Street Lights,100,46.0,Male,Valid,No,1,2,5.49,Moderate,27.4,Minor,Minor
+Uttar Pradesh,Lucknow,16,0,0,0,Clear,Normal,Dry,Urban Arterial,Bus,Signal Present,Non-Junction,Poor Lighting,40,32.0,Male,Valid,No,3,1,4.48,High,23.9,Minor,Minor
+West Bengal,Howrah,11,0,0,0,Cloudy,Normal,Dry,Rural Road,Two-Wheeler,Roundabout,Non-Junction,Street Lights,30,36.0,Male,Valid,No,3,1,7.34,Moderate,29.9,Minor,Minor
+Maharashtra,Mumbai,7,1,0,0,Rain,Adverse,Damaged,Rural Road,Truck,Roundabout,Y-Junction,Street Lights,80,40.0,Male,Expired,No,2,1,10.32,Low,24.3,Minor,Minor
+West Bengal,Durgapur,19,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Auto-Rickshaw,Stop Sign,Roundabout,Street Lights,30,22.0,Male,Valid,No,2,1,10.78,Low,34.9,Minor,Minor
+Uttar Pradesh,Lucknow,6,0,1,0,Heat,Normal,Wet,Rural Road,Truck,Police Managed,Non-Junction,Daylight,30,46.0,Male,Valid,Yes,2,1,4.85,High,35.1,Minor,Minor
+Maharashtra,Pune,4,0,1,1,Rain,Adverse,Damaged,Highway,Auto-Rickshaw,Roundabout,Non-Junction,Daylight,60,36.0,Male,Valid,No,2,1,1.13,Critical,22.2,Minor,Minor
+Kerala,Kochi,15,0,1,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,30,18.0,Female,Learner,No,2,1,10.71,Low,26.7,Minor,Minor
+Maharashtra,Nagpur,9,1,1,0,Fog,Adverse,Wet,Intersection,Car,Roundabout,Y-Junction,Daylight,50,34.0,Male,Valid,No,3,1,1.89,Critical,29.3,Minor,Minor
+Maharashtra,Nagpur,21,0,0,1,Rain,Adverse,Under Construction,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,30,18.0,Male,Learner,No,2,1,7.03,Moderate,26.6,Minor,Minor
+Telangana,Hyderabad,7,1,0,0,Cloudy,Normal,Wet,Highway,Car,Signal Present,Non-Junction,Street Lights,60,34.0,Male,Valid,No,2,1,5.53,Moderate,25.4,Minor,Minor
+Uttar Pradesh,Varanasi,14,0,0,0,Clear,Normal,Dry,Rural Road,Two-Wheeler,Signal Present,Roundabout,Daylight,30,34.0,Male,Learner,No,2,1,5.71,Moderate,25.2,Minor,Minor
+Maharashtra,Nagpur,8,1,0,0,Clear,Normal,Damaged,Residential,Two-Wheeler,Uncontrolled,T-Junction,Daylight,50,36.0,Male,Valid,No,2,3,4.26,High,29.0,Minor,Minor
+Rajasthan,Jodhpur,7,1,0,0,Clear,Normal,Under Construction,Residential,Two-Wheeler,Roundabout,Cross Junction,Poor Lighting,60,21.0,Female,Valid,No,1,1,7.09,Moderate,27.5,Minor,Minor
+Maharashtra,Nagpur,14,0,0,0,Cloudy,Normal,Wet,Rural Road,Car,Stop Sign,Non-Junction,Poor Lighting,100,40.0,Male,Learner,No,1,3,5.61,Moderate,30.2,Minor,Serious
+Uttar Pradesh,Varanasi,15,0,1,0,Clear,Normal,Wet,Urban Arterial,Car,Uncontrolled,Non-Junction,Daylight,80,22.0,Male,Valid,No,2,1,5.02,Moderate,28.5,Minor,Minor
+Karnataka,Hubballi,20,0,0,1,Fog,Adverse,Slippery,Intersection,Auto-Rickshaw,Uncontrolled,T-Junction,Daylight,60,41.0,Male,Valid,No,3,2,1.86,Critical,28.9,Minor,Minor
+Kerala,Kozhikode,20,0,1,1,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Signal Present,Non-Junction,No Lighting,100,43.0,Female,Valid,No,1,1,6.2,Moderate,25.4,Minor,Minor
+Kerala,Kozhikode,3,0,0,1,Rain,Adverse,Dry,Highway,Bus,Signal Present,Cross Junction,Street Lights,80,20.0,Female,Valid,No,1,1,8.13,Low,36.2,Minor,Minor
+Uttar Pradesh,Kanpur,14,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,50,31.0,Male,Valid,No,2,1,5.24,Moderate,23.1,Minor,Minor
+Rajasthan,Udaipur,7,1,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Uncontrolled,Roundabout,No Lighting,40,63.0,Male,Valid,No,2,2,3.46,High,36.2,Minor,Minor
+Rajasthan,Udaipur,17,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Car,Police Managed,Cross Junction,Street Lights,60,37.0,Male,Valid,No,2,1,8.47,Low,29.4,Minor,Minor
+Tamil Nadu,Chennai,9,1,1,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,T-Junction,Daylight,80,37.0,Female,Valid,No,2,1,5.56,Moderate,31.9,Minor,Minor
+Rajasthan,Udaipur,20,0,0,1,Rain,Adverse,Wet,Urban Arterial,Two-Wheeler,Signal Present,Roundabout,Daylight,50,21.0,Male,Valid,No,1,2,10.54,Low,33.8,Minor,Minor
+Karnataka,Hubballi,17,1,1,0,Cloudy,Normal,Wet,Urban Arterial,Truck,Roundabout,Roundabout,Daylight,50,33.0,Male,Valid,No,2,2,2.73,High,29.0,Minor,Minor
+Uttar Pradesh,Lucknow,14,0,1,0,Clear,Normal,Wet,Residential,Truck,Uncontrolled,T-Junction,No Lighting,50,29.0,Male,Valid,No,2,1,6.7,Moderate,28.1,Minor,Minor
+West Bengal,Durgapur,21,0,1,1,Clear,Normal,Dry,Urban Arterial,Bus,Uncontrolled,Non-Junction,Poor Lighting,60,41.0,Male,Valid,Yes,3,1,8.1,Low,36.2,Minor,Minor
+Kerala,Kochi,18,1,0,0,Heat,Normal,Wet,Urban Arterial,Car,Police Managed,Non-Junction,No Lighting,50,29.0,Female,Valid,No,4,2,10.85,Low,32.5,Minor,Minor
+Telangana,Hyderabad,6,0,0,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,30.0,Male,Valid,No,2,2,10.47,Low,29.2,Minor,Minor
+Karnataka,Hubballi,18,1,1,0,Clear,Normal,Dry,Rural Road,Truck,Signal Present,Non-Junction,No Lighting,40,25.0,Male,Valid,No,1,2,4.96,High,15.9,Minor,Minor
+Maharashtra,Pune,5,0,0,1,Clear,Normal,Dry,Rural Road,Bus,Uncontrolled,Non-Junction,No Lighting,80,38.0,Male,Valid,No,2,2,7.93,Moderate,27.5,Serious,Minor
+Tamil Nadu,Madurai,8,1,0,0,Rain,Adverse,Dry,Intersection,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,60,47.0,Male,Valid,No,3,2,9.13,Low,28.7,Minor,Minor
+Uttar Pradesh,Varanasi,8,1,1,0,Clear,Normal,Under Construction,Highway,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,40,18.0,Male,Invalid,Yes,2,3,6.53,Moderate,33.0,Serious,Minor
+Rajasthan,Udaipur,16,0,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Roundabout,Cross Junction,Daylight,80,29.0,Male,Valid,No,3,1,6.12,Moderate,36.0,Minor,Minor
+Karnataka,Bengaluru,18,1,0,0,Rain,Adverse,Under Construction,Urban Arterial,Auto-Rickshaw,Uncontrolled,Roundabout,Daylight,80,34.0,Female,Expired,No,2,2,10.44,Low,23.6,Minor,Minor
+Kerala,Kozhikode,12,0,1,0,Clear,Normal,Under Construction,Intersection,Two-Wheeler,Signal Present,Non-Junction,Daylight,40,51.0,Male,Valid,No,4,1,4.04,High,21.7,Minor,Minor
+Rajasthan,Jodhpur,19,1,0,0,Rain,Adverse,Wet,Highway,Bus,Signal Present,T-Junction,Daylight,30,35.0,Male,Valid,No,3,1,3.87,High,33.2,Minor,Minor
+Maharashtra,Pune,15,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Uncontrolled,T-Junction,Poor Lighting,100,25.0,Male,Valid,No,3,3,5.44,Moderate,32.4,Serious,Serious
+Gujarat,Vadodara,20,0,0,1,Storm,Adverse,Damaged,Rural Road,Auto-Rickshaw,Uncontrolled,T-Junction,Daylight,50,33.0,Male,Valid,No,4,1,2.04,Critical,20.4,Minor,Minor
+Tamil Nadu,Madurai,15,0,0,0,Rain,Adverse,Damaged,Urban Arterial,Auto-Rickshaw,Signal Present,Non-Junction,Daylight,30,44.0,Male,Valid,No,4,1,6.27,Moderate,34.9,Minor,Minor
+Rajasthan,Udaipur,8,1,0,0,Cloudy,Normal,Dry,Highway,Truck,Uncontrolled,Non-Junction,Daylight,60,35.0,Female,Invalid,No,3,1,7.57,Moderate,23.6,Minor,Minor
+Maharashtra,Mumbai,18,1,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Uncontrolled,Y-Junction,Poor Lighting,50,21.0,Male,Expired,No,2,1,8.66,Low,26.6,Minor,Minor
+Karnataka,Hubballi,19,1,1,0,Fog,Adverse,Under Construction,Highway,Two-Wheeler,Signal Present,T-Junction,Street Lights,40,31.0,Male,Valid,No,2,1,2.54,High,31.1,Minor,Minor
+Tamil Nadu,Chennai,7,1,1,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,50,43.0,Male,Learner,No,4,1,6.41,Moderate,27.4,Minor,Minor
+Uttar Pradesh,Kanpur,11,0,0,0,Clear,Normal,Under Construction,Intersection,Auto-Rickshaw,Uncontrolled,Cross Junction,Poor Lighting,30,31.0,Male,Valid,No,2,2,9.5,Low,14.9,Minor,Minor
+Karnataka,Bengaluru,18,1,0,0,Cloudy,Normal,Slippery,Intersection,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,40,46.0,Male,Valid,No,3,1,6.42,Moderate,24.9,Minor,Minor
+Kerala,Kochi,17,1,0,0,Storm,Adverse,Dry,Highway,Two-Wheeler,Roundabout,Roundabout,Poor Lighting,100,34.0,Male,Learner,No,3,2,2.37,Critical,26.5,Serious,Serious
+Gujarat,Vadodara,15,0,0,0,Clear,Normal,Dry,Urban Arterial,Auto-Rickshaw,Stop Sign,Non-Junction,Street Lights,60,18.0,Female,Valid,No,4,2,4.46,High,23.9,Minor,Minor
+Karnataka,Mysuru,21,0,1,1,Heat,Normal,Damaged,Highway,Truck,Signal Present,T-Junction,Poor Lighting,80,24.0,Male,Valid,No,2,2,6.27,Moderate,35.7,Serious,Serious
+West Bengal,Howrah,15,0,1,0,Rain,Adverse,Dry,Intersection,Truck,Stop Sign,Y-Junction,Poor Lighting,40,48.0,Male,Valid,No,2,1,6.41,Moderate,32.3,Minor,Minor
+Rajasthan,Udaipur,5,0,0,1,Rain,Adverse,Dry,Intersection,Car,Stop Sign,Non-Junction,Street Lights,30,30.0,Male,Valid,No,4,2,7.62,Moderate,28.1,Minor,Minor
+Telangana,Warangal,14,0,0,0,Storm,Adverse,Wet,Highway,Truck,Signal Present,Cross Junction,Daylight,50,38.0,Male,Valid,No,1,2,1.64,Critical,21.7,Serious,Serious
+Maharashtra,Nagpur,18,1,0,0,Rain,Adverse,Dry,Urban Arterial,Truck,Roundabout,T-Junction,Daylight,30,56.0,Male,Valid,No,1,1,5.61,Moderate,35.0,Minor,Minor
+Karnataka,Hubballi,18,1,0,0,Clear,Normal,Under Construction,Highway,Two-Wheeler,Uncontrolled,Roundabout,Street Lights,50,22.0,Male,Learner,Yes,2,2,3.01,High,32.2,Serious,Serious
+Uttar Pradesh,Lucknow,0,0,1,1,Rain,Adverse,Under Construction,Residential,Two-Wheeler,Police Managed,T-Junction,Daylight,30,24.0,Male,Valid,No,2,1,5.48,Moderate,30.0,Minor,Minor
+Karnataka,Mysuru,13,0,0,0,Cloudy,Normal,Dry,Urban Arterial,Car,Roundabout,Roundabout,Daylight,60,18.0,Male,Valid,No,2,2,6.76,Moderate,25.3,Minor,Minor
+Delhi,Dwarka,20,0,1,1,Clear,Normal,Dry,Highway,Two-Wheeler,Police Managed,Roundabout,Daylight,80,18.0,Male,Valid,No,1,2,8.13,Low,22.0,Serious,Serious
+Rajasthan,Jaipur,6,0,0,0,Heat,Normal,Dry,Residential,Truck,Signal Present,Cross Junction,Daylight,30,36.0,Male,Valid,No,3,1,6.18,Moderate,34.0,Minor,Minor
+Gujarat,Surat,12,0,1,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,Cross Junction,Poor Lighting,60,34.0,Male,Valid,No,4,1,6.29,Moderate,24.4,Minor,Minor
+Delhi,Dwarka,21,0,0,1,Heat,Normal,Dry,Urban Arterial,Truck,Stop Sign,Non-Junction,Street Lights,40,26.0,Male,Valid,No,2,1,4.8,High,25.7,Minor,Minor
+Karnataka,Mysuru,6,0,0,0,Heat,Normal,Slippery,Highway,Truck,Uncontrolled,Non-Junction,Daylight,50,18.0,Female,Valid,No,2,1,10.36,Low,20.3,Minor,Minor
+Karnataka,Hubballi,18,1,0,0,Fog,Adverse,Dry,Highway,Auto-Rickshaw,Police Managed,Non-Junction,No Lighting,50,50.0,Male,Valid,No,2,1,2.0149999999999997,Critical,24.9,Serious,Minor
+West Bengal,Howrah,17,1,0,0,Clear,Normal,Dry,Urban Arterial,Bus,Uncontrolled,T-Junction,Street Lights,30,46.0,Male,Valid,Yes,1,2,5.6,Moderate,32.9,Minor,Minor
+Delhi,New Delhi,8,1,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,60,35.0,Male,Valid,No,3,1,6.81,Moderate,32.3,Minor,Minor
+West Bengal,Kolkata,7,1,0,0,Rain,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Signal Present,Roundabout,Daylight,50,33.0,Male,Valid,No,3,1,7.92,Moderate,31.3,Minor,Minor
+Delhi,Dwarka,14,0,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Roundabout,T-Junction,Street Lights,50,44.0,Male,Valid,No,2,2,6.92,Moderate,31.6,Minor,Minor
+Tamil Nadu,Chennai,4,0,1,1,Clear,Normal,Dry,Highway,Two-Wheeler,Roundabout,Cross Junction,Poor Lighting,100,64.0,Male,Valid,No,1,3,10.31,Low,23.6,Serious,Serious
+Telangana,Nizamabad,17,1,1,0,Clear,Normal,Damaged,Intersection,Truck,Signal Present,Cross Junction,Daylight,50,24.0,Male,Invalid,No,3,1,7.47,Moderate,37.0,Minor,Minor
+Telangana,Hyderabad,17,1,0,0,Clear,Normal,Wet,Intersection,Car,Signal Present,Roundabout,Street Lights,60,27.0,Male,Invalid,No,2,1,4.02,High,18.3,Minor,Minor
+Gujarat,Surat,19,1,0,0,Fog,Adverse,Dry,Intersection,Two-Wheeler,Stop Sign,T-Junction,Daylight,50,34.0,Male,Valid,No,2,1,2.3,Critical,25.9,Minor,Minor
+West Bengal,Howrah,18,1,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Roundabout,Non-Junction,Poor Lighting,80,54.0,Male,Valid,No,2,1,8.03,Low,31.4,Serious,Minor
+Uttar Pradesh,Lucknow,14,0,0,0,Clear,Normal,Wet,Highway,Auto-Rickshaw,Signal Present,Roundabout,Daylight,40,29.0,Female,Valid,No,2,2,4.71,High,25.8,Minor,Minor
+Gujarat,Vadodara,11,0,0,0,Clear,Normal,Dry,Highway,Two-Wheeler,Signal Present,Cross Junction,Daylight,80,18.0,Male,Valid,No,2,2,7.88,Moderate,27.5,Minor,Serious
+Karnataka,Mysuru,1,0,1,1,Storm,Adverse,Dry,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,60,18.0,Male,Valid,No,3,1,3.08,High,34.8,Minor,Minor
+Telangana,Nizamabad,15,0,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Cross Junction,Daylight,60,18.0,Male,Expired,No,3,1,5.44,Moderate,26.8,Minor,Minor
+Maharashtra,Pune,0,0,0,1,Rain,Adverse,Dry,Highway,Auto-Rickshaw,Uncontrolled,Cross Junction,Daylight,30,38.0,Male,Valid,Yes,2,1,6.61,Moderate,27.8,Minor,Minor
+Gujarat,Vadodara,20,0,1,1,Clear,Normal,Wet,Residential,Bus,Signal Present,Non-Junction,Daylight,40,49.0,Female,Learner,No,2,1,6.465,Moderate,30.3,Minor,Minor
+Tamil Nadu,Madurai,19,1,0,0,Rain,Adverse,Under Construction,Highway,Two-Wheeler,Signal Present,Non-Junction,Daylight,50,29.0,Male,Valid,No,3,1,5.93,Moderate,29.6,Minor,Minor
+Tamil Nadu,Coimbatore,17,1,1,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Roundabout,T-Junction,Daylight,50,22.0,Male,Valid,No,1,2,6.9,Moderate,23.9,Minor,Minor
+Gujarat,Ahmedabad,20,0,1,1,Cloudy,Normal,Under Construction,Intersection,Car,Uncontrolled,Non-Junction,Daylight,80,28.0,Male,Learner,No,2,2,3.72,High,25.9,Minor,Minor
+Karnataka,Mysuru,15,0,0,0,Clear,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Y-Junction,Daylight,50,36.0,Male,Valid,Yes,1,2,3.81,High,27.0,Minor,Minor
+Gujarat,Ahmedabad,14,0,0,0,Cloudy,Normal,Wet,Residential,Two-Wheeler,Police Managed,Cross Junction,Street Lights,60,19.0,Male,Valid,No,2,3,7.9,Moderate,31.2,Minor,Minor
+West Bengal,Howrah,19,1,0,0,Clear,Normal,Dry,Highway,Auto-Rickshaw,Uncontrolled,Roundabout,Daylight,50,32.0,Male,Valid,No,1,1,6.859999999999999,Moderate,25.2,Minor,Minor
+Gujarat,Surat,6,0,0,0,Clear,Normal,Damaged,Residential,Truck,Signal Present,T-Junction,Poor Lighting,80,37.0,Male,Invalid,No,3,2,5.29,Moderate,18.5,Minor,Minor
+Delhi,New Delhi,4,0,0,1,Clear,Normal,Wet,Highway,Two-Wheeler,Roundabout,T-Junction,Daylight,40,34.0,Female,Valid,No,3,1,6.49,Moderate,20.2,Serious,Minor
+Tamil Nadu,Chennai,22,0,1,1,Rain,Adverse,Dry,Intersection,Auto-Rickshaw,Roundabout,Roundabout,Street Lights,80,29.0,Male,Valid,No,3,3,5.16,Moderate,37.0,Minor,Minor
+Delhi,Rohini,13,0,0,0,Cloudy,Normal,Dry,Highway,Two-Wheeler,Stop Sign,Roundabout,Daylight,80,22.0,Female,Valid,No,3,1,7.18,Moderate,29.1,Minor,Minor
+Karnataka,Mysuru,17,1,0,0,Clear,Normal,Wet,Residential,Two-Wheeler,Signal Present,Non-Junction,Street Lights,50,23.0,Male,Valid,No,2,3,8.04,Low,27.9,Minor,Minor
+Rajasthan,Udaipur,11,0,0,0,Cloudy,Normal,Dry,Intersection,Two-Wheeler,Signal Present,Non-Junction,Daylight,50,43.0,Male,Valid,No,3,1,8.52,Low,28.9,Minor,Minor
+Gujarat,Vadodara,21,0,0,1,Heat,Normal,Dry,Intersection,Two-Wheeler,Uncontrolled,Non-Junction,Street Lights,40,35.0,Male,Valid,No,3,1,4.39,High,36.9,Minor,Minor
+Kerala,Kochi,12,0,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,No Lighting,100,44.0,Male,Expired,No,3,4,8.68,Low,27.4,Serious,Serious
+Uttar Pradesh,Lucknow,18,1,0,0,Clear,Normal,Dry,Intersection,Truck,Uncontrolled,Non-Junction,Daylight,60,41.0,Male,Valid,No,2,1,9.48,Low,26.3,Minor,Minor
+West Bengal,Howrah,17,1,0,0,Clear,Normal,Wet,Highway,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,50,30.0,Female,Valid,No,2,2,6.859999999999999,Moderate,28.8,Minor,Minor
+Delhi,New Delhi,17,1,1,0,Rain,Adverse,Damaged,Rural Road,Two-Wheeler,Uncontrolled,Non-Junction,Daylight,60,40.0,Male,Learner,No,3,2,5.12,Moderate,27.5,Minor,Minor
+Rajasthan,Jodhpur,20,0,0,1,Heat,Normal,Wet,Residential,Two-Wheeler,Roundabout,Non-Junction,Poor Lighting,50,36.0,Male,Valid,No,3,1,5.51,Moderate,33.0,Minor,Minor
+Kerala,Kozhikode,12,0,0,0,Fog,Adverse,Dry,Highway,Two-Wheeler,Signal Present,Y-Junction,No Lighting,100,31.0,Male,Valid,Yes,3,3,2.37,Critical,32.3,Fatal,Serious
+Gujarat,Vadodara,0,0,0,1,Clear,Normal,Dry,Intersection,Two-Wheeler,Police Managed,T-Junction,No Lighting,40,28.0,Male,Invalid,No,2,1,8.15,Low,20.5,Minor,Minor
+Rajasthan,Udaipur,20,0,0,1,Clear,Normal,Dry,Intersection,Two-Wheeler,Roundabout,Non-Junction,No Lighting,50,38.0,Male,Valid,No,1,1,9.69,Low,22.7,Minor,Minor
+Maharashtra,Pune,20,0,0,1,Clear,Normal,Slippery,Urban Arterial,Truck,Roundabout,Roundabout,Street Lights,80,36.0,Female,Valid,No,2,4,7.96,Moderate,34.0,Serious,Serious
+Kerala,Kozhikode,8,1,0,0,Heat,Normal,Dry,Rural Road,Auto-Rickshaw,Stop Sign,Roundabout,Daylight,50,41.0,Male,Expired,No,2,1,8.88,Low,25.0,Minor,Minor
+Telangana,Hyderabad,6,0,0,0,Clear,Normal,Dry,Urban Arterial,Two-Wheeler,Roundabout,Roundabout,Street Lights,60,26.0,Male,Valid,No,1,1,6.45,Moderate,27.4,Minor,Minor
+Tamil Nadu,Madurai,18,1,0,0,Clear,Normal,Wet,Residential,Bus,Roundabout,Non-Junction,Daylight,40,29.0,Male,Valid,Yes,3,1,5.25,Moderate,23.5,Minor,Minor
+Uttar Pradesh,Kanpur,18,1,0,0,Rain,Adverse,Dry,Highway,Car,Uncontrolled,T-Junction,Daylight,50,46.0,Male,Valid,No,4,1,5.58,Moderate,23.6,Minor,Minor
+Rajasthan,Udaipur,7,1,1,0,Clear,Normal,Dry,Rural Road,Car,Uncontrolled,Cross Junction,Street Lights,80,41.0,Male,Valid,No,3,1,5.08,Moderate,34.9,Minor,Minor
+Karnataka,Bengaluru,19,1,1,0,Clear,Normal,Dry,Urban Arterial,Truck,Signal Present,Roundabout,Daylight,30,24.0,Male,Learner,Yes,2,3,9.79,Low,33.0,Minor,Minor
+Rajasthan,Jaipur,18,1,1,0,Rain,Adverse,Wet,Urban Arterial,Two-Wheeler,Uncontrolled,Non-Junction,Poor Lighting,40,40.0,Female,Invalid,No,2,1,4.83,High,28.2,Minor,Minor
+Tamil Nadu,Madurai,4,0,0,1,Clear,Normal,Slippery,Intersection,Car,Police Managed,Non-Junction,Daylight,40,44.0,Male,Valid,No,3,2,8.53,Low,33.1,Minor,Minor
+Maharashtra,Nagpur,17,1,1,0,Rain,Adverse,Dry,Urban Arterial,Auto-Rickshaw,Uncontrolled,T-Junction,No Lighting,100,31.0,Male,Valid,No,1,3,6.44,Moderate,30.3,Minor,Serious
+Maharashtra,Pune,8,1,0,0,Storm,Adverse,Dry,Highway,Two-Wheeler,Stop Sign,T-Junction,Poor Lighting,50,33.0,Male,Learner,No,1,2,5.32,Moderate,31.1,Serious,Minor
+West Bengal,Howrah,7,1,1,0,Clear,Normal,Damaged,Highway,Two-Wheeler,Signal Present,Non-Junction,Poor Lighting,30,38.0,Male,Valid,No,2,1,10.69,Low,19.9,Minor,Minor
+Kerala,Thiruvananthapuram,7,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Auto-Rickshaw,Roundabout,Cross Junction,Daylight,50,60.0,Male,Valid,No,3,2,4.62,High,32.4,Minor,Minor
+Karnataka,Mysuru,9,1,0,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Uncontrolled,Cross Junction,Daylight,40,25.0,Male,Valid,No,4,1,6.27,Moderate,17.9,Minor,Minor
+Karnataka,Bengaluru,10,0,0,0,Fog,Adverse,Under Construction,Urban Arterial,Auto-Rickshaw,Uncontrolled,T-Junction,Street Lights,60,18.0,Male,Valid,No,2,1,2.01,Critical,29.2,Minor,Minor
+Karnataka,Hubballi,6,0,0,0,Clear,Normal,Under Construction,Urban Arterial,Two-Wheeler,Uncontrolled,T-Junction,Daylight,50,32.5,Male,Valid,No,2,1,9.89,Low,23.1,Minor,Minor
+Karnataka,Hubballi,1,0,0,1,Clear,Normal,Dry,Intersection,Car,Signal Present,Cross Junction,Street Lights,80,41.0,Male,Valid,No,2,1,6.62,Moderate,18.7,Minor,Minor
+Maharashtra,Mumbai,17,1,0,0,Storm,Adverse,Dry,Residential,Auto-Rickshaw,Roundabout,Roundabout,Street Lights,50,42.0,Male,Valid,Yes,4,2,2.91,High,30.0,Minor,Minor
+Delhi,New Delhi,15,0,0,0,Clear,Normal,Damaged,Rural Road,Auto-Rickshaw,Signal Present,Non-Junction,No Lighting,30,36.0,Male,Expired,No,1,2,7.85,Moderate,30.1,Minor,Minor
+Tamil Nadu,Coimbatore,14,0,1,0,Clear,Normal,Dry,Intersection,Car,Uncontrolled,T-Junction,Daylight,60,24.0,Male,Valid,No,2,1,5.72,Moderate,31.8,Minor,Minor
+Uttar Pradesh,Varanasi,17,1,1,0,Cloudy,Normal,Dry,Urban Arterial,Two-Wheeler,Police Managed,Non-Junction,Daylight,80,35.0,Male,Valid,No,1,1,5.31,Moderate,26.2,Minor,Minor
+Karnataka,Hubballi,15,0,0,0,Rain,Adverse,Dry,Intersection,Two-Wheeler,Stop Sign,T-Junction,Street Lights,40,63.0,Male,Invalid,No,1,1,4.49,High,25.7,Minor,Minor
+Tamil Nadu,Coimbatore,8,1,1,0,Rain,Adverse,Dry,Urban Arterial,Two-Wheeler,Stop Sign,Non-Junction,Street Lights,50,46.0,Male,Expired,Yes,2,1,6.45,Moderate,39.1,Minor,Minor
+Maharashtra,Nagpur,17,1,0,0,Heat,Normal,Dry,Rural Road,Auto-Rickshaw,Roundabout,T-Junction,Daylight,40,30.0,Male,Valid,Yes,4,1,8.48,Low,35.3,Minor,Minor

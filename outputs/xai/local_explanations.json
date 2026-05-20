@@ -1,0 +1,307 @@
+[
+  {
+    "case_id": 1,
+    "predicted_severity": "Minor",
+    "probabilities": {
+      "Fatal": 0.0,
+      "Minor": 0.9234,
+      "Serious": 0.0766
+    },
+    "top_drivers": [
+      {
+        "feature": "num__speed_limit_kmph",
+        "impact": -0.095
+      },
+      {
+        "feature": "num__number_of_casualties",
+        "impact": -0.0581
+      },
+      {
+        "feature": "cat__road_type_Highway",
+        "impact": -0.042
+      },
+      {
+        "feature": "num__visibility_km",
+        "impact": -0.0179
+      },
+      {
+        "feature": "cat__junction_type_Roundabout",
+        "impact": 0.0158
+      },
+      {
+        "feature": "cat__road_condition_Under Construction",
+        "impact": -0.0123
+      }
+    ],
+    "input_snapshot": {
+      "state": "West Bengal",
+      "city": "Howrah",
+      "hour_of_day": 7,
+      "rush_hour": 1,
+      "weekend": 0,
+      "night_time": 0,
+      "weather_conditions": "Clear",
+      "weather_category": "Normal",
+      "road_condition": "Under Construction",
+      "road_type": "Urban Arterial",
+      "vehicle_type": "Car",
+      "traffic_control_presence": "Uncontrolled",
+      "junction_type": "Roundabout",
+      "lighting_conditions": "Street Lights",
+      "speed_limit_kmph": 60,
+      "driver_age": 36.0,
+      "driver_gender": "Male",
+      "driver_license_status": "Learner",
+      "alcohol_involvement": "No",
+      "number_of_vehicles_involved": 2,
+      "number_of_casualties": 1,
+      "visibility_km": 6.96,
+      "visibility_risk": "Moderate",
+      "temperature_c": 28.2
+    }
+  },
+  {
+    "case_id": 2,
+    "predicted_severity": "Minor",
+    "probabilities": {
+      "Fatal": 0.0,
+      "Minor": 0.8731,
+      "Serious": 0.1269
+    },
+    "top_drivers": [
+      {
+        "feature": "num__speed_limit_kmph",
+        "impact": -0.1266
+      },
+      {
+        "feature": "cat__road_type_Highway",
+        "impact": 0.0623
+      },
+      {
+        "feature": "num__visibility_km",
+        "impact": -0.0328
+      },
+      {
+        "feature": "num__number_of_casualties",
+        "impact": 0.0286
+      },
+      {
+        "feature": "cat__lighting_conditions_Daylight",
+        "impact": -0.0236
+      },
+      {
+        "feature": "cat__junction_type_Non-Junction",
+        "impact": -0.02
+      }
+    ],
+    "input_snapshot": {
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "hour_of_day": 13,
+      "rush_hour": 0,
+      "weekend": 0,
+      "night_time": 0,
+      "weather_conditions": "Rain",
+      "weather_category": "Adverse",
+      "road_condition": "Dry",
+      "road_type": "Highway",
+      "vehicle_type": "Truck",
+      "traffic_control_presence": "Uncontrolled",
+      "junction_type": "Non-Junction",
+      "lighting_conditions": "Daylight",
+      "speed_limit_kmph": 50,
+      "driver_age": 33.0,
+      "driver_gender": "Male",
+      "driver_license_status": "Valid",
+      "alcohol_involvement": "No",
+      "number_of_vehicles_involved": 2,
+      "number_of_casualties": 2,
+      "visibility_km": 6.07,
+      "visibility_risk": "Moderate",
+      "temperature_c": 28.4
+    }
+  },
+  {
+    "case_id": 3,
+    "predicted_severity": "Minor",
+    "probabilities": {
+      "Fatal": 0.0,
+      "Minor": 0.8286,
+      "Serious": 0.1714
+    },
+    "top_drivers": [
+      {
+        "feature": "num__speed_limit_kmph",
+        "impact": -0.1137
+      },
+      {
+        "feature": "num__number_of_casualties",
+        "impact": -0.0819
+      },
+      {
+        "feature": "cat__road_type_Highway",
+        "impact": 0.0683
+      },
+      {
+        "feature": "cat__road_condition_Wet",
+        "impact": 0.0283
+      },
+      {
+        "feature": "cat__lighting_conditions_Daylight",
+        "impact": -0.023
+      },
+      {
+        "feature": "num__visibility_km",
+        "impact": -0.0175
+      }
+    ],
+    "input_snapshot": {
+      "state": "Tamil Nadu",
+      "city": "Chennai",
+      "hour_of_day": 17,
+      "rush_hour": 1,
+      "weekend": 0,
+      "night_time": 0,
+      "weather_conditions": "Clear",
+      "weather_category": "Normal",
+      "road_condition": "Wet",
+      "road_type": "Highway",
+      "vehicle_type": "Two-Wheeler",
+      "traffic_control_presence": "Signal Present",
+      "junction_type": "T-Junction",
+      "lighting_conditions": "Daylight",
+      "speed_limit_kmph": 40,
+      "driver_age": 32.0,
+      "driver_gender": "Male",
+      "driver_license_status": "Invalid",
+      "alcohol_involvement": "No",
+      "number_of_vehicles_involved": 3,
+      "number_of_casualties": 1,
+      "visibility_km": 6.7,
+      "visibility_risk": "Moderate",
+      "temperature_c": 33.3
+    }
+  },
+  {
+    "case_id": 4,
+    "predicted_severity": "Minor",
+    "probabilities": {
+      "Fatal": 0.0,
+      "Minor": 0.6133,
+      "Serious": 0.3867
+    },
+    "top_drivers": [
+      {
+        "feature": "num__speed_limit_kmph",
+        "impact": 0.1554
+      },
+      {
+        "feature": "num__number_of_casualties",
+        "impact": -0.0692
+      },
+      {
+        "feature": "cat__road_type_Highway",
+        "impact": -0.0436
+      },
+      {
+        "feature": "cat__lighting_conditions_Poor Lighting",
+        "impact": 0.0394
+      },
+      {
+        "feature": "num__driver_age",
+        "impact": -0.024
+      },
+      {
+        "feature": "cat__lighting_conditions_Daylight",
+        "impact": 0.019
+      }
+    ],
+    "input_snapshot": {
+      "state": "Kerala",
+      "city": "Kozhikode",
+      "hour_of_day": 13,
+      "rush_hour": 0,
+      "weekend": 0,
+      "night_time": 0,
+      "weather_conditions": "Rain",
+      "weather_category": "Adverse",
+      "road_condition": "Dry",
+      "road_type": "Urban Arterial",
+      "vehicle_type": "Auto-Rickshaw",
+      "traffic_control_presence": "Roundabout",
+      "junction_type": "Roundabout",
+      "lighting_conditions": "Poor Lighting",
+      "speed_limit_kmph": 80,
+      "driver_age": 60.0,
+      "driver_gender": "Male",
+      "driver_license_status": "Valid",
+      "alcohol_involvement": "No",
+      "number_of_vehicles_involved": 2,
+      "number_of_casualties": 1,
+      "visibility_km": 6.81,
+      "visibility_risk": "Moderate",
+      "temperature_c": 27.6
+    }
+  },
+  {
+    "case_id": 5,
+    "predicted_severity": "Minor",
+    "probabilities": {
+      "Fatal": 0.0189,
+      "Minor": 0.5143,
+      "Serious": 0.4668
+    },
+    "top_drivers": [
+      {
+        "feature": "num__speed_limit_kmph",
+        "impact": 0.1184
+      },
+      {
+        "feature": "cat__road_type_Highway",
+        "impact": 0.0766
+      },
+      {
+        "feature": "num__number_of_casualties",
+        "impact": 0.0328
+      },
+      {
+        "feature": "cat__lighting_conditions_Daylight",
+        "impact": -0.0246
+      },
+      {
+        "feature": "cat__state_Delhi",
+        "impact": -0.0242
+      },
+      {
+        "feature": "num__temperature_c",
+        "impact": -0.0217
+      }
+    ],
+    "input_snapshot": {
+      "state": "Delhi",
+      "city": "New Delhi",
+      "hour_of_day": 9,
+      "rush_hour": 1,
+      "weekend": 0,
+      "night_time": 0,
+      "weather_conditions": "Heat",
+      "weather_category": "Normal",
+      "road_condition": "Dry",
+      "road_type": "Highway",
+      "vehicle_type": "Auto-Rickshaw",
+      "traffic_control_presence": "Police Managed",
+      "junction_type": "Non-Junction",
+      "lighting_conditions": "Daylight",
+      "speed_limit_kmph": 100,
+      "driver_age": 28.0,
+      "driver_gender": "Male",
+      "driver_license_status": "Valid",
+      "alcohol_involvement": "No",
+      "number_of_vehicles_involved": 2,
+      "number_of_casualties": 2,
+      "visibility_km": 9.54,
+      "visibility_risk": "Low",
+      "temperature_c": 34.9
+    }
+  }
+]

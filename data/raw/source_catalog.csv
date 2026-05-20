@@ -1,0 +1,4 @@
+source_name,source_type,coverage,usage_in_project,link
+Kaggle - India Road Accident Dataset Predictive Analysis,Public ML-ready accident records schema,"India, 2018-2023, 3,000 record-level accidents",Schema and field design for severity prediction layer,https://www.kaggle.com/datasets/khushikyad001/india-road-accident-dataset-predictive-analysis
+MoRTH / Dataful collection,Official state/city aggregate road accident tables,"India, 2013-2023, state and city views","Context, validation, and academic source references for BI framing",https://dataful.in/collections/682/
+OGD Platform India - Weather and junction resource pages,Government table resources,State- and city-level accident classification pages,Reference metadata for weather and junction dimensions,https://www.data.gov.in/catalog/stateut-wise-number-accidents-persons-killed-and-injured-road-accidents

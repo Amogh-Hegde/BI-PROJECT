@@ -1,0 +1,2 @@
+raw_rows,raw_columns,duplicates_removed,irrelevant_columns_removed,processed_rows,processed_columns,missing_values_after_processing
+4540,29,36,1,4504,36,0
